@@ -1,0 +1,2990 @@
+# Copyright (C) 2016 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ndshortcodes\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentyfifteen\n"
+"POT-Creation-Date: 2018-02-16 13:51+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n_noop;esc_attr__;"
+"esc_html_x;_nx;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addons/calendar-view/index.php:9 addons/calendar-view/index.php:86
+msgid "Calendar View"
+msgstr ""
+
+#: addons/calendar-view/index.php:100
+#: addons/visual/search/layout/layout-1.php:82
+#: addons/visual/search/layout/layout-1.php:118
+#: addons/visual/search/layout/layout-2.php:102
+#: addons/visual/search/layout/layout-2.php:138
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:127
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:166
+#: templates/single-cpt-1.php:240 templates/single-cpt-1.php:278
+msgid "PREV"
+msgstr ""
+
+#: addons/calendar-view/index.php:107
+#: addons/visual/search/layout/layout-1.php:81
+#: addons/visual/search/layout/layout-1.php:117
+#: addons/visual/search/layout/layout-2.php:101
+#: addons/visual/search/layout/layout-2.php:137
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:126
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:165
+#: templates/single-cpt-1.php:239 templates/single-cpt-1.php:277
+msgid "NEXT"
+msgstr ""
+
+#: addons/calendar-view/index.php:428
+msgid "NO DATA"
+msgstr ""
+
+#: addons/calendar-view/index.php:455 inc/admin/orders/include/orders.php:238
+msgid "View"
+msgstr ""
+
+#: addons/calendar-view/index.php:460 inc/admin/orders/include/delete.php:59
+#: inc/admin/orders/include/orders.php:242
+msgid "Delete"
+msgstr ""
+
+#: addons/calendar-view/index.php:467
+#: addons/visual/rooms/layout/layout-4.php:84
+#: addons/visual/rooms/layout/layout-5.php:85
+#: inc/admin/orders/include/orders.php:248 inc/metabox/mtb-cpt-3.php:70
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:375
+msgid "From"
+msgstr ""
+
+#: addons/calendar-view/index.php:468 inc/admin/orders/include/orders.php:249
+#: inc/metabox/mtb-cpt-3.php:74
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:375
+msgid "To"
+msgstr ""
+
+#: addons/coupon/index.php:14 addons/coupon/index.php:15
+#: inc/admin/addons-manager/index.php:97 inc/admin/orders/include/edit.php:447
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:108
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:102
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:102
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:109
+msgid "Coupon"
+msgstr ""
+
+#: addons/coupon/index.php:37 inc/metabox/mtb-cpt-1.php:14
+#: inc/metabox/mtb-cpt-2.php:8 inc/metabox/mtb-cpt-3.php:8
+#: inc/metabox/mtb-cpt-4.php:8
+msgid "Metabox"
+msgstr ""
+
+#: addons/coupon/index.php:61 inc/metabox/mtb-cpt-1.php:89
+#: inc/metabox/mtb-cpt-2.php:41 inc/metabox/mtb-cpt-3.php:40
+#: inc/metabox/mtb-cpt-4.php:45
+msgid "Main Settings"
+msgstr ""
+
+#: addons/coupon/index.php:68
+msgid "Coupon Code"
+msgstr ""
+
+#: addons/coupon/index.php:70
+msgid "Insert the coupon code ( example : SBV9CBSRF6QNZZQX )"
+msgstr ""
+
+#: addons/coupon/index.php:74
+msgid "Coupon Percentage Value"
+msgstr ""
+
+#: addons/coupon/index.php:76
+#, php-format
+msgid ""
+"Insert the coupon value, only number ( example for -50% coupon insert only "
+"50 )"
+msgstr ""
+
+#: addons/customizer/index.php:11 addons/visual/branches/index.php:113
+#: addons/visual/order/index.php:107 addons/visual/rooms/index.php:152
+#: addons/visual/search/index.php:98 addons/visual/steps/index.php:113
+#: inc/admin/addons-manager/index.php:48 inc/admin/import-export/index.php:27
+#: inc/admin/plugin-settings.php:53 inc/admin/plugin-settings.php:516
+#: inc/admin/premium-addons/index.php:27
+msgid "ND Booking"
+msgstr ""
+
+#: addons/customizer/index.php:14 inc/admin/addons-manager/index.php:59
+#: inc/admin/import-export/index.php:39 inc/admin/plugin-settings.php:64
+#: inc/admin/plugin-settings.php:101 inc/admin/plugin-settings.php:527
+#: inc/admin/premium-addons/index.php:38
+msgid "Plugin Settings"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:31
+msgid "Dark 1"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:32
+msgid "Select color for your dark elements"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:56
+msgid "Dark 2"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:57
+msgid "Select color for your dark 2 elements"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:79
+msgid "Color 1"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:80
+msgid "Select color for your color 1 elements"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:103
+msgid "Color 2"
+msgstr ""
+
+#: addons/customizer/plugin-colors/index.php:104
+msgid "Select color for your color 2 elements"
+msgstr ""
+
+#: addons/customizer/styles/index.php:28
+msgid "Select Style"
+msgstr ""
+
+#: addons/integration/index.php:18
+msgid "Integration External Booking System"
+msgstr ""
+
+#: addons/integration/index.php:41
+msgid "Set your profile"
+msgstr ""
+
+#: addons/integration/index.php:45 addons/integration/index.php:57
+msgid "Custom Link"
+msgstr ""
+
+#: addons/integration/index.php:46 addons/visual/steps/layout/layout-1.php:35
+msgid "Booking"
+msgstr ""
+
+#: addons/integration/index.php:47
+msgid "Air B&B"
+msgstr ""
+
+#: addons/integration/index.php:48
+msgid "Hostel World"
+msgstr ""
+
+#: addons/integration/index.php:49
+msgid "Trip Advisor"
+msgstr ""
+
+#: addons/integration/index.php:53
+msgid "Select which integration do you want to have for this room"
+msgstr ""
+
+#: addons/integration/index.php:53 addons/integration/index.php:59
+msgid "VIEW DOCUMENTATION"
+msgstr ""
+
+#: addons/integration/index.php:59
+msgid ""
+"Insert the custom link of the room wich will be the link on all room "
+"previews ( connection with your booking system )"
+msgstr ""
+
+#: addons/message/index.php:24
+msgid "Email Notificatons"
+msgstr ""
+
+#: addons/message/index.php:25
+msgid "Set your email template"
+msgstr ""
+
+#: addons/message/index.php:32
+msgid "Default Template"
+msgstr ""
+
+#: addons/message/index.php:32 addons/message/index.php:353
+#: addons/message/index.php:423
+msgid "Template 1"
+msgstr ""
+
+#: addons/message/index.php:50
+msgid ""
+"Select your email template that you want to use for reservation notifactions"
+msgstr ""
+
+#: addons/message/index.php:72 addons/message/index.php:101
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:61
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:56
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:67
+msgid "You have not selected any additional services"
+msgstr ""
+
+#: addons/message/index.php:145 addons/message/index.php:152
+#: addons/message/index.php:196
+msgid "New Reservation"
+msgstr ""
+
+#: addons/message/index.php:155
+msgid "Hi, you received a new reservation on your site, here all details"
+msgstr ""
+
+#: addons/message/index.php:157 addons/message/index.php:385
+msgid "MAIN INFORMATIONS"
+msgstr ""
+
+#: addons/message/index.php:158 addons/message/index.php:223
+#: addons/message/index.php:386 inc/admin/orders/include/add.php:158
+#: inc/admin/orders/include/edit.php:376
+#: inc/admin/orders/include/orders.php:181
+#: inc/admin/orders/include/orders.php:277 inc/metabox/mtb-cpt-2.php:169
+#: inc/shortcodes/include/booking/nd_booking_booking_additional_services.php:43
+msgid "Room"
+msgstr ""
+
+#: addons/message/index.php:159 addons/message/index.php:231
+#: addons/message/index.php:387 inc/admin/orders/include/add.php:164
+#: inc/admin/orders/include/edit.php:186
+msgid "Date From"
+msgstr ""
+
+#: addons/message/index.php:160 addons/message/index.php:235
+#: addons/message/index.php:388 inc/admin/orders/include/edit.php:192
+msgid "Date To"
+msgstr ""
+
+#: addons/message/index.php:161 addons/message/index.php:227
+#: addons/message/index.php:389 addons/visual/rooms/layout/layout-5.php:81
+#: inc/admin/orders/include/orders.php:234
+msgid "Guests"
+msgstr ""
+
+#: addons/message/index.php:163 addons/message/index.php:391
+msgid "TOTAL PRICE"
+msgstr ""
+
+#: addons/message/index.php:164 addons/message/index.php:251
+#: addons/message/index.php:392 inc/admin/orders/include/orders.php:183
+#: inc/admin/orders/include/orders.php:279 inc/metabox/mtb-cpt-1.php:180
+#: inc/metabox/mtb-cpt-2.php:157 inc/metabox/mtb-cpt-3.php:127
+msgid "Price"
+msgstr ""
+
+#: addons/message/index.php:166 addons/message/index.php:394
+msgid "EXTRA SERVICES ( included in the price )"
+msgstr ""
+
+#: addons/message/index.php:169
+msgid "USER INFORMATIONS"
+msgstr ""
+
+#: addons/message/index.php:170 addons/message/index.php:283
+#: addons/message/index.php:398 inc/admin/orders/include/add.php:213
+#: inc/admin/orders/include/orders.php:184
+#: inc/admin/orders/include/orders.php:280
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:26
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:11
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:18
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:17
+#: inc/shortcodes/nd_booking_account.php:65
+msgid "Name"
+msgstr ""
+
+#: addons/message/index.php:171 addons/message/index.php:287
+#: addons/message/index.php:399 inc/admin/orders/include/add.php:218
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:31
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:14
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:20
+msgid "Surname"
+msgstr ""
+
+#: addons/message/index.php:172 addons/message/index.php:291
+#: addons/message/index.php:400 inc/admin/orders/include/add.php:232
+#: inc/admin/orders/include/edit.php:229 inc/metabox/mtb-cpt-4.php:53
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:23
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:21
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:29
+msgid "Phone"
+msgstr ""
+
+#: addons/message/index.php:173 addons/message/index.php:295
+#: addons/message/index.php:401 inc/admin/orders/include/add.php:240
+#: inc/admin/orders/include/edit.php:235 inc/metabox/mtb-cpt-4.php:59
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:48
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:26
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:30
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:32
+msgid "Address"
+msgstr ""
+
+#: addons/message/index.php:174 addons/message/index.php:299
+#: addons/message/index.php:402 inc/admin/orders/include/add.php:244
+#: inc/metabox/mtb-cpt-4.php:65
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:53
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:29
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:33
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:35
+msgid "City"
+msgstr ""
+
+#: addons/message/index.php:175 addons/message/index.php:303
+#: addons/message/index.php:403 inc/admin/orders/include/add.php:253
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:59
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:35
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:36
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:41
+msgid "Country"
+msgstr ""
+
+#: addons/message/index.php:176 addons/message/index.php:307
+#: addons/message/index.php:404 inc/admin/orders/include/add.php:227
+#: inc/admin/orders/include/edit.php:223 inc/metabox/mtb-cpt-4.php:77
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:37
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:17
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:24
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:23
+#: inc/shortcodes/nd_booking_account.php:95
+#: inc/shortcodes/nd_booking_account.php:281
+msgid "Email"
+msgstr ""
+
+#: addons/message/index.php:177 addons/message/index.php:311
+#: addons/message/index.php:405 inc/admin/orders/include/edit.php:254
+msgid "Message"
+msgstr ""
+
+#: addons/message/index.php:179 addons/message/index.php:407
+msgid "PAYMENT INFORMATIONS"
+msgstr ""
+
+#: addons/message/index.php:180 addons/message/index.php:325
+#: addons/message/index.php:408
+msgid "Payment Type"
+msgstr ""
+
+#: addons/message/index.php:181 addons/message/index.php:329
+#: addons/message/index.php:409 inc/admin/orders/include/add.php:402
+#: inc/admin/orders/include/edit.php:465
+msgid "Payment Status"
+msgstr ""
+
+#: addons/message/index.php:182 addons/message/index.php:333
+#: addons/message/index.php:410
+msgid "Payment ID"
+msgstr ""
+
+#: addons/message/index.php:220 inc/admin/orders/include/add.php:139
+msgid "Main Informations"
+msgstr ""
+
+#: addons/message/index.php:248
+msgid "Total Price"
+msgstr ""
+
+#: addons/message/index.php:263
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:54
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:517
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:60
+msgid "Extra Services"
+msgstr ""
+
+#: addons/message/index.php:265
+msgid "Included in the price"
+msgstr ""
+
+#: addons/message/index.php:280
+msgid "User Informations"
+msgstr ""
+
+#: addons/message/index.php:322
+msgid "Payment Informations"
+msgstr ""
+
+#: addons/message/index.php:374 addons/message/index.php:380
+msgid "Your Reservation"
+msgstr ""
+
+#: addons/message/index.php:383
+msgid "Hi, below your reservation details"
+msgstr ""
+
+#: addons/message/index.php:397
+msgid "YOUR INFORMATIONS"
+msgstr ""
+
+#: addons/stripe/index.php:23 inc/admin/orders/include/add.php:411
+#: inc/shortcodes/nd_booking_checkout.php:407
+msgid "Stripe"
+msgstr ""
+
+#: addons/stripe/index.php:61
+msgid "Stripe Message on Checkout"
+msgstr ""
+
+#: addons/stripe/index.php:62 inc/admin/plugin-settings.php:705
+#: inc/admin/plugin-settings.php:724 inc/admin/plugin-settings.php:743
+#: inc/admin/plugin-settings.php:761
+msgid "Set your checkout message"
+msgstr ""
+
+#: addons/stripe/index.php:67 inc/admin/plugin-settings.php:710
+#: inc/admin/plugin-settings.php:729 inc/admin/plugin-settings.php:748
+#: inc/admin/plugin-settings.php:766
+msgid "Insert some description which will be visible in the checkout page"
+msgstr ""
+
+#: addons/stripe/index.php:79
+msgid "Stripe P. Key"
+msgstr ""
+
+#: addons/stripe/index.php:80
+msgid "Stripe Publishable key"
+msgstr ""
+
+#: addons/stripe/index.php:85
+msgid "Insert your Stripe publishable key"
+msgstr ""
+
+#: addons/stripe/index.php:97
+msgid "Stripe S. Key"
+msgstr ""
+
+#: addons/stripe/index.php:98
+msgid "Stripe Secret key"
+msgstr ""
+
+#: addons/stripe/index.php:103
+msgid "Insert your Stripe secret key"
+msgstr ""
+
+#: addons/stripe/index.php:117
+msgid "Currency Stripe"
+msgstr ""
+
+#: addons/stripe/index.php:118
+msgid "Set your stripe currency"
+msgstr ""
+
+#: addons/stripe/index.php:134
+msgid "Select your Currency"
+msgstr ""
+
+#: addons/visual/branches/index.php:107 addons/visual/rooms/index.php:216
+#: inc/cpt/cpt-4.php:9 inc/cpt/cpt-4.php:10
+msgid "Branches"
+msgstr ""
+
+#: addons/visual/branches/index.php:109
+msgid "Add Branches Post Grid"
+msgstr ""
+
+#: addons/visual/branches/index.php:119 addons/visual/order/index.php:113
+#: addons/visual/rooms/index.php:158 addons/visual/search/index.php:104
+#: addons/visual/steps/index.php:119
+msgid "Layout"
+msgstr ""
+
+#: addons/visual/branches/index.php:122 addons/visual/order/index.php:116
+#: addons/visual/rooms/index.php:161 addons/visual/search/index.php:107
+#: addons/visual/steps/index.php:122
+msgid "Choose the layout"
+msgstr ""
+
+#: addons/visual/branches/index.php:126 addons/visual/rooms/index.php:165
+msgid "Width"
+msgstr ""
+
+#: addons/visual/branches/index.php:128 addons/visual/rooms/index.php:167
+msgid "Select Width"
+msgstr ""
+
+#: addons/visual/branches/index.php:128 addons/visual/rooms/index.php:167
+msgid "20 %"
+msgstr ""
+
+#: addons/visual/branches/index.php:128 addons/visual/rooms/index.php:167
+msgid "25 %"
+msgstr ""
+
+#: addons/visual/branches/index.php:128 addons/visual/rooms/index.php:167
+msgid "33 %"
+msgstr ""
+
+#: addons/visual/branches/index.php:128 addons/visual/rooms/index.php:167
+msgid "50 %"
+msgstr ""
+
+#: addons/visual/branches/index.php:128 addons/visual/rooms/index.php:167
+msgid "100 %"
+msgstr ""
+
+#: addons/visual/branches/index.php:129
+msgid "Select the width for branch preview grid"
+msgstr ""
+
+#: addons/visual/branches/index.php:134
+msgid "Qnt branches"
+msgstr ""
+
+#: addons/visual/branches/index.php:136
+msgid "Insert the quantity of branches that you want display."
+msgstr ""
+
+#: addons/visual/branches/index.php:140 addons/visual/order/index.php:101
+#: addons/visual/rooms/index.php:179 inc/admin/orders/include/edit.php:156
+#: inc/admin/plugin-settings.php:412
+msgid "Order"
+msgstr ""
+
+#: addons/visual/branches/index.php:143 addons/visual/rooms/index.php:182
+msgid ""
+"Select the Order paramater, more info <a target='_blank' href='https://codex."
+"wordpress.org/it:Riferimento_classi/"
+"WP_Query#Parametri_Order_.26_Orderby'>here</a>"
+msgstr ""
+
+#: addons/visual/branches/index.php:147 addons/visual/rooms/index.php:186
+msgid "Order By"
+msgstr ""
+
+#: addons/visual/branches/index.php:150 addons/visual/rooms/index.php:189
+msgid ""
+"Select the OrderBy paramater, more info <a target='_blank' href='https://"
+"codex.wordpress.org/it:Riferimento_classi/"
+"WP_Query#Parametri_Order_.26_Orderby'>here</a>"
+msgstr ""
+
+#: addons/visual/branches/index.php:155
+msgid "ID branch"
+msgstr ""
+
+#: addons/visual/branches/index.php:157
+msgid ""
+"Insert the id of the branch that you want display ( NB: only one branch )"
+msgstr ""
+
+#: addons/visual/branches/index.php:161 addons/visual/rooms/index.php:200
+msgid "Image Size"
+msgstr ""
+
+#: addons/visual/branches/index.php:165 addons/visual/rooms/index.php:204
+msgid "Choose the image size that you want to use"
+msgstr ""
+
+#: addons/visual/branches/index.php:170 addons/visual/rooms/index.php:209
+msgid "Padding"
+msgstr ""
+
+#: addons/visual/branches/index.php:172 addons/visual/rooms/index.php:211
+msgid "Insert the padding in px ( eg : 20px or 10px 15px 20px 25px )"
+msgstr ""
+
+#: addons/visual/branches/index.php:178 addons/visual/order/index.php:121
+#: addons/visual/rooms/index.php:225 addons/visual/search/index.php:133
+#: addons/visual/steps/index.php:141
+msgid "Custom class"
+msgstr ""
+
+#: addons/visual/branches/index.php:180 addons/visual/order/index.php:123
+#: addons/visual/rooms/index.php:227 addons/visual/search/index.php:135
+#: addons/visual/steps/index.php:143
+msgid "Insert custom class"
+msgstr ""
+
+#: addons/visual/order/index.php:103
+msgid "Add Order"
+msgstr ""
+
+#: addons/visual/order/index.php:129
+msgid "Bg color"
+msgstr ""
+
+#: addons/visual/order/index.php:131 addons/visual/steps/index.php:136
+msgid "Insert bg color"
+msgstr ""
+
+#: addons/visual/order/index.php:137
+msgid "Bg color 2"
+msgstr ""
+
+#: addons/visual/order/index.php:139
+msgid "Insert bg color 2"
+msgstr ""
+
+#: addons/visual/order/index.php:145
+msgid "Text Color"
+msgstr ""
+
+#: addons/visual/order/index.php:147
+msgid "Insert text color"
+msgstr ""
+
+#: addons/visual/order/index.php:153
+msgid "Text Color Active"
+msgstr ""
+
+#: addons/visual/order/index.php:155
+msgid "Insert text active color"
+msgstr ""
+
+#: addons/visual/order/index.php:161
+msgid "Arrow Icon"
+msgstr ""
+
+#: addons/visual/order/index.php:163 addons/visual/order/index.php:170
+#: addons/visual/order/index.php:177
+msgid "Select image from media library."
+msgstr ""
+
+#: addons/visual/order/index.php:168
+msgid "List Icon"
+msgstr ""
+
+#: addons/visual/order/index.php:175
+msgid "Grid Icon"
+msgstr ""
+
+#: addons/visual/order/layout/layout-1.php:77
+#: addons/visual/order/layout/layout-2.php:78
+#: inc/shortcodes/include/search-results/nd_booking_search_results_order_options.php:79
+msgid "Stay Price"
+msgstr ""
+
+#: addons/visual/order/layout/layout-1.php:81
+#: addons/visual/order/layout/layout-2.php:82
+#: inc/shortcodes/include/search-results/nd_booking_search_results_order_options.php:83
+msgid "Lowest Price"
+msgstr ""
+
+#: addons/visual/order/layout/layout-1.php:82
+#: addons/visual/order/layout/layout-2.php:83
+#: inc/shortcodes/include/search-results/nd_booking_search_results_order_options.php:84
+msgid "Highest Price"
+msgstr ""
+
+#: addons/visual/order/layout/layout-1.php:88
+#: addons/visual/order/layout/layout-2.php:89 inc/metabox/mtb-cpt-1.php:109
+#: inc/shortcodes/include/search-results/nd_booking_search_results_order_options.php:90
+msgid "Room Size"
+msgstr ""
+
+#: addons/visual/order/layout/layout-1.php:92
+#: addons/visual/order/layout/layout-2.php:93
+#: inc/shortcodes/include/search-results/nd_booking_search_results_order_options.php:94
+msgid "Larger Room"
+msgstr ""
+
+#: addons/visual/order/layout/layout-1.php:93
+#: addons/visual/order/layout/layout-2.php:94
+#: inc/shortcodes/include/search-results/nd_booking_search_results_order_options.php:95
+msgid "Smallest Room"
+msgstr ""
+
+#: addons/visual/rooms/index.php:130
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:37
+msgid "All Branches"
+msgstr ""
+
+#: addons/visual/rooms/index.php:135
+msgid "No branches found"
+msgstr ""
+
+#: addons/visual/rooms/index.php:146 inc/cpt/cpt-1.php:9 inc/cpt/cpt-1.php:10
+msgid "Rooms"
+msgstr ""
+
+#: addons/visual/rooms/index.php:148
+msgid "Add Rooms Post Grid"
+msgstr ""
+
+#: addons/visual/rooms/index.php:168
+msgid "Select the width for room preview grid"
+msgstr ""
+
+#: addons/visual/rooms/index.php:173
+msgid "Qnt rooms"
+msgstr ""
+
+#: addons/visual/rooms/index.php:175
+msgid "Insert the quantity of rooms that you want display."
+msgstr ""
+
+#: addons/visual/rooms/index.php:194
+msgid "ID room"
+msgstr ""
+
+#: addons/visual/rooms/index.php:196
+msgid "Insert the id of the room that you want display ( NB: only one room )"
+msgstr ""
+
+#: addons/visual/rooms/index.php:220
+msgid "Choose the branch"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-1.php:111
+#: addons/visual/rooms/layout/layout-2.php:111
+#: addons/visual/search/layout/layout-1.php:175
+#: addons/visual/search/layout/layout-2.php:220
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:117
+#: inc/shortcodes/include/checkout/nd_booking_checkout_left_content.php:104
+#: inc/shortcodes/include/order/nd_booking_order_left_content.php:94
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-1.php:109
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-2.php:107
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:226
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_left_content.php:95
+#: templates/single-cpt-1.php:336 templates/single-cpt-1.php:559
+#: templates/single-cpt-1.php:1076
+msgid "GUESTS"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-1.php:120
+msgid "BOOK NOW FROM"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-1.php:158
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-1.php:202
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-2.php:201
+msgid "FULL INFO"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-2.php:120 templates/single-cpt-1.php:1085
+msgid "BOOK"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-2.php:120 templates/single-cpt-1.php:1085
+msgid "NOW"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-2.php:120
+#: addons/visual/rooms/layout/layout-3.php:74 templates/single-cpt-1.php:1085
+msgid "FROM"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-4.php:84
+msgid "per night"
+msgstr ""
+
+#: addons/visual/rooms/layout/layout-4.php:87
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:156
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:198
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-1.php:158
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-2.php:156
+#: templates/single-cpt-1.php:156 templates/single-cpt-1.php:158
+msgid "BOOK NOW"
+msgstr ""
+
+#: addons/visual/search/index.php:92 addons/visual/steps/layout/layout-1.php:31
+msgid "Search"
+msgstr ""
+
+#: addons/visual/search/index.php:94
+msgid "Add search"
+msgstr ""
+
+#: addons/visual/search/index.php:112
+msgid "Submit Bg Color"
+msgstr ""
+
+#: addons/visual/search/index.php:114
+msgid "Choose submit bg color"
+msgstr ""
+
+#: addons/visual/search/index.php:119
+msgid "Submit Padding"
+msgstr ""
+
+#: addons/visual/search/index.php:121
+msgid ""
+"Insert the submit padding in px ( eg : '20px' or '20px 15px' for top/bottom "
+"and left/right )"
+msgstr ""
+
+#: addons/visual/search/index.php:126
+msgid "Action Page ID"
+msgstr ""
+
+#: addons/visual/search/index.php:128
+msgid ""
+"Action Page ID ( not mandatory ), use this field ONLY if you want to "
+"redirect the search button to a different page, insert only the ID of your "
+"site page ( only number )"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:21
+#: addons/visual/search/layout/layout-2.php:31
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:89
+#: inc/shortcodes/include/checkout/nd_booking_checkout_left_content.php:76
+#: inc/shortcodes/include/order/nd_booking_order_left_content.php:66
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:66
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_left_content.php:67
+#: templates/single-cpt-1.php:179
+msgid "CHECK-IN"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:44
+#: addons/visual/search/layout/layout-2.php:59
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:101
+#: inc/shortcodes/include/checkout/nd_booking_checkout_left_content.php:88
+#: inc/shortcodes/include/order/nd_booking_order_left_content.php:78
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:89
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_left_content.php:79
+#: templates/single-cpt-1.php:202
+msgid "CHECK-OUT"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "January"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "February"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "March"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "April"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "May"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "June"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "July"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "August"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "September"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "October"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "November"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:78
+#: addons/visual/search/layout/layout-1.php:114
+#: addons/visual/search/layout/layout-2.php:98
+#: addons/visual/search/layout/layout-2.php:134
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:123
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:162
+#: templates/single-cpt-1.php:236 templates/single-cpt-1.php:274
+msgid "December"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Jan"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Feb"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Mar"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Apr"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Maj"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Jun"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Jul"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Aug"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Sep"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Oct"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Nov"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:79
+#: addons/visual/search/layout/layout-1.php:115
+#: addons/visual/search/layout/layout-2.php:99
+#: addons/visual/search/layout/layout-2.php:135
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:124
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:163
+#: templates/single-cpt-1.php:237 templates/single-cpt-1.php:275
+msgid "Dec"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:80
+#: addons/visual/search/layout/layout-1.php:116
+#: addons/visual/search/layout/layout-2.php:100
+#: addons/visual/search/layout/layout-2.php:136
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:125
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:164
+#: templates/single-cpt-1.php:238 templates/single-cpt-1.php:276
+msgid "SU"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:80
+#: addons/visual/search/layout/layout-1.php:116
+#: addons/visual/search/layout/layout-2.php:100
+#: addons/visual/search/layout/layout-2.php:136
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:125
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:164
+#: templates/single-cpt-1.php:238 templates/single-cpt-1.php:276
+msgid "MO"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:80
+#: addons/visual/search/layout/layout-1.php:116
+#: addons/visual/search/layout/layout-2.php:100
+#: addons/visual/search/layout/layout-2.php:136
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:125
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:164
+#: templates/single-cpt-1.php:238 templates/single-cpt-1.php:276
+msgid "TU"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:80
+#: addons/visual/search/layout/layout-1.php:116
+#: addons/visual/search/layout/layout-2.php:100
+#: addons/visual/search/layout/layout-2.php:136
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:125
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:164
+#: templates/single-cpt-1.php:238 templates/single-cpt-1.php:276
+msgid "WE"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:80
+#: addons/visual/search/layout/layout-1.php:116
+#: addons/visual/search/layout/layout-2.php:100
+#: addons/visual/search/layout/layout-2.php:136
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:125
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:164
+#: templates/single-cpt-1.php:238 templates/single-cpt-1.php:276
+msgid "TH"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:80
+#: addons/visual/search/layout/layout-1.php:116
+#: addons/visual/search/layout/layout-2.php:100
+#: addons/visual/search/layout/layout-2.php:136
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:125
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:164
+#: templates/single-cpt-1.php:238 templates/single-cpt-1.php:276
+msgid "FR"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:80
+#: addons/visual/search/layout/layout-1.php:116
+#: addons/visual/search/layout/layout-2.php:100
+#: addons/visual/search/layout/layout-2.php:136
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:125
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:164
+#: templates/single-cpt-1.php:238 templates/single-cpt-1.php:276
+msgid "SA"
+msgstr ""
+
+#: addons/visual/search/layout/layout-1.php:235
+#: addons/visual/search/layout/layout-2.php:257
+#: inc/admin/orders/include/add.php:427
+msgid "CHECK AVAILABILITY"
+msgstr ""
+
+#: addons/visual/search/layout/layout-2.php:12
+msgid "Search Rooms"
+msgstr ""
+
+#: addons/visual/search/layout/layout-2.php:14
+msgid "START BOOKING"
+msgstr ""
+
+#: addons/visual/search/layout/layout-2.php:198
+#: addons/visual/search/layout/layout-2.php:236
+msgid "GUEST"
+msgstr ""
+
+#: addons/visual/steps/index.php:36
+msgid "SEARCH"
+msgstr ""
+
+#: addons/visual/steps/index.php:39
+msgid "BOOKING"
+msgstr ""
+
+#: addons/visual/steps/index.php:47 addons/visual/steps/index.php:53
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:121
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:122
+msgid "CHECKOUT"
+msgstr ""
+
+#: addons/visual/steps/index.php:50
+msgid "THANK YOU"
+msgstr ""
+
+#: addons/visual/steps/index.php:107
+msgid "Steps"
+msgstr ""
+
+#: addons/visual/steps/index.php:109
+msgid "Add Steps"
+msgstr ""
+
+#: addons/visual/steps/index.php:126
+msgid "Display Steps"
+msgstr ""
+
+#: addons/visual/steps/index.php:129
+msgid "Choose if you want to display the steps below the title"
+msgstr ""
+
+#: addons/visual/steps/index.php:134
+msgid "Bg Active color"
+msgstr ""
+
+#: addons/visual/steps/layout/layout-1.php:39
+msgid "Checkout"
+msgstr ""
+
+#: addons/visual/steps/layout/layout-1.php:43
+msgid "Thank You"
+msgstr ""
+
+#: addons/wpml/index.php:17
+msgid "WPML Integration"
+msgstr ""
+
+#: addons/wpml/index.php:34
+msgid "ID Room"
+msgstr ""
+
+#: addons/wpml/index.php:56
+msgid "Post ID"
+msgstr ""
+
+#: addons/wpml/index.php:58
+msgid "This is the default Post ID"
+msgstr ""
+
+#: addons/wpml/index.php:62
+msgid "Room ID"
+msgstr ""
+
+#: addons/wpml/index.php:64
+msgid ""
+"If you are using WPML and this is a translated room, enter the room post ID "
+"of the deafult language."
+msgstr ""
+
+#: addons/wpml/index.php:64
+msgid "More info in the documentation."
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:9 inc/admin/addons-manager/index.php:60
+#: inc/admin/addons-manager/index.php:76 inc/admin/import-export/index.php:45
+#: inc/admin/plugin-settings.php:70 inc/admin/plugin-settings.php:533
+#: inc/admin/premium-addons/index.php:44
+msgid "Addons Manager"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:61 inc/admin/import-export/index.php:51
+#: inc/admin/orders/include/add.php:391 inc/admin/plugin-settings.php:76
+#: inc/admin/plugin-settings.php:468 inc/admin/plugin-settings.php:539
+#: inc/admin/plugin-settings.php:565 inc/admin/premium-addons/index.php:50
+msgid "Payment Settings"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:62 inc/admin/import-export/index.php:7
+#: inc/admin/import-export/index.php:52 inc/admin/plugin-settings.php:77
+#: inc/admin/plugin-settings.php:540 inc/admin/premium-addons/index.php:51
+msgid "Import Export"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:63 inc/admin/import-export/index.php:53
+#: inc/admin/plugin-settings.php:78 inc/admin/plugin-settings.php:541
+#: inc/admin/premium-addons/index.php:52
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:77
+msgid "Here you can remove some plugins addons."
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:88
+msgid "Main Addons"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:89
+msgid "Manage your plugin addons"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:93
+msgid "Visual Composer"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:95
+msgid "Mail On Booking"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:111 inc/admin/plugin-settings.php:244
+msgid "Search Page"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:112
+msgid "Manage your addons on search page"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:116 inc/admin/plugin-settings.php:215
+msgid "Price Range"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:118
+msgid "Services Filter"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:120
+msgid "Extra Services Filter"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:132
+msgid "Single Room"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:133
+msgid "Manage your addons on single room page"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:137 inc/metabox/mtb-cpt-1.php:611
+msgid "Packages"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:139 inc/metabox/mtb-cpt-1.php:641
+#: templates/single-cpt-1.php:22 templates/single-cpt-1.php:999
+msgid "Similar Rooms"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:141
+msgid "External Booking System Integration ( Booking, Airbnb etc. )"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:154
+msgid "Payment Methods"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:155
+msgid "Manage your payment methods"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:159 inc/admin/orders/include/add.php:410
+#: inc/shortcodes/nd_booking_checkout.php:409
+#: inc/shortcodes/nd_booking_order.php:73
+msgid "Paypal"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:161 inc/admin/orders/include/add.php:409
+#: inc/shortcodes/nd_booking_checkout.php:405
+#: inc/shortcodes/nd_booking_order.php:71
+msgid "Booking Request"
+msgstr ""
+
+#: inc/admin/addons-manager/index.php:163 inc/admin/orders/include/add.php:408
+msgid "Payment On Arrive"
+msgstr ""
+
+#: inc/admin/import-export/index.php:59 inc/admin/plugin-settings.php:84
+#: inc/admin/plugin-settings.php:547 inc/admin/premium-addons/index.php:11
+#: inc/admin/premium-addons/index.php:58
+msgid "Premium Addons"
+msgstr ""
+
+#: inc/admin/import-export/index.php:77
+msgid "Import/Export"
+msgstr ""
+
+#: inc/admin/import-export/index.php:78
+msgid "Export or Import your theme options."
+msgstr ""
+
+#: inc/admin/import-export/index.php:111
+msgid "Export Settings"
+msgstr ""
+
+#: inc/admin/import-export/index.php:112
+msgid "Export Nd Booking and customizer options."
+msgstr ""
+
+#: inc/admin/import-export/index.php:118
+msgid "Export"
+msgstr ""
+
+#: inc/admin/import-export/index.php:134
+msgid "Import Settings"
+msgstr ""
+
+#: inc/admin/import-export/index.php:135
+msgid "Paste in the textarea the text of your export file"
+msgstr ""
+
+#: inc/admin/import-export/index.php:143
+msgid "Import"
+msgstr ""
+
+#: inc/admin/import-export/index.php:197 inc/admin/import-export/index.php:206
+msgid "Updated option"
+msgstr ""
+
+#: inc/admin/import-export/index.php:197
+msgid "with"
+msgstr ""
+
+#: inc/admin/import-export/index.php:206
+msgid "with the same value"
+msgstr ""
+
+#: inc/admin/import-export/index.php:218
+msgid "No value founded for"
+msgstr ""
+
+#: inc/admin/import-export/index.php:218
+msgid "option."
+msgstr ""
+
+#: inc/admin/import-export/index.php:232
+msgid "Empty textarea, please paste your export options."
+msgstr ""
+
+#: inc/admin/orders/include/add.php:7
+msgid "Add New Order"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:85
+msgid "Order Added"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:88 inc/admin/orders/include/delete.php:33
+#: inc/admin/orders/include/edit.php:59
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/admin/orders/include/add.php:140
+msgid "Reservation datas"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:169
+msgid "Date to"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:187
+msgid "N Guests"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:192
+msgid "Final Price"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:205
+msgid "Customer Datas"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:206
+msgid "Main details"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:257
+msgid "Zip"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:270
+msgid "Order Details"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:271
+msgid "Additional Informations"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:346
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:79
+msgid "I do not know"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:347 inc/admin/orders/include/add.php:348
+#: inc/admin/orders/include/add.php:349 inc/admin/orders/include/add.php:350
+#: inc/admin/orders/include/add.php:351 inc/admin/orders/include/add.php:352
+#: inc/admin/orders/include/add.php:353 inc/admin/orders/include/add.php:354
+#: inc/admin/orders/include/add.php:355 inc/admin/orders/include/add.php:356
+#: inc/admin/orders/include/add.php:357 inc/admin/orders/include/add.php:358
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:80
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:81
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:82
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:83
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:84
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:85
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:86
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:87
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:88
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:89
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:90
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:91
+msgid "am"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:359 inc/admin/orders/include/add.php:360
+#: inc/admin/orders/include/add.php:361 inc/admin/orders/include/add.php:362
+#: inc/admin/orders/include/add.php:363 inc/admin/orders/include/add.php:364
+#: inc/admin/orders/include/add.php:365 inc/admin/orders/include/add.php:366
+#: inc/admin/orders/include/add.php:367 inc/admin/orders/include/add.php:368
+#: inc/admin/orders/include/add.php:369 inc/admin/orders/include/add.php:370
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:92
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:93
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:94
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:95
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:96
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:97
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:98
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:99
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:100
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:101
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:102
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:103
+msgid "pm"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:373 inc/admin/orders/include/edit.php:198
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:76
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:41
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:47
+msgid "Arrival"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:378
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:70
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:47
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:42
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:53
+msgid "Requests"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:390
+msgid "Payment Details"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:397 inc/admin/orders/include/edit.php:469
+#: inc/admin/orders/include/orders.php:56
+#: inc/shortcodes/nd_booking_account.php:441
+#: inc/shortcodes/nd_booking_order.php:80
+msgid "Pending Payment"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:398 inc/admin/orders/include/edit.php:468
+#: inc/admin/orders/include/orders.php:55
+#: inc/shortcodes/nd_booking_account.php:439
+#: inc/shortcodes/nd_booking_order.php:78
+msgid "Pending"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:399 inc/admin/orders/include/edit.php:470
+#: inc/admin/orders/include/orders.php:57
+#: inc/shortcodes/nd_booking_account.php:443
+#: inc/shortcodes/nd_booking_order.php:82
+msgid "Completed"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:407
+#: inc/shortcodes/nd_booking_checkout.php:401
+#: inc/shortcodes/nd_booking_order.php:67
+msgid "Bank Transfer"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:414
+msgid "Action Type"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:429
+msgid "ADD RESERVATION"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:468
+msgid "Name is mandatory"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:481
+msgid "Surname is mandatory"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:496
+msgid "Email is mandatory"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:502
+msgid "Email not valid"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:518
+msgid "Guests is mandatory"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:533
+msgid "Final Price is mandatory"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:548
+msgid "Date From is mandatory"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:553
+msgid "Date From not correct"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:568
+msgid "Date To is mandatory"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:573
+msgid "Date To not correct"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:589
+msgid "Date To should be greater than Date From"
+msgstr ""
+
+#: inc/admin/orders/include/add.php:618
+msgid "Room is not available, please change your dates"
+msgstr ""
+
+#: inc/admin/orders/include/delete.php:30
+msgid "Deleted"
+msgstr ""
+
+#: inc/admin/orders/include/delete.php:55
+msgid "Delete Order"
+msgstr ""
+
+#: inc/admin/orders/include/delete.php:56
+msgid "Please confirm delete by clicking on the button below"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:56
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:86
+msgid "There was some db problem"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:156
+msgid "details"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:161
+msgid "on"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:180
+msgid "General Details"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:207
+msgid "Customer Details"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:211
+msgid "Name and Surname"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:241
+msgid "City and Country"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:268
+msgid "Price Details"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:282
+msgid "Item"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:283
+msgid "Cost"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:284
+msgid "Qnt"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:285
+msgid "Tot"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:302 inc/admin/orders/include/edit.php:309
+msgid "n.a."
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:351
+msgid "TOTAL SERVICES"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:394
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:142
+#: inc/shortcodes/include/checkout/nd_booking_checkout_left_content.php:129
+#: inc/shortcodes/include/order/nd_booking_order_left_content.php:119
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_left_content.php:122
+msgid "TOTAL"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:413
+msgid ""
+"The services qnt filed is related to the single service settings ( Person/"
+"Room | Day/Trip )"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:416
+msgid "One coupon was applied, the original price was :"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:443
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:38
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:119
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:126
+msgid "Payment Options"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:453
+msgid "Transaction"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:459
+msgid "Payment Method"
+msgstr ""
+
+#: inc/admin/orders/include/edit.php:477
+msgid "Update Record"
+msgstr ""
+
+#: inc/admin/orders/include/orders.php:40
+#: inc/admin/orders/include/orders.php:51
+msgid "Orders"
+msgstr ""
+
+#: inc/admin/orders/include/orders.php:43
+msgid "Still no orders"
+msgstr ""
+
+#: inc/admin/orders/include/orders.php:54
+msgid "All"
+msgstr ""
+
+#: inc/admin/orders/include/orders.php:182
+#: inc/admin/orders/include/orders.php:278
+msgid "Dates"
+msgstr ""
+
+#: inc/admin/orders/include/orders.php:185
+#: inc/admin/orders/include/orders.php:281
+msgid "Payment"
+msgstr ""
+
+#: inc/admin/orders/include/orders.php:186
+#: inc/admin/orders/include/orders.php:282
+msgid "Status"
+msgstr ""
+
+#: inc/admin/orders/include/orders.php:259
+msgid "EMAIL ME"
+msgstr ""
+
+#: inc/admin/orders/index.php:6
+msgid "All Orders"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:8
+msgid "Booking Plugin"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:102
+msgid "Below some important plugin settings."
+msgstr ""
+
+#: inc/admin/plugin-settings.php:112
+msgid "Currency"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:113
+msgid "Plugin Currency"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:118
+msgid "Insert the currency. Eg: $"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:129
+msgid "Units of Measure"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:130
+msgid "Plugin Units of measure"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:135
+msgid "Insert the units of measure. Eg: m"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:152
+msgid "Container"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:153
+msgid "Remove default container"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:158
+msgid ""
+"If your theme does not need the default container of 1200px in template "
+"pages you can remove it by flagging the checkbox."
+msgstr ""
+
+#: inc/admin/plugin-settings.php:169
+msgid "Developer Mode"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:170 inc/admin/plugin-settings.php:187
+msgid "Enable developer mode"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:175
+msgid "In this mode all requests will not be saved in your database"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:186
+msgid "Price Guests"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:192
+msgid ""
+"Enable the checkbox if you want to multiplie the price room for the number "
+"of guests"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:216
+msgid "Set the price range values on the search page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:222
+msgid "Min Value"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:227
+msgid "Default Value"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:232
+msgid "Max Value"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:245
+msgid "Select your search page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:265
+msgid ""
+"Select the page where you have added the shortcode "
+"[nd_booking_search_results]"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:276
+msgid "Booking Page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:277
+msgid "Select your booking page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:297
+msgid "Select the page where you have added the shortcode [nd_booking_booking]"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:309
+msgid "Checkout Page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:310
+msgid "Select your checkout page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:330
+msgid ""
+"Select the page where you have added the shortcode [nd_booking_checkout]"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:342
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:116
+msgid "Terms and conditions"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:343
+msgid "Select your terms and conditions page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:363
+msgid ""
+"Select the page where you have added your terms and conditions informations"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:377
+msgid "Account"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:378
+msgid "Select your account page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:398
+msgid "Select the page where you have added the shortcode [nd_booking_account]"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:413
+msgid "Select your order page"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:433
+msgid "Select the page where you have added the shortcode [nd_booking_order]"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:566
+msgid "Below some important payment settings."
+msgstr ""
+
+#: inc/admin/plugin-settings.php:577
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:124
+msgid "City Tax"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:578
+msgid "Insert city tax value"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:583
+msgid ""
+"Insert your city tax value, only number ( not mandatory ), City tax is "
+"calculated per person per night."
+msgstr ""
+
+#: inc/admin/plugin-settings.php:594
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:127
+msgid "VAT"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:595
+msgid "Insert your country VAT"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:600
+msgid "Insert your country VAT value, only number ( not mandatory )."
+msgstr ""
+
+#: inc/admin/plugin-settings.php:611
+msgid "Developer Mode Paypal"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:612
+msgid "Enable paypal developer mode"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:617
+msgid "Check to use paypal in developer mode , more information"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:617 inc/admin/plugin-settings.php:654
+#: inc/admin/plugin-settings.php:692
+msgid "HERE"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:629
+msgid "Paypal Email"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:630
+msgid "Insert your paypal email"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:635
+msgid "Insert your paypal email of your business account"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:648
+msgid "PDT identity token Paypal"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:649
+msgid "Insert paypal api token"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:654
+msgid "Insert your PDT identity token , more information"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:654
+msgid "section Activating PDT"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:667
+msgid "Currency Paypal"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:668
+msgid "Set your paypal currency"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:692
+msgid "Select your Currency, more information"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:704
+msgid "Paypal Message on Checkout"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:723
+msgid "Booking Request Message on Checkout"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:742
+msgid "Bank Transfer Message on Checkout"
+msgstr ""
+
+#: inc/admin/plugin-settings.php:760
+msgid "Payment on arrive Message on Checkout"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:82
+msgid "Get All Addons"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:83
+msgid "Get all addons and an amazing Hotel WP theme all in one pack."
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:84
+msgid "CHECK IT NOW !"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:99
+msgid "FREE"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:102
+msgid "PREMIUM"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:112
+msgid "Room Managment"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:113
+msgid "Create your romms and manage all reservations"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:113
+#: inc/admin/premium-addons/index.php:128
+#: inc/admin/premium-addons/index.php:144
+#: inc/admin/premium-addons/index.php:174
+#: inc/admin/premium-addons/index.php:232
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:127 inc/metabox/mtb-cpt-1.php:134
+msgid "Branch"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:128
+msgid "Set a different branch for each room"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:143 inc/cpt/cpt-2.php:9
+#: inc/cpt/cpt-2.php:10 inc/metabox/mtb-cpt-1.php:91
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:403
+msgid "Services"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:144
+msgid "Normal and Extra services managment"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:159
+msgid "Paypal & more"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:160
+msgid "Paypal and more payment systems ready for all reservations"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:173
+msgid "Search Filter"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:174
+msgid "Add price range and services filter on search page"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:187
+msgid "Email on order"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:188
+msgid "Receive an automatic email for each new order"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:201
+msgid "Visual Composer integration"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:202
+msgid "Custom visual composer components for all your pages"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:216
+msgid "External Booking System"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:217
+msgid ""
+"Integrate your site with booking.com, Airbnb, Hostel World, Trip Advisor "
+"etc.."
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:231
+msgid "Similar Rooms & Packages"
+msgstr ""
+
+#: inc/admin/premium-addons/index.php:232
+msgid "Add related rooms and show some focus on single room page"
+msgstr ""
+
+#: inc/cpt/cpt-1.php:29
+msgid "ND Booking Sidebar"
+msgstr ""
+
+#: inc/cpt/cpt-3.php:9 inc/cpt/cpt-3.php:10 inc/metabox/mtb-cpt-1.php:92
+msgid "Exceptions"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:90
+msgid "Price Settings"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:93 inc/metabox/mtb-cpt-4.php:46
+msgid "Page Settings"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:94
+msgid "Packages And Rooms"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:104
+msgid "MAX People"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:106
+msgid "Insert the max people number of your room ( only number )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:111
+msgid ""
+"Insert the room size ( only number ), unit of measure can be sets on plugin "
+"options"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:114 inc/metabox/mtb-cpt-2.php:133
+#: inc/metabox/mtb-cpt-4.php:83
+msgid "Color"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:116
+msgid "Set room color"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:128 inc/metabox/mtb-cpt-2.php:147
+msgid "Text Preview"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:130
+msgid "Insert the text preview which will be visible on the post grid preview"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:159
+msgid "Select the branch of the room"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:163
+msgid "Quantity"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:165
+msgid "Insert the room quantity ( only number )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:169
+msgid "Min Booking Day"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:171
+msgid ""
+"Insert the minimum nights number for make a reservation ( empty value always "
+"available ) This field accept only number ( eg: 3 )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:182
+msgid ""
+"Insert the price number ( only number ) currency can be sets on plugin "
+"options"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:188
+msgid "Week Price"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:193
+msgid "Monday"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:197
+msgid "Tuesday"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:201
+msgid "Wednesday"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:205
+msgid "Thursday"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:209
+msgid "Friday"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:213
+msgid "Saturday"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:217
+msgid "Sunday"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:222
+msgid "Min Price"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:224
+msgid ""
+"This is the minimum night price for this room, this value is calculated by "
+"the system"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:232
+msgid "Normal Services"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:234
+msgid ""
+"This is an intuitive field, enter the normal services previously created in "
+"the services section ( separated by comma )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:238
+msgid "Additional Services"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:240
+msgid ""
+"This is an intuitive field, enter the additional services previously created "
+"in the services section ( separated by comma )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:312
+msgid "Price Variations"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:314 inc/metabox/mtb-cpt-1.php:320
+msgid ""
+"This is an intuitive field, enter the exceptions previously created in the "
+"exceptions section ( separated by comma )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:318
+msgid "Block Reservations"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:473 inc/metabox/mtb-cpt-4.php:125
+msgid "Header Image"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:475 inc/metabox/mtb-cpt-2.php:66
+#: inc/metabox/mtb-cpt-4.php:127
+msgid "Upload"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:476 inc/metabox/mtb-cpt-4.php:128
+msgid "Insert the header image url"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:537 inc/metabox/mtb-cpt-4.php:189
+msgid "Image Position"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:541 inc/metabox/mtb-cpt-4.php:193
+msgid "Center"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:542 inc/metabox/mtb-cpt-4.php:194
+msgid "Top"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:543 inc/metabox/mtb-cpt-4.php:195
+msgid "Bottom"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:547 inc/metabox/mtb-cpt-4.php:199
+msgid "Select the image position for your header image"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:551 inc/metabox/mtb-cpt-4.php:203
+msgid "Page Layout"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:556
+msgid "Full Width"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:557
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:558
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:559 inc/metabox/mtb-cpt-4.php:209
+msgid "Free Content"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:564 inc/metabox/mtb-cpt-4.php:214
+msgid "Select the layout for your room page"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:569
+msgid "Featured Image size"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:573 inc/metabox/mtb-cpt-1.php:621
+msgid "Large"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:589
+msgid "Select the image size that you want to use for your featured image"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:594
+msgid "Featured Image Replace"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:596
+msgid "Replace the featured image with your custom content"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:605
+msgid "Title Packages"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:607
+msgid "Insert the title for your packages section"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:613
+msgid ""
+"IThis is an intuitive field, enter the articles previously created in posts "
+"section ( separated by comma )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:617
+msgid "Packages Image size"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:637
+msgid ""
+"Select the image size that you want to use for your packages preview image"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-1.php:643
+msgid ""
+"This is an intuitive field, enter the rooms previously created in rooms "
+"section ( separated by comma )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:42 inc/metabox/mtb-cpt-2.php:55
+msgid "Additional Service"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:49
+msgid "Service Type"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:54
+msgid "Normal Service"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:60
+msgid "Choose the service type"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:63
+msgid "Icon"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:68
+msgid "Set the icon image for your service"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:135
+msgid "Set the service color"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:149
+msgid ""
+"Insert the text preview which will be visible in the preview of the service"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:159 inc/metabox/mtb-cpt-3.php:129
+msgid "Insert the price ( only number )"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:163
+msgid "Price Type 1"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:168
+msgid "Person"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:174 inc/metabox/mtb-cpt-2.php:189
+msgid "Set the type of the price"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:178
+msgid "Price Type 2"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:183
+msgid "Day"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-2.php:184
+#: inc/shortcodes/include/booking/nd_booking_booking_additional_services.php:50
+msgid "Trip"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-3.php:47
+msgid "Exception Type"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-3.php:52
+msgid "Custom Price"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-3.php:53
+msgid "Block Dates"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-3.php:58
+msgid "Set the exception type"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-3.php:65
+msgid "Date Range"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:55
+msgid "Insert phone"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:61
+msgid "Insert address"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:67
+msgid "Insert city"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:71
+msgid "State"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:73
+msgid "Insert state"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:79
+msgid "Insert the email"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:85
+msgid "Insert the color"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:99
+msgid "Stars"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:104
+msgid "5 Stars"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:105
+msgid "4 Stars"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:106
+msgid "3 Stars"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:107
+msgid "2 Stars"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:108
+msgid "1 Star"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:113
+msgid "Set the stars"
+msgstr ""
+
+#: inc/metabox/mtb-cpt-4.php:208
+msgid "Default Layout"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_login.php:14
+#: inc/shortcodes/nd_booking_account.php:273
+msgid "Username"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_login.php:15
+#: inc/shortcodes/nd_booking_account.php:277
+msgid "Password"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_login.php:16
+msgid "Remember Me"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_login.php:17
+msgid "LOG IN"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:11
+msgid "Username *"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:15
+msgid "Password *"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:19
+msgid "Email *"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:23
+#: inc/shortcodes/nd_booking_account.php:285
+msgid "Website"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:27
+#: inc/shortcodes/nd_booking_account.php:289
+msgid "First Name"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:31
+#: inc/shortcodes/nd_booking_account.php:70
+#: inc/shortcodes/nd_booking_account.php:293
+msgid "Last Name"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:35
+#: inc/shortcodes/nd_booking_account.php:297
+msgid "Nickname"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:39
+#: inc/shortcodes/nd_booking_account.php:301
+msgid "About / Bio"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:42
+#: inc/shortcodes/nd_booking_booking.php:132
+msgid "REGISTER"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:95
+msgid "ERROR"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:120
+msgid "REGISTRATION COMPLETED"
+msgstr ""
+
+#: inc/shortcodes/include/account/nd_booking_register.php:120
+msgid "Please for make the login using the form on the left."
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_additional_services.php:10
+msgid "Add Extra Services"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_additional_services.php:40
+msgid "Guest"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_additional_services.php:47
+msgid "Night"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:82
+#: inc/shortcodes/include/checkout/nd_booking_checkout_left_content.php:69
+#: inc/shortcodes/include/order/nd_booking_order_left_content.php:59
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_left_content.php:60
+msgid "YOUR RESERVATION"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:126
+#: inc/shortcodes/include/checkout/nd_booking_checkout_left_content.php:113
+#: inc/shortcodes/include/order/nd_booking_order_left_content.php:103
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:289
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_left_content.php:104
+#: templates/single-cpt-1.php:405
+msgid "NIGHTS"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:161
+msgid "NOT INCL :"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:161
+msgid "CITY TAX ( person * night )"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:171
+msgid "INCLUDED :"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_left_content.php:171
+msgid "VAT ALREADY APPLIED"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:10
+msgid "Add Your Informations"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:42
+msgid "Telephone"
+msgstr ""
+
+#: inc/shortcodes/include/booking/nd_booking_booking_right_content.php:64
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:38
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:44
+msgid "ZIP"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_left_content.php:137
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_left_content.php:130
+msgid "The coupon discount has already been applied"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:49
+msgid "BANK TRANSFER"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:55
+msgid "PAYPAL"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:61
+msgid "CREDIT CARD"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:67
+msgid "PAYMENT ON ARRIVE"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:73
+msgid "BOOKING REQUEST"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:114
+msgid "SEND REQUEST"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:246
+msgid "SUBMIT PAYMENT"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_payment_options.php:387
+msgid "PAY NOW"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:7
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:7
+msgid "Your Informations"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:105
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:105
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:112
+msgid "Value"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:105
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:105
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:112
+msgid "% OFF"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:105
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:105
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:112
+msgid "Original Price : "
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:107
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:107
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:114
+msgid "Not set"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:121
+msgid "Tax"
+msgstr ""
+
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:124
+#: inc/shortcodes/include/checkout/nd_booking_checkout_right_content.php:127
+msgid "Included"
+msgstr ""
+
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:11
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:10
+msgid "Order Transaction"
+msgstr ""
+
+#: inc/shortcodes/include/order/nd_booking_order_right_content.php:49
+msgid "Extra services included in the price"
+msgstr ""
+
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-1.php:25
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-1.php:47
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-2.php:25
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-2.php:47
+msgid "NOT AVAILABLE"
+msgstr ""
+
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-1.php:41
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-2.php:41
+msgid "MINIMUM BOOKING DAYS"
+msgstr ""
+
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-1.php:158
+#: inc/shortcodes/include/search-results/nd_booking_post_preview-2.php:156
+msgid "FOR"
+msgstr ""
+
+#: inc/shortcodes/include/search-results/nd_booking_search_results_left_content.php:320
+msgid "Max Night Price"
+msgstr ""
+
+#: inc/shortcodes/include/search-results/nd_booking_search_results_right_content.php:13
+msgid "Results Founded : "
+msgstr ""
+
+#: inc/shortcodes/include/search-results/nd_booking_search_results_right_content.php:23
+#: inc/shortcodes/nd_booking_search_result.php:301
+msgid "No results for this search"
+msgstr ""
+
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:6
+msgid "Your Order Details"
+msgstr ""
+
+#: inc/shortcodes/include/thankyou/nd_booking_thankyou_right_content.php:133
+#: inc/shortcodes/nd_booking_booking.php:27
+#: inc/shortcodes/nd_booking_booking.php:183
+#: inc/shortcodes/nd_booking_booking.php:199
+#: inc/shortcodes/nd_booking_checkout.php:486
+#: inc/shortcodes/nd_booking_order.php:125
+#: inc/shortcodes/nd_booking_order.php:142
+msgid "RETURN TO SEARCH PAGE"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:114
+msgid "Url"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:125
+msgid "About Me"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:141
+msgid "EDIT PROFILE"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:145
+msgid "LOGOUT"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:225
+msgid "ALREADY A MEMBER"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:227
+msgid "Log In"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:246
+#: inc/shortcodes/nd_booking_account.php:266
+msgid "I DO NOT HAVE AN ACCOUNT"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:248
+msgid "Register"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:268
+msgid "Registration Disabled"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:304
+msgid "REGISTRATION DISABLED"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:348
+msgid "My Reservations"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:384
+msgid "You do not have any reservation"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:395
+msgid "ROOM"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:401
+msgid "VALUE"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_account.php:424
+msgid "Transaction : "
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:25
+#: inc/shortcodes/nd_booking_checkout.php:484
+msgid "Please select a room to make a reservation"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:132
+msgid "You are booking as guest,"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:132
+msgid "LOGIN"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:132
+msgid "or"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:132
+msgid "if you want to save your reservation on your account."
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:181
+msgid "Minimum booking days"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:197
+msgid "The room is not available"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:342
+#: inc/shortcodes/nd_booking_booking.php:357
+#: inc/shortcodes/nd_booking_booking.php:373
+#: inc/shortcodes/nd_booking_booking.php:396
+#: inc/shortcodes/nd_booking_booking.php:435
+msgid "MANDATORY"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:379
+#: inc/shortcodes/nd_booking_booking.php:402
+#: inc/shortcodes/nd_booking_booking.php:467
+msgid "NOT VALID"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_booking.php:419
+msgid "REDUCE YOUR MESSAGE, THE MAXIMUM ALLOWED CHARACTERS IS 250"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_checkout.php:403
+#: inc/shortcodes/nd_booking_order.php:69
+msgid "Payment on arrive"
+msgstr ""
+
+#: inc/shortcodes/nd_booking_order.php:123
+#: inc/shortcodes/nd_booking_order.php:140
+msgid "You have not selected any order"
+msgstr ""
+
+#: templates/single-cpt-1.php:37 templates/single-cpt-1.php:838
+msgid "Room Services"
+msgstr ""
+
+#: templates/single-cpt-1.php:61
+msgid "Description"
+msgstr ""
+
+#: templates/single-cpt-1.php:86 templates/single-cpt-1.php:569
+msgid "PER NIGHT"
+msgstr ""
+
+#: templates/single-cpt-1.php:684
+msgid "MON"
+msgstr ""
+
+#: templates/single-cpt-1.php:687
+msgid "TUE"
+msgstr ""
+
+#: templates/single-cpt-1.php:690
+msgid "WED"
+msgstr ""
+
+#: templates/single-cpt-1.php:693
+msgid "THU"
+msgstr ""
+
+#: templates/single-cpt-1.php:696
+msgid "FRI"
+msgstr ""
+
+#: templates/single-cpt-1.php:699
+msgid "SAT"
+msgstr ""
+
+#: templates/single-cpt-1.php:702
+msgid "SUN"
+msgstr ""
+
+#: templates/single-cpt-1.php:713
+msgid "PREV WEEK"
+msgstr ""
+
+#: templates/single-cpt-1.php:716
+msgid "CURRENT WEEK"
+msgstr ""
+
+#: templates/single-cpt-1.php:719
+msgid "NEXT WEEK"
+msgstr ""
+
+#: templates/single-cpt-1.php:730
+msgid "DAY"
+msgstr ""
+
+#: templates/single-cpt-1.php:733
+msgid "PRICE"
+msgstr ""
+
+#: templates/single-cpt-1.php:800
+msgid "WEEK PRICE"
+msgstr ""
+
+#: templates/single-cpt-4.php:105
+msgid "ADDRESS"
+msgstr ""
+
+#: templates/single-cpt-4.php:128
+msgid "EMAIL"
+msgstr ""
+
+#: templates/single-cpt-4.php:151
+msgid "PHONE"
+msgstr ""
+
+#: templates/single-cpt-4.php:205
+msgid "Our Rooms"
+msgstr ""

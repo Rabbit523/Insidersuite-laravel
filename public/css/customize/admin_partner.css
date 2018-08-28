@@ -1,0 +1,70 @@
+.modal-partners {
+  width: 500px;
+}
+.modal-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.modal-header h4{
+  color: #1d1d1d;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+.modal-body .row-modal label {
+  font-weight: 100;
+  color: #737373;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.header-list {
+  background: rgb(255, 51, 102);
+  padding: 10px 30px;
+  color: #fff;
+}
+.general-wrapper .page-container .page-content .content-box .label-table {
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.partner-name {
+  width: 14%;
+}
+.contact {
+  width: 14%;
+  text-align: center;
+}
+.phone {
+  width: 14%;
+  text-align: center;
+}
+.email {
+  width: 14%;
+  text-align: center;
+}
+.date {
+  width: 14%;
+  text-align: center;
+}
+.last-audit {
+  width: 14%;
+  float: right;
+  text-align: center;
+}
+.n_booking {
+  width: 16%;
+  text-align: center;
+}
+
+.general-wrapper .page-container .page-content .content-box .item-list {
+  display: block;
+}
+.general-wrapper .page-container .page-content .content-box .item-list .item{
+  background: #fff;
+  color: #333;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}

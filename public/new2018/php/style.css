@@ -1,0 +1,173 @@
+body {
+        background-color: #ffffff;
+        margin-left: 40px;
+        font-family: Helvetica;
+
+        display: inline-block;
+        margin: 0px auto;
+        text-align: center;
+}
+html {
+  text-align: center;
+}
+h1 {
+    color: #000000;
+        font-size:56px;
+        font-weight:100;
+        margin:0px;
+        margin-bottom:20px;
+} 
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 6%;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.DataTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.DataTable caption{
+    text-align: left;
+    font-size:24px;
+    font-weight:500;
+    margin:0px;
+    margin-bottom:0px;
+}
+.DataTable td, .DataTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.DataTable tr:nth-child(even){background-color: #f2f2f2;}
+
+.DataTable tr:hover {background-color: #ddd;}
+
+.DataTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+}
+
+.Width-50 {
+        width: 50%;
+}
+
+.InputForm {
+width: 500px;
+overflow:hidden;
+}
+
+.InputForm label {
+clear: both;
+float: left;
+width: 40%;
+padding-top: 6px;
+padding-bottom: 6px;
+text-align: left;
+background-color: #000000;
+color: white;
+border: 1px solid #ddd;
+}
+
+.InputTextBox{
+padding-top: 6px;
+padding-bottom: 6px;
+float: left;
+width: 45%;
+text-align: left;
+}
+
+.InputTextBoxHidden{
+display: none;
+padding-top: 6px;
+padding-bottom: 6px;
+float: left;
+width: 45%;
+text-align: left;
+}
+
+/*.InputTickBoxHidden{
+display: none;
+padding-top: 6px;
+padding-bottom: 6px;
+float: left;
+text-align: left;
+}*/
+
+.button {
+   border: 2px solid #000000;
+   background: #000000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+   background: -webkit-linear-gradient(top, #000000, #000000);
+   background: -moz-linear-gradient(top, #000000, #000000);
+   background: -ms-linear-gradient(top, #000000, #000000);
+   background: -o-linear-gradient(top, #000000, #000000);
+   background-image: -ms-linear-gradient(top, #000000 0%, #000000 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #ffffff 0 1px 0;
+   color: #ffffff;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 2px solid #ffffff;
+   text-shadow: #ffffff 0 1px 0;
+   background: #ff6666;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ff6666), to(#ff6666));
+   background: -webkit-linear-gradient(top, #ff6666, #ff6666);
+   background: -moz-linear-gradient(top, #ff6666, #ff6666);
+   background: -ms-linear-gradient(top, #ff6666, #ff6666);
+   background: -o-linear-gradient(top, #ff6666, #ff6666);
+   background-image: -ms-linear-gradient(top, #ff6666 0%, #ff6666 100%);
+   color: #fff;
+   }
+.button:active {
+   text-shadow: #ffffff 0 1px 0;
+   border: 2px solid #ffffff;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#ff6666));
+   background: -webkit-linear-gradient(top, #3e779d, #3e779d);
+   background: -moz-linear-gradient(top, #3e779d, #3e779d);
+   background: -ms-linear-gradient(top, #3e779d, #3e779d);
+   background: -o-linear-gradient(top, #3e779d, #3e779d);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #3e779d 100%);
+   color: #fff;
+   }
+

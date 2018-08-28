@@ -1,0 +1,223 @@
+#site-content{
+  padding-top: 100px;
+  background-color: #eee !important;
+}
+input[type="checkbox"], input[type="radio"] {
+    margin: 6px 0 0;
+    margin-left: 0px;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+label{
+  font-weight: 700;
+  font-size: 14px;
+  color: #666;
+  display: block;
+}
+.profile-section{
+  margin-bottom: 40px;
+}		
+.navbar-sub {
+  /* background: #eee !important; */
+  margin-top: 58px;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #000000;
+  background-color: transparent;
+}
+.navbar-sub .navbar-nav > li > a:focus, .navbar-sub .navbar-nav > li > a {
+  color: #777;
+  font-size: 15px;
+  padding-top: 17px;			
+}
+.navbar-sub .navbar-brand {
+  font-size: 24px;
+  color: black;
+}
+.page {
+  padding-top: 20px;
+}
+.page-main-title{
+  font-style: italic;  
+  font-size: 28px;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+#submit {
+  color: white;
+}
+.card {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 40px;
+  font-family: Source Sans Pro,sans-serif;
+}
+.card header .card__title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d1d1d;
+  line-height: 1.4;
+  position: relative;
+}
+#no-voucher {
+  text-align: center;
+}
+#no-voucher span {
+  display: block;
+  width: 100%;
+  font-style: italic;
+  color: #1d1d1d;
+  font-size: 20px;
+}
+#no-voucher #sponsor-url {
+  margin-top: 40px;
+}
+.button {
+  text-align: center;
+  border-radius: 2px;
+  padding: 13px 20px;
+  line-height: 1;
+  border: none;
+  color: #fff;
+  float: none!important;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Source Sans Pro,sans-serif;
+  cursor: pointer;
+}
+.button--light {
+  background-color: #eee;
+  border: 1px solid #d3d3d3;
+  color: #797979;
+  transition: all .1s ease-out;
+}
+.card__paragraph-text {
+  color: #666;
+  font-size: 14px;
+}
+#giftcard-form {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin-top: 20px;
+}
+#giftcard-form #giftcard-form-activate {
+  -webkit-flex: 80%;
+  flex: 80%;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  height: 44px;
+}
+.card input[type=email], .card input[type=password], .card input[type=text] {
+  border-radius: 2px;
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#giftcard-form input[type=submit] {
+  -webkit-flex: 20%;
+  flex: 20%;
+  height: 44px;
+}
+.btn.pink:hover {
+  background-color: #e81b55;
+}
+.forms-section input[type="button"], .forms-section input[type="submit"] {
+  float: right;
+}
+.btn.pink {
+  background-color: #bd1343;
+}
+.buy-giftcard {
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .buy-giftcard {
+      margin-top: 80px;
+      margin-bottom: 40px;
+  }
+}
+.buy-giftcard .giftcard-image {
+  width: 280px;
+  height: 203px;
+  margin: 30px auto;
+}
+@media only screen and (min-width: 768px) {
+  .buy-giftcard .giftcard-image {
+      position: absolute;
+      right: 0;
+      top: -45px;
+      margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .buy-giftcard #buy-giftcard-desktop {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-content: center;
+      align-content: center;
+      height: 125px;
+      max-width: 85%;
+      background-color: #eee;
+  }
+}
+.buy-giftcard .cta-buy-giftcard {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
+  .buy-giftcard #buy-giftcard-desktop a {
+      margin-left: 40px;
+  }
+}
+.button {
+  text-align: center;
+  border-radius: 2px;
+  padding: 13px 20px;
+  line-height: 1;
+  border: none;
+  color: #fff;
+  float: none!important;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Source Sans Pro,sans-serif;
+  cursor: pointer;
+}
+.button--secondary {
+  background-color: #8a8a8a;
+  transition: all .1s ease-out;
+}
+
+@media only screen and (min-width: 1025px) {
+  .hidden-desktop, .only-mobile, .only-tablet {
+      display: none;
+  }
+}
+.buy-giftcard .cta-buy-giftcard {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
+  .buy-giftcard a {
+      max-width: 200px;
+  }
+}
+.button--light {
+  background-color: #eee;
+  border: 1px solid #d3d3d3;
+  color: #797979;
+  transition: all .1s ease-out;
+}
+#card-section{
+  margin-bottom: 50px;
+}
