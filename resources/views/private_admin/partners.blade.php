@@ -14,8 +14,8 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-6">
 					<div class="title-box">
-							<h1><i class="fas fa-user-friends"></i>Partners</h1>
-							<a type="button" class="btn btn-normal" id="addNew">New Partner</a>
+						<h1><i class="fas fa-user-friends"></i>Partners</h1>
+						<a type="button" class="btn btn-normal" id="addNew">New Partner</a>
 					</div>
 				</div>
 			</div>
@@ -46,15 +46,15 @@
 						</div>
 						<div class="item-list">
 							@if ($count == 0) 
-							<h4>There is no partner!</h4>
+							<h4 class="partner">There is no partner!</h4>
 							@endif
 							@foreach($partners as $partner)
 							<div class="item">
 								<div class="row">
-									<div class="label-table partner-name">{{$partner->partner_name}}</div>
+									<div class="label-table partner-name">{{$partner->partner_name}} <a class="edit" data-id="{{$partner->id}}">Edit</a> <a class="delete" data-id="{{$partner->id}}">Delete</a></div>
 									<div class="label-table contact">{{$partner->contact_person}}</div>
-									<div class="label-table phone">{{$partner->email}}</div>
-									<div class="label-table email">{{$partner->phone}}</div>
+									<div class="label-table phone">{{$partner->phone}}</div>
+									<div class="label-table email">{{$partner->email}}</div>
 									<div class="label-table date">{{$partner->date_}}</div>
 									<div class="label-table last-audit">{{$partner->last_audit}}</div>
 									<div class="label-table n_booking">{{$partner->booking_count}}</div>
@@ -75,8 +75,8 @@
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<!-- <p>EDIT PARTNER</p> -->
-					<h4>New Partner</h4>
+					<h4 id="new_partner">New Partner</h4>
+					<h4 id="edit_partner">Edit Partner</h4>
 				</div>
 				<div class="modal-body">
 					<div class="row-modal">
@@ -118,30 +118,21 @@
 							<div class="col-xs-12 col-sm-6">
 								<div class="form-group">
 									<label for="">LAST AUDIT</label>
-									<input type="text" name="last_audit" id="partner_datepicker" class="form-control">
+									<input type="text" name="date" id="partner_datepicker" class="form-control">
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<div class="form-group">
 									<label for="">DATE</label>
-									<input type="text" name="date" id="date" class="form-control">
+									<input type="text" name="last_audit" id="date" class="form-control">
 								</div>
 							</div>
 						</div>
 					</div>					
-					<div class="row-modal">
-						<div class="row">
-							<div class="col-xs-12 col-sm-6">
-								<div class="form-group">
-									<label for="">Number of booking</label>
-									<input type="text" name="n_booking" id="n_booking" class="form-control">
-								</div>
-							</div>									
-						</div>
-					</div>
 				</div>
 				<div class="modal-footer">
 					<a id="save" class="btn btn-normal">SAVE PARTNER</a>
+					<a id="update" class="btn btn-normal">SAVE PARTNER</a>
 				</div>
 			</div>
 		</div>

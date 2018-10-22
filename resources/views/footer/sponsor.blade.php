@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Sponsor')
 @section('head')
 	@parent
 	<link rel="stylesheet" type="text/css" href="{{ url('css/customize/sponsor.css') }}">
@@ -11,7 +11,8 @@
     <div class="col-md-12">
         <img class="our-story-banner" src="{{ url('imgs/InsiderSuite_Our_Story.jpg') }}">
     </div>
-    <h1 class="banner-heading">Sponsor</h1>
+    <h1 class="banner-heading">Share Insider Suite  with your friends</h1>
+    <p class="banner-subheading">When one of your friends will book her first trip, you will receive a discount of 75 €. <br>Your friend will receive a welcome discount of 35 €. Read the terms of the Sponsorship.</p>
     <div class="container" >
         <div class="sponsorship">
             <div class="invitation">
@@ -47,7 +48,7 @@
                             </svg>
                             <span>Messenger</span>
                         </a>
-                    </div> 
+                    </div>
                     <div class="col-md-6 col-xs-6 col-lg-6">
                         <a class="btn btn-large btn-block btn-facebook" data-network="facebook" data-referral-link="https://www.copinesdevoyage.com/parrainage/signup/c79144b4c6ce?utm_source=parrainage&amp;utm_medium=facebook+share&amp;code=Pa77a1n" rel="nofollow noopener noreferrer" id="facebook-share" href="https://www.facebook.com/dialog/share?app_id=441106345998340&amp;href=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dfacebook%2Bshare%26code%3DPa77a1n&amp;redirect_uri=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dfacebook%2Bshare%26code%3DPa77a1n" target="_blank">
                             <svg fill="currentcolor" class="st-icon st-icon-facebook " style="" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg" role="img">
@@ -63,7 +64,7 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-8 col-sm-12 col-xs-12">
+             <div class="col-md-8 col-sm-12 col-xs-12">
                 <div class="title">
                     <div> 
                         <h1><span>Suggested referrals</span></h1>
@@ -95,75 +96,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>                                    
-                            </div> 
-                            <div class="_1fylxegl">
-                                <div class="_1jg2nxf">
-                                    <div class="_1c2qaqv">
-                                        <div class="_ncqy3bd">
-                                            <div class="_e296pg" style="height:64px;width:64px;display:inline-block">
-                                                <img class="_12r18es" src="https://a0.muscache.com/im/pictures/56779bd5-9d38-46e5-834e-bd29c93235c2.jpg?aki_policy=profile_medium" height="64" width="64" alt="Elsa Mothay" title="Elsa Mothay">
-                                            </div>
-                                        </div>
-                                        <div class="_jnrahhr">
-                                            <div class="_1iurgbx">Elsa Mothay</div>
-                                        </div>
-                                        <div class="_1n57hdr7">
-                                            <div class="_1iurgbx">
-                                                <button type="button" class="_n5wk6ic" aria-busy="false">
-                                                    <span>Refer</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                    
-                            </div>  
-                            <div class="_1fylxegl">
-                                <div class="_1jg2nxf">
-                                    <div class="_1c2qaqv">
-                                        <div class="_ncqy3bd">
-                                            <div class="_e296pg" style="height:64px;width:64px;display:inline-block">
-                                                <img class="_12r18es" src="https://a0.muscache.com/im/pictures/56779bd5-9d38-46e5-834e-bd29c93235c2.jpg?aki_policy=profile_medium" height="64" width="64" alt="Elsa Mothay" title="Elsa Mothay">
-                                            </div>
-                                        </div>
-                                        <div class="_jnrahhr">
-                                            <div class="_1iurgbx">Elsa Mothay</div>
-                                        </div>
-                                        <div class="_1n57hdr7">
-                                            <div class="_1iurgbx">
-                                                <button type="button" class="_n5wk6ic" aria-busy="false">
-                                                    <span>Refer</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                    
-                            </div>  
-                            <div class="_1fylxegl">
-                                <div class="_1jg2nxf">
-                                    <div class="_1c2qaqv">
-                                        <div class="_ncqy3bd">
-                                            <div class="_e296pg" style="height:64px;width:64px;display:inline-block">
-                                                <img class="_12r18es" src="https://a0.muscache.com/im/pictures/56779bd5-9d38-46e5-834e-bd29c93235c2.jpg?aki_policy=profile_medium" height="64" width="64" alt="Elsa Mothay" title="Elsa Mothay">
-                                            </div>
-                                        </div>
-                                        <div class="_jnrahhr">
-                                            <div class="_1iurgbx">Elsa Mothay</div>
-                                        </div>
-                                        <div class="_1n57hdr7">
-                                            <div class="_1iurgbx">
-                                                <button type="button" class="_n5wk6ic" aria-busy="false">
-                                                    <span>Refer</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                    
-                            </div>                                
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>                                
-            </div>				
+                </div>
+            </div>
             <div class="col-md-4 col-sm-12 col-xs-12" style="padding-right: 0px; padding-left: 0;">
                 <div class="row referal-section">
                     <div class="col-md-12 col-sm-12 col-xs-12 referrals">
@@ -208,7 +146,7 @@
                                 <div class="_1jb82wo">
                                     <div class="_djxl322">
                                         <div class="_ni9axhe">
-                                            <span class="_12ei9u44"><span>Tell your friends in Sydeny they could earn up to $800 AUD a week by hosting</span></span>
+                                            <span class="_12ei9u44"><span>Tell your friends they could earn up to $500 AUD to spend on their next holidays</span></span>
                                             <div class="_1c2cbn7k">
                                                 <div class="_jx9fdbv" role="presentation">
                                                     <div role="button" tabindex="-1" aria-expanded="false">
@@ -223,7 +161,7 @@
                                 </div>
                                 <div class="_1gc9tcm">
                                     <div class="_xsoek6" style="background:radial-gradient(circle, #FFFFFF 50%, #EDEDED 100%)">
-                                        <span><img src="https://a0.muscache.com/airbnb/static/host_referral/friend_could_earn-4ba970ab08ce1602733036c800a988b4.png" alt="" class=""></span>
+                                        <span><img src="../imgs/Sponsor.jpg" alt="" class=""></span>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +171,7 @@
             </div>
         </div>
         <div class="section_sub">
-            <h1>Access the offers for this Sunday</h1>
+            <h1>Access the offers</h1>
             <a href="@if(Auth::User()) {{ url('offers') }} @else {{ url('/') }} @endif" class="btn btn-subscribe">Subscribe</a>
         </div>
     </div>
@@ -389,6 +327,7 @@
 @section('foot')
 	@parent
 	<script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script type="text/javascript" src="{{ url('js/customize/sponsor.js') }}"></script>
     <script type="text/javascript">
 
         $(document).ready(function() {

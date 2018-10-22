@@ -230,7 +230,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Curl' => Ixudra\Curl\Facades\Curl::class,
-        'MobileDetect' => mobiledetect\mobiledetectlib\Mobile_Detect::class,
         // 'YahooOAuthApplication' => YahooSocial\lib\Yahoo\YahooOAuthApplication::class,
 
     ],

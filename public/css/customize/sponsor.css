@@ -467,13 +467,18 @@ color: black
   flex-direction: row;
   justify-content: space-between;
 }
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none!important;
+}
 .more_suggestions, more_suggestions:hover, more_suggestions:focus {
   color: #fff !important;
   background-color: #48c9b0;
   border-color: #48c9b0;
   padding: 9px 27px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   margin-top: 20px;
+  outline: none;
 }
 ._w9ro7h {
   margin-top: 48px !important;
@@ -889,6 +894,26 @@ color: black
 .share_group {
   margin-bottom: 20px;
 }
+@media (max-width: 993px) {
+  .share_buttons {
+    padding-left: 0;
+  } 
+  .share_buttons .col-xs-6 {
+    padding-left: 0;
+  }
+  .st-icon {
+    left: 7px;
+  }
+  .how-works-steps h3 {
+    margin-left: 330px;
+  }
+  ._1jb82wo {
+    margin-left: -275px !important;
+  }
+  ._1ehvxcwu {
+    margin-left: 41% !important;
+  }
+}
 @media (max-width: 800px) {
   .share_buttons {
     padding-left: 0;
@@ -910,9 +935,17 @@ color: black
   }
 }
 
+@media (max-width: 768px) {
+  #footer {
+    height: 0px !important;
+  }
+}
 @media (max-width: 600px) {
   .invitation .col-xs-3 {
     padding-right: 0;
+  }
+  #footer {
+    height: 0px !important;
   }
   .or-separator {
     margin: 0;
@@ -924,7 +957,6 @@ color: black
   }
   .send_link .share_group .input-group .col-xs-4 {
     padding-right: 0;
-    padding-left: 30px;
   }
   .share_buttons {
     padding-left: 15px;
@@ -952,6 +984,9 @@ color: black
 @media (max-width: 414px) {
   .invitation .col-xs-9 {
     width: 65%;
+  }
+  #footer {
+    height: 0px !important;
   }
   .invitation .col-xs-3 {
     width: 35%;
@@ -988,6 +1023,9 @@ color: black
   #invite_button {
     padding: 9px 18px;
   }
+  #footer {
+    height: 0px !important;
+  }
   .refer_friends {
     padding-top: 0;
   }
@@ -1005,6 +1043,9 @@ color: black
   .how-works-steps h3 {
     margin-left: 138px;
   }
+  #footer {
+    height: 0px !important;
+  }
 }
 @media (max-width: 360px) {
   .btn_copy {
@@ -1015,6 +1056,9 @@ color: black
     padding: 24px 0 !important;
     display: inline-block;
     margin-left: 36px;
+  }
+  #footer {
+    height: 0px !important;
   }
 }
 @media (max-width: 320px) {
@@ -1028,7 +1072,6 @@ color: black
   }
   .send_link .share_group .input-group .col-xs-4 {
     padding-right: 0;
-    padding-left: 20;
   }
   .st-icon {
     left: 7px;
@@ -1042,6 +1085,9 @@ color: black
   ._1jb82wo {
     margin-left: -115px !important;
     padding-right: 94px;
+  }
+  #footer {
+    height: 0px !important;
   }
 }
 #site-content .col-md-12 {

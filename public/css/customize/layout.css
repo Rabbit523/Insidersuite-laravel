@@ -1,6 +1,11 @@
 #footer {
   height: 570px !important;
 }
+@media(max-width: 800px) {
+  #footer {
+    display: none;
+  }
+}
 #cspio-page{
   max-width: 500px;
   min-width: 290px;
@@ -26,7 +31,7 @@
   z-index: -1;
   border: 1px solid #000;
   background: rgba(0,0,0,0.8);
-}	
+}
 .dialog .dialog-inner::before {
   content: " ";
   position: absolute;
@@ -128,7 +133,7 @@ strong, b {
   padding-top:5%;
 }
 .sponsor-page-alert{
-  max-width:400px; 
+  max-width:400px;
   position: absolute;
   top: 60px;
   left: 0;
@@ -171,7 +176,7 @@ strong, b {
 }
 .feedback-footer {
   text-align: center;
-  border: none;	
+  border: none;
 }
 .add_note, .add_note:focus, .add_note:hover {
   border: none;
@@ -273,6 +278,12 @@ input::placeholder {
     top: 140px;
   }
 }
+@media (max-width: 414px) {
+  .modal-authentication {
+    left: -2px;
+    top: 60px;
+  }
+}
 @media (max-width: 412px) {
   .modal-authentication {
     left: -4px;
@@ -356,7 +367,7 @@ input::placeholder {
   margin-right: -5px;
   font-style: italic;
 }
-#signup-tab:focus, #signup-tab:hover, #signup-tab.active{ 
+#signup-tab:focus, #signup-tab:hover, #signup-tab.active{
   padding: 8px 66px;
   margin-right: -5px;
   background: #b7b5b5;
@@ -371,7 +382,7 @@ input::placeholder {
   border: 1px solid #dcdada;
   font-style: italic;
 }
-#login-tab:focus, #login-tab:hover, #login-tab.active{ 
+#login-tab:focus, #login-tab:hover, #login-tab.active{
   padding: 8px 32px;
   background: #b7b5b5;
   color: #fff;
@@ -386,10 +397,10 @@ input::placeholder {
   #login-tab {
     padding: 8px 20px;
   }
-  #signup-tab:focus, #signup-tab:hover, #signup-tab.active { 
+  #signup-tab:focus, #signup-tab:hover, #signup-tab.active {
     padding: 8px 56px;
-  } 
-  #login-tab:focus, #login-tab:hover, #login-tab.active{ 
+  }
+  #login-tab:focus, #login-tab:hover, #login-tab.active{
     padding: 8px 20px;
   }
 }
@@ -400,10 +411,10 @@ input::placeholder {
   #login-tab {
     padding: 8px 17px;
   }
-  #signup-tab:focus, #signup-tab:hover, #signup-tab.active { 
+  #signup-tab:focus, #signup-tab:hover, #signup-tab.active {
     padding: 8px 51px;
-  } 
-  #login-tab:focus, #login-tab:hover, #login-tab.active{ 
+  }
+  #login-tab:focus, #login-tab:hover, #login-tab.active{
     padding: 8px 17px;
   }
 }
@@ -414,10 +425,10 @@ input::placeholder {
   #login-tab {
     padding: 8px 9px;
   }
-  #signup-tab:focus, #signup-tab:hover, #signup-tab.active { 
+  #signup-tab:focus, #signup-tab:hover, #signup-tab.active {
     padding: 8px 40px;
-  } 
-  #login-tab:focus, #login-tab:hover, #login-tab.active{ 
+  }
+  #login-tab:focus, #login-tab:hover, #login-tab.active{
     padding: 8px 9px;
   }
 }
@@ -459,14 +470,14 @@ input::placeholder {
   border-bottom: 1px solid #dcdada;
   margin-top: 15px;
 }
-#register_email::placeholder, #register_firstname::placeholder, #register_lastname::placeholder, #register_password::placeholder { 
+#register_email::placeholder, #register_firstname::placeholder, #register_lastname::placeholder, #register_password::placeholder {
   color: #000;
-  opacity: 1; 
+  opacity: 1;
 }
 .login-form {
   margin-top: 20px;
   margin-right: 20px;
-  width: 100%;  
+  width: 100%;
 }
 #login_email {
   background-image: url(/../imgs/icon-email.png);
@@ -494,9 +505,9 @@ input::placeholder {
   border-bottom: 1px solid #dcdada;
   margin-top: 15px;
 }
-#login_email::placeholder, #login_password::placeholder { 
+#login_email::placeholder, #login_password::placeholder {
   color: #000;
-  opacity: 1; 
+  opacity: 1;
 }
 .signup-form {
   margin-top: 20px;
@@ -511,7 +522,7 @@ input::placeholder {
   color: white !important;
   width: 100%;
   font-size: 18px !important;
-  font-style: italic !important;  
+  font-style: italic !important;
   margin-top: 20px;
   border: none !important;
   height: 50px !important;
@@ -524,8 +535,9 @@ input::placeholder {
   color: white;
   width: 100%;
   font-size: 18px;
-  font-style: italic;  
+  font-style: italic;
   margin-top: 20px;
+  outline: none !important;
 }
 .login, .login:focus, .login:hover {
   border-radius: 50px;
@@ -535,9 +547,9 @@ input::placeholder {
   width: 100%;
   margin-top: 20px;
   font-size: 18px;
-  font-style: italic; 
+  font-style: italic;
   font-weight: bold;
-  outline: none;
+  outline: none !important;
 }
 .authentication-footer {
   width: 100%;

@@ -1,17 +1,17 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Mail Gift Card')
 
 @section('head')
 	@parent
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">  
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
 	<link rel="stylesheet" type="text/css" href="{{ url('css/customize/gift_card.css') }}">
 @endsection
 
 @section('content')
-	<div id="site-content">
-		<div class="row">		
-			<div class="col-md-12">		
+	<div id="site-content" style="background-color:#f9f7f9;">
+		<div class="row">
+			<div class="col-md-12">
 				<div class="col-md-12 col-sm-12">
 					<div class="container" style="padding-top: 100px;padding-bottom: 100px;">
 						<h3 class="page-main-title">Gift Card</h3><br>
@@ -22,7 +22,7 @@
 									<li class="blue-card" style="display: block;"><img src="{{ url('imgs/blue-card.png') }}" class="img-responsive"></li>
 									<li class="pink-card" style="display: none;"><img src="{{ url('imgs/pink-card.png') }}" class="img-responsive"></li>
 									<li class="white-card" style="display: none;"><img src="{{ url('imgs/white-card.png') }}" class="img-responsive"></li>
-								</ul>								
+								</ul>
 							</div>
 							<div class="col-md-9 col-sm-12">
 								<div class="form-section" style="padding: 0px 0px 30px 0px;">
@@ -95,16 +95,6 @@
 												<svg id="card-500-value" viewBox="0 0 24 24" width="16" height="16" class="GiftCardDesignPicker__CheckedColorSelector-s1ald1iv-1 hYlGKC"><g fill="none" fill-rule="evenodd"><circle fill="currentColor" cx="12" cy="12" r="12"></circle><path d="M11.267 17.21L6.62 13.484c-.433-.346-.52-1.002-.196-1.464.324-.46.937-.556 1.37-.209l3.182 2.55 5.275-6.576a.938.938 0 0 1 1.38-.113c.412.375.46 1.036.107 1.474l-6.47 8.062z" fill="#FFF"></path></g></svg>
 											</div>
 										</div>
-									</div>									
-									<br>
-									<div class="sui-row sc-chPdSV eQCbjy" gutter="15">
-										<div class="sui-col sui-col-xs-12 sui-col-md-3 s108u2es-1-GiftCardKiffLevel__KiffLevelCol-kRFZwX edteOq sc-EHOje btgdIN">
-											<div class="sui-form-group InputGroupField__InputGroup-s1mh5ruy-0 rGWYN sc-jKJlTe jXlLFB">
-												<label class="Label-c63zja-0 ijjuLW" for="amount">Order amount</label>
-												<input type="number" name="amount" id="amount" min="50" max="5000" class="sui-input sui-control sc-iwsKbI eDoEAn">
-											</div>
-											<div class="Paragraph-v7j7y7-0 cVhRmt" color="textSecondaryColor" style="font-size:13px;margin-top:-9px">From 50$</div>
-										</div>
 									</div>
 									<hr class="s1jjl8nz-0-Divider-hdPlfo gPzZwx" spacing="0">
 									<div class="s4xyhxd-0-BaseTitle-cdEphK goBYvE">Personalize your card</div>
@@ -112,49 +102,45 @@
 								<div>
 									<div class="row">
 										<div class="col-md-4">
-											<div class="form_input">												
-													<label for="From">Sender Name</label>												
-													<input type="text" name="from" class="form-control">												
+											<div class="form_input">
+												<label>Sender Name</label>
+												<input type="text" name="sender_name" class="form-control" id="sender_name" placeholder="Enter" required>
 											</div>
 											<div class="form_input">
-												<label for="for">Beneficiary Name</label>												
-												<input type="text" name="for" class="form-control">											
+												<label>Beneficiary Name</label>
+												<input type="text" name="beneficiary_name" class="form-control" id="beneficiary_name" placeholder="Enter" required>
 											</div>
 											<div class="form_input">
-													<label for="beneficiary">Beneficiary Email</label>
-													<input type="text" name="beneficiary_email" class="form-control">																					
+												<label for="beneficiary">Beneficiary Email</label>
+												<input type="email" name="beneficiary_email" class="form-control" id="beneficiary_email" placeholder="Enter" required>
 											</div>
 										</div>
 										<div class="col-md-8">
 											<label for="description">A Liite Word</label>
-											<textarea rows="5" id="message" name="beneficiary_email" class="form-control"></textarea>
+											<textarea rows="5" id="message" class="form-control"></textarea>
 										</div>
 									</div>
 									<br>
-									<input type="hidden" name="price" value="50">
+									<input type="hidden" name="price" id="amount" value="50">
+									<input type="hidden" name="email" id="customer_email" value="50">
 									<hr>
     								<h4 id="total_amount">Total Amount: $0</h4>
-    								<input type="submit" id="place_order" value="Order" class="sui-button sui-button-primary GiftCardLayout__SubmitGiftCard-s185zsgc-5 ihKlVZ sc-eNQAEJ hMCHmi">
+    								<input type="button" id="place_order" value="Order" class="sui-button sui-button-primary GiftCardLayout__SubmitGiftCard-s185zsgc-5 ihKlVZ sc-eNQAEJ hMCHmi">
 								</div>
-								
-								<script src="https://js.stripe.com/v3/"></script>
+								<form action="api/gift-payment" method="post" id="payment-form" hidden>
+									<div class="form-row">
+										<label for="card-element">
+										Credit or debit card
+										</label>
+										<div id="card-element">
+										<!-- A Stripe Element will be inserted here. -->
+										</div>
 
-								<form action="{{ url('charge') }}" method="post" id="payment-form" hidden>
-									<div class="row">
-										<div class="col-md-4">
-											<label for="card-element">
-														Credit or Debit Card
-												</label>
-										</div>
-										<div class="col-md-8">
-											<div class="form-row">
-												<div id="card-element">												
-												</div>											
-												<div id="card-errors" role="alert"></div><br>
-													<button class="btn btn-default">Confirm Order</button>
-											</div>
-										</div>
+										<!-- Used to display form errors. -->
+										<div id="card-errors" role="alert"></div>
 									</div>
+
+									<button>Submit Payment</button>
 								</form>
 							</div>
 						</div>
@@ -204,7 +190,80 @@
 
 @section('foot')
 	@parent
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+	<script src="https://js.stripe.com/v3/"></script>
+	<script>
+		var stripe = Stripe('pk_test_vHzm4MRyBzIThy8sQxLNI81z');
+		var elements = stripe.elements();
+		var style = {
+			base: {
+				color: '#32325d',
+				lineHeight: '18px',
+				fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+				fontSmoothing: 'antialiased',
+				fontSize: '16px',
+				'::placeholder': {
+				color: '#aab7c4'
+				}
+			},
+			invalid: {
+				color: '#fa755a',
+				iconColor: '#fa755a'
+			}
+		};
+		var card = elements.create('card', {style: style});
+		card.mount("#card-element");
+
+		// Handle real-time validation errors from the card Element.
+		card.addEventListener('change', function(event) {
+			var displayError = document.getElementById('card-errors');
+			if (event.error) {
+				displayError.textContent = event.error.message;
+			} else {
+				displayError.textContent = '';
+			}
+		});
+
+		// Handle form submission.
+		var form = document.getElementById('payment-form');
+		form.addEventListener('submit', function(event) {
+			event.preventDefault();
+
+			stripe.createToken(card).then(function(result) {
+				if (result.error) {
+					// Inform the user if there was an error.
+					var errorElement = document.getElementById('card-errors');
+					errorElement.textContent = result.error.message;
+				} else {
+					// Send the token to your server.
+					stripeTokenHandler(result.token);
+				}
+			});
+		});
+
+		function stripeTokenHandler(token) {
+			// Insert the token ID into the form so it gets submitted to the server
+			var form = document.getElementById('payment-form');
+			var hiddenInput = document.createElement('input');
+			hiddenInput.setAttribute('type', 'hidden');
+			hiddenInput.setAttribute('name', 'stripeToken');
+			hiddenInput.setAttribute('value', token.id);
+			form.appendChild(hiddenInput);
+
+			var hiddenInput1 = document.createElement('input');
+			hiddenInput1.setAttribute('type', 'hidden');
+			hiddenInput1.setAttribute('name', 'amount');
+			hiddenInput1.setAttribute('value', $("#amount").val()*100);
+			form.appendChild(hiddenInput1);
+
+			var hiddenInput2 = document.createElement('input');
+			hiddenInput2.setAttribute('type', 'hidden');
+			hiddenInput2.setAttribute('name', 'email');
+			hiddenInput2.setAttribute('value', $("#customer_email").val());
+			form.appendChild(hiddenInput2);
+
+			// Submit the form
+			form.submit();
+		}
+	</script>
 	<script type="text/javascript" src="{{ url('js/customize/gift.js') }}"></script>
 @endsection

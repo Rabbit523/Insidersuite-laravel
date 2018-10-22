@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Orders')
 @section('head')
 @parent
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

@@ -24,7 +24,7 @@ class Contact_message extends Model
      * @var array
      */
 
-    protected $fillable = ['user_id', 'email', 'name', 'subject', '_status', 'content', 'attached_file'];
+    protected $fillable = ['user_id', 'email', 'name', '_status', 'content', 'attached_file'];
 
     /**
      * The attributes that should be hidden for arrays.

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Career Detail')
 
 @section('head')
 @parent
@@ -12,27 +12,11 @@
 	<div class="header_img">
 		<div id="content-slides">
 			<div class="media-cover media-cover-dark">
-        @if ($type == "finance")
-        <section class="image_security"></section>
-        @elseif ($type == "engineering")
-        <section class="image_engineering"></section>
-         @elseif ($type == "security")
-        <section class="image_security"></section>
-         @elseif ($type == "marketing")
-        <section class="image_security"></section>
-        @endif
+        <section class="image" style="background: url('{{$career->banner_img}}');"></section>       
 			</div>
 			<div class="col-md-12">
-				<div class="text-contrast">
-				    @if ($type == "finance")
-                    <h1 class="jobs-header-text"> Finance and Accounting</h1>
-                    @elseif ($type == "engineering")
-                    <h1 class="jobs-header-text"> Engineering</h1>
-                     @elseif ($type == "security")
-                    <h1 class="jobs-header-text"> Trust and security</h1>
-                     @elseif ($type == "marketing")
-                    <h1 class="jobs-header-text"> Marketing and communication</h1>
-                    @endif
+				<div class="text-contrast">				    
+          <h1 class="jobs-header-text">{{$career->department}}</h1>
 				</div>
 			</div>
 		</div>		
@@ -41,7 +25,7 @@
 		<div class="row">
 			<div class="col-md-12 space-top-8 space-4">
         <div class="description">
-          <p>{{$detail_info->description}}</p>
+        {{$career->description}}
         </div>
         <div class="job_list space-6 space-top-8">
           <header>
@@ -64,12 +48,15 @@
                   </tr>
                 </thead>
                 <tbody>
+                  @foreach($details as $detail)
                   <tr>
                     <td>
-                        <a id="info_link" class="text-normal">{{$detail_info->position_name}}</a>
+                        <a class="text-normal info_link" data-id="{{$detail->id}}">{{$detail->position_name}}</a>
                     </td>
-                    <td><div class="flagcon"><img src="../imgs/flags/USA.png"></img></div><a href="/careers/locations/san-francisco-united-states" class="text-normal">{{$detail_info->office}} </a></td>
+                    <!-- href="/careers/locations/san-francisco-united-states" -->
+                    <td><a class="text-normal">{{$detail->office}} </a></td>                    
                   </tr>
+                  @endforeach
                 </tbody>
               </table>
             </div>
@@ -82,8 +69,7 @@
 
 @section ('scripts')
     <script>
-        var user = @json(auth()->user());
-        var id = {{$detail_info->id}};
+        var user = @json(auth()->user());      
     </script>
     <script type="text/javascript" src="{{ url('js/customize/career_detail.js') }}"></script>
 @endsection

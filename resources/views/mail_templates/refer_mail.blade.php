@@ -222,9 +222,9 @@
 
    <tr>
 
-      <td background="http://insidersuite.com/images/Background.jpg" align="center">
+      <td background="/images/Background.jpg" align="center">
 
-         <img src="http://insidersuite.com/images/Logo-is_3.png" width="370" height="220" style="display: block;" />
+         <img src="/images/Logo-is_3.png" width="370" height="220" style="display: block;" />
 
       </td>
 
@@ -380,7 +380,7 @@
 
                   <a target="_blank" href="https://www.instagram.com/insidersuite/">
 
-                  <img src="http://insidersuite.com/images/Insta.png" width="38" height="38" style="display: block;" border="0" />
+                  <img src="/images/Insta.png" width="38" height="38" style="display: block;" border="0" />
 
                   </a>
 
@@ -392,7 +392,7 @@
 
                   <a target="_blank" href="https://www.facebook.com/insidersuite/?ref=aymt_homepage_panel">
 
-                  <img src="http://insidersuite.com/images/fb.png"  width="38" height="38" style="display: block;" border="0" />
+                  <img src="/images/fb.png"  width="38" height="38" style="display: block;" border="0" />
 
                   </a>
 

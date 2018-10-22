@@ -12,7 +12,6 @@
         "laravel/framework": "5.5.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
-        "mobiledetect/mobiledetectlib": "^2.8",
         "rapidwebltd/php-google-people-api": "^1.0",
         "stripe/stripe-php": "^6.8"
     },

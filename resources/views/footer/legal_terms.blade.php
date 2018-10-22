@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Legal Terms')
 
 @section('head')
 	@parent
@@ -42,6 +42,62 @@
 			}
 			li{
 				padding-left: 10px;
+			}
+			@media (max-width: 768px){
+				#site-content{
+					width:768px;
+				}
+				#footer{
+					height: 0% !important;
+				}
+			}
+			@media (max-width: 600px){
+				#site-content{
+					width:600px;
+				}
+				#footer{
+					height: 0% !important;
+				}
+			}
+			@media (max-width: 480px){
+				#site-content{
+					width:480px;
+				}
+				#footer{
+					height: 0% !important;
+				}
+			}
+			@media (max-width: 411px){
+				#site-content{
+					width:425px;
+				}
+				#footer{
+					height: 0% !important;
+				}
+			}
+			@media (max-width: 384px){
+				#site-content{
+					width:384px;
+				}
+				#footer{
+					height: 0% !important;
+				}
+			}
+			@media (max-width: 375px){
+				#site-content{
+					width:375px;
+				}
+				#footer{
+					height: 0% !important;
+				}
+			}
+			@media (max-width: 320px){
+				#site-content{
+					width:320px;
+				}
+				#footer{
+					height: 0% !important;
+				}
 			}
 
 		</style>

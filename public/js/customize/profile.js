@@ -1,4 +1,22 @@
-$('input[name=confirm_password]').on('keyup',function(){			
+$("#mobile_number").intlTelInput({
+  allowDropdown: true,
+  autoHideDialCode: false,
+  autoPlaceholder: "polite",
+  dropdownContainer: "body",
+  preferredCountries: ['au', 'nz', 'fr', 'gb', 'us'],
+  utilsScript: "/js/utils.js"
+});
+
+$("#phone_number").intlTelInput({
+  allowDropdown: true,
+  autoHideDialCode: false,
+  autoPlaceholder: "polite",
+  dropdownContainer: "body",
+  preferredCountries: ['au', 'nz', 'fr', 'gb', 'us'],
+  utilsScript: "/js/utils.js"
+});
+
+$('input[name=confirm_password]').on('keyup',function(){
   if($(this).val() != $('input[name=password]').val()){
     $('#login_update_button').prop('disabled',true);
     $('#password_check').attr('style','display:block;');
@@ -24,7 +42,7 @@ $('#avatarInput').on('change',function(){
     },
     success: function (e) {
       $(".new_img").attr('src', e);
-      $(".header_logo").attr('src', e);      
+      $(".header_logo").attr('src', e);
       if (old_path != e) {
         $(".old_img").attr('src', e);
       }

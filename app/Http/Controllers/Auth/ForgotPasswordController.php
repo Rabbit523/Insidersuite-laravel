@@ -73,18 +73,27 @@ class ForgotPasswordController extends Controller
 
     public function update_password(Request $request)
     {
-        // dd($request);
         if($request->password == $request->confirm_password){
 
             $user = User::where('forgot_password_token',$request->token)->first();
             if(count($user) > 0){
                 $user->forgot_password_token = null;
-                $user->password = Hash::make($request->password);
-                $user->save();
-                return redirect('/')->with('success','Password Updated');
+                if (strlen($request->password) <= '8') {
+                    return redirect()->back()->with('error','Password must over 8 Characters!');
+                } else if (!preg_match("#[0-9]+#",$request->password)) {
+                    return redirect()->back()->with('error','Password must contain 1 Number!');
+                } else if (!preg_match("#[A-Z]+#",$request->password)) {
+                    return redirect()->back()->with('error','Password must contain 1 Capital Letter!');
+                } else if (!preg_match("#[a-z]+#",$request->password)) {
+                    return redirect()->back()->with('error','Password must contain 1 Lowercase Letter!');
+                } else {
+                    $user->password = Hash::make($request->password);
+                    $user->save();
+                    return redirect('/')->with('success','Password is Updated!');
+                }
             }
         }else{
-            return redirect()->back()->with('error','Password Mismatch');
+            return redirect()->back()->with('error','Password dismatch!');
         }
     }
 }

@@ -1,0 +1,2 @@
+[08-Sep-2018 16:16:56 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home4/insidgd5/public_html/app/Http/Kernel.php on line 7
+[23-Sep-2018 18:24:33 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home4/insidgd5/public_html/app/Http/Kernel.php on line 7

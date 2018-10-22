@@ -20,11 +20,15 @@ $("#ContactFormName").focusout(function () {
     $(".name").removeClass('label-error');
   }
 });
-$("#ContactFormOrderNumber").focusout(function () {  
+$("#ContactFormSubject").focusout(function () {  
   if ($(this).val() != '') {
-    $(".order").addClass('label-error');
-  } else {
-    $(".order").removeClass('label-error');
+    $(this).removeClass('mod-error');
+    $(this).addClass('mod-normal');
+    $(".name").addClass('label-error');
+  } else {    
+    $(this).removeClass('mod-normal');
+    $(this).addClass('mod-error');
+    $(".name").removeClass('label-error');
   }
 });
 $("#ContactFormMessage").focusout(function () {  

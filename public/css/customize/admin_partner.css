@@ -28,10 +28,11 @@
   float: left;
   font-size: 18px;
   line-height: 25px;
+  height: 25px;
 }
 
 .partner-name {
-  width: 14%;
+  width: 18%;
 }
 .contact {
   width: 14%;
@@ -46,11 +47,11 @@
   text-align: center;
 }
 .date {
-  width: 14%;
+  width: 12%;
   text-align: center;
 }
 .last-audit {
-  width: 14%;
+  width: 12%;
   float: right;
   text-align: center;
 }
@@ -67,4 +68,37 @@
   color: #333;
   padding: 20px 30px;
   margin-bottom: 20px;
+}
+
+.partner-name .edit {
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0;
+}
+.partner-name .delete {  
+    opacity: 0;
+}
+.partner-name .edit:hover, .partner-name .edit:focus {
+    color: rgb(255, 51, 102);
+    text-decoration: none;
+    cursor: pointer;
+}
+.partner-name .delete:hover, .partner-name .delete:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.partner-name:hover .edit, .partner-name:focus .edit{
+  opacity: 1;
+}
+
+.partner-name:hover .delete, .partner-name:focus .delete{
+  opacity: 1;
+}
+
+.partner {
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
 }

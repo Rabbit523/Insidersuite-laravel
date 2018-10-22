@@ -1,7 +1,7 @@
 {{-- {{ dd($google_contacts) }} --}}
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Offers')
 @section('head')
 @parent
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -17,71 +17,80 @@
 <div id="site-content">
 	<div class="row content static-banner">
 		<div class="head head--common">
-			<div class="headBg lazyloaded" data-bg="https://images1.bovpg.net/vpi/fr/front/uploaded/showroom-header-pics/borabora_desktop.jpg" style="background-image: url(&quot;https://images1.bovpg.net/vpi/fr/front/uploaded/showroom-header-pics/borabora_desktop.jpg&quot;);"></div>
+			<div class="headBg lazyloaded" style="background-image: url(&quot;https://images1.bovpg.net/vpi/fr/front/uploaded/showroom-header-pics/borabora_desktop.jpg&quot;);"></div>
 			<div class="messages show common">
 				<div><span class="header_title">{{Auth::User()->username}},</span><span class="header_message">Where is your next crush?</span></div>
 			</div>
 		</div>
 	</div>
-	<div class="row content page-container">		
+	<div class="row content page-container">
 		<div class="body-title">
-			<h2>Discov<u>er our fl</u>ash sales</h2>
+			<h3>Discov<u>er new </u>cities</h3>
 		</div>
 		<div class="body">
 			@if($count == 0)
 			<h4>There is nothing!</h4>
 			@endif
-			@foreach($offers as $offer)
-			<div class="body-item" data-bg="{{$offer->img_path}}" style="background-image: url('{{$offer->img_path}}');" id="offer{{$offer->id}}">
-				<div class="description">
-					<div class="description_title">
-						<h2>{{$offer->location_place}}</h2>
-						<p>{{$offer->location_country}}</p>
-					</div>
-					<hr>
-					<div class="description_body">
-						<h1>{{$offer->offer_name}} ****</h1>
-						<div class="sub_body_quote">
-							<span class="quote">“</span>
-						</div>
-						<div class="sub_body_text">
-							<h1>Punchline</span>
+
+			<div class="body-row">
+				<div class="body-item body-type1 offer" style="background-image: url('{{$offers[2]->img_path}}');">
+					<div class="description">
+						<div class="description_title">
+							<h2>{{$offers[2]->location_place}}</h2>
+							<p>{{$offers[2]->location_country}}</p>
 						</div>
 					</div>
-					<div class="description_footer">
-						<a class="offer_detail btn btn-subscribe"><span class="button_text">Up to {{$offer->discount}}% OFF</span></a>
-					</div>
 				</div>
-				<div class="props">
-					<div class="prop_top">
-						<img src="../imgs/white_heart.png" class="offer_heart">							
+				<div class="body-item body-type2" style="background-image: url('{{$offers[1]->img_path}}');">
+					<div class="description">
+						<div class="description_title">
+							<h2>{{$offers[1]->location_place}}</h2>
+							<p>{{$offers[1]->location_country}}</p>
+						</div>
 					</div>
-					<div class="prop_bottom">
-						<img src="../imgs/white_clock.png" class="offer_heart">
-						<span class="time_left">{{$offer->time_duration}} hours left</span>
-					</div>
-				</div>
-				<div class="responsive-props-heart">					
-					<div class="responsive_prop">
-						<img src="../imgs/white_heart.png" class="offer_heart">							
-					</div>
-				</div>
-				<div class="responsive-props">
-					<div class="responsive_prop">
-						<img src="../imgs/white_clock.png" class="offer_heart">
-						<span class="time_left">{{$offer->time_duration}} hours left</span>
-					</div>			
-				</div>					
-				<div class="responsive-description">
-					<div class="responsive-des-text">
-						<h3>{{$offer->location_place}} / {{$offer->location_country}}</h3>
-						<p>{{$offer->offer_name}} **** Punchline</p>
-					</div>
-					<a class="btn btn-detail"><span class="button_text">Up to {{$offer->discount}}% OFF</span></a>
 				</div>
 			</div>
-			@endforeach
-			{{$offers->links()}}
+			<div class="body-row">
+				<div class="body-item body-type2" style="background-image: url('{{$offers[0]->img_path}}');">
+					<div class="description">
+						<div class="description_title">
+							<h2>{{$offers[0]->location_place}}</h2>
+							<p>{{$offers[0]->location_country}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="body-item body-type3" style="background-image: url('{{$offers[3]->img_path}}');">
+					<div class="description">
+						<div class="description_title">
+							<h2>{{$offers[3]->location_place}}</h2>
+							<p>{{$offers[3]->location_country}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="body-row">
+				<div class="body-item body-type2" style="background-image: url('{{$offers[4]->img_path}}');">
+					<div class="description">
+						<div class="description_title">
+							<h2>{{$offers[4]->location_place}}</h2>
+							<p>{{$offers[4]->location_country}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="body-item body-type4">
+					<div class="request">
+						<div class="world-conquest">
+							<h3>World conquest plan</h3>
+							<p class="world-conquest-phrase">
+								So many new places to explore! Let us know which city
+								the NightNight collective should investigate next for
+								cool affordable hotels.
+							</p>
+							<p><a class="btn btn-info" href="mailto:contact@insidersuite.com">Suggest a city</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

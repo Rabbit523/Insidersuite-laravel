@@ -62,7 +62,7 @@ return [
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET'),
         ],
-
+        
         'profile_logo' => [
             'driver' => 'local',
             'root' => public_path('assets/uploads/profile_logo'),
@@ -76,6 +76,41 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
+
+        'message_img' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/message_img'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        'blog_img' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/blog_img'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        'career_img' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/career_img'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        'department_img' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/department_img'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        'newsletter_imgs' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/newsletter_imgs'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ]
     ],
 
 ];

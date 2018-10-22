@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Unforgettable travel experience start with Insider Suite; private sales on a selection of charming 4 and 5-star boutique hotels around the world." />
+<meta name="description" content="Upgrade your experience & plan every second of your trip to get the most out of pleasures and indulgences of holiday at the best rate." />
 
 <meta name="keywords" content="INSIDER SUITE, Insider suite, Insider Suite, insider suite, quality holidays, luxury trips, private sale online, flash sales, short breaks, weekend breaks, cruises, skiing, hotels, insider, suite, luxury, hotels, sales, exclusive, holiday, experience, trip, gateway, boutique, suite, dream, travel , travel, club, hotels, unique experience, destination, discounts, best spot, " />
 {{-- <link rel="stylesheet" type="text/css" href="{{ url('css/bulma.min.css') }}"> --}}
@@ -21,8 +21,9 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 {{-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> --}}
 <script type="text/javascript" src="{{ url('js/jquery-3.3.1.min.js') }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>   
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script src="https://js.stripe.com/v3/"></script>
+<script>var user = @json(auth()->user());</script>
 <style type="text/css">
 	.loader {
 	  border: 2px solid #f3f3f3;

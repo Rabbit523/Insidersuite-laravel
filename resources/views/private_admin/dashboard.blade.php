@@ -25,7 +25,7 @@
 						<div class="form-box">
 							<div class="row">
 								<div class='col-md-12 col-sm-4 col-md-3'>
-									<input type="text" name="datepicker" id="datepicker" class="form-control date-input" placeholder="07/01/18  -  08/23/18">
+									<input type="text" name="datepicker" id="datepicker" class="form-control date-input" placeholder="10/03/2018 - 10/03/2018">
 								</div>
 							</div>
 						</div>
@@ -71,7 +71,7 @@
 										</div>
 										<div class="content">
 											<div class="text">Hotel Booking</div>
-											<div class="number count-to" data-from="0" data-to="1225" data-speed="1000" data-fresh-interval="20"></div>
+											<div class="number count-to">{{$book_count}}</div>
 										</div>
 									</div>
 								</div>

@@ -1,14 +1,4 @@
-.image_engineering{
-  background: url('/../images/Background/hero-engineers-187f1794f73bfdc1e2a5b7b60fcb572d.jpg') no-repeat;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  -moz-background-size: cover !important;
-  background-size: cover !important;
-}
-.image_security{
-  background: url('/../images/Background/hero-dept-general-8eed7c98c466a8e6fb7b0ff28c028885.jpg') no-repeat;
+.image{
   width: 100%;
   height: 100%;
   overflow: hidden;

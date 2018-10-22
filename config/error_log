@@ -1,0 +1,44 @@
+[14-Sep-2018 09:15:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/app.php on line 16
+[14-Sep-2018 09:20:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home4/insidgd5/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/view.php on line 17
+[14-Sep-2018 09:32:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/mail.php on line 19
+[14-Sep-2018 10:01:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/cache.php on line 18
+[14-Sep-2018 10:15:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/queue.php on line 18
+[14-Sep-2018 10:55:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/paypal.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/paypal.php on line 10
+[14-Sep-2018 12:10:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/session.php on line 19
+[14-Sep-2018 12:18:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/database.php on line 16
+[14-Sep-2018 12:29:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/services.php on line 18
+[14-Sep-2018 13:39:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/filesystems.php on line 16
+[14-Sep-2018 13:59:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/insidgd5/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/insidgd5/public_html/config/broadcasting.php on line 18

@@ -1,0 +1,68 @@
+.message-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.header-list {
+  background: rgb(255, 51, 102);
+  padding: 10px 30px;
+  color: #fff;
+}
+.general-wrapper .page-container .page-content .content-box .label-table {
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 25px;
+}
+.general-wrapper .page-container .page-content .content-box .item-list {
+  display: block;
+}
+.general-wrapper .page-container .page-content .content-box .item-list .item{
+  background: #fff;
+  color: #333;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+.id {
+  width: 10%;
+}
+.name {
+  width: 15%;
+  text-align: center;
+}
+.email {
+  width: 25%;
+  text-align: center;
+}
+.status {
+  width: 20%;
+  text-align: center;
+}
+
+.date {
+  width: 20%;
+  text-align: center; 
+}
+
+.view {
+    width: 10%;
+    text-align: center; 
+}
+.check, .check:hover, .check:hover {
+    color: rgb(255, 51, 102);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#content {
+    width: 100%;
+    height: 150px;
+    padding-left: 10px;
+}
+
+.message {
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+}

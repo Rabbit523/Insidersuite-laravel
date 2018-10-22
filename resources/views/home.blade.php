@@ -1,23 +1,23 @@
 @extends('layout')
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite | Design your trip in exclusive selection of outstanding hotels and activities.')
 @section('head')
 @parent
-<link rel="stylesheet" type="text/css" href="{{ url('css/customize/home.css') }}">    
+<link rel="stylesheet" type="text/css" href="{{ url('css/customize/home.css') }}">
 @endsection
 
 @section('content')
 <div id="site-content">
-    <div class="_5m2ieb" style="background-image:url(https://a0.muscache.com/airbnb/static/launch_platform/experience-hosting-v2/Hero@2x-07006422c38a71549cf044822708b680.jpg)">
-        <div><video loop="" muted="" playsinline="" autoplay="" style="object-fit:cover;position:absolute;width:100%;height:100%"><source type="video/mp4" src="https://a0.muscache.com/v/76/07/76078ccb-c33d-4d25-aa9e-4fc4c7886633/bdcbe89cac105172b0faee8a2a064c76_8000k_1.mp4"></video></div>
+    <div class="_5m2ieb" style="background-image:url(../images/Background/InsiderSuite_Home1.jpg)">
+        <!-- <div><video loop="" muted="" playsinline="" autoplay="" style="object-fit:cover;position:absolute;width:100%;height:100%"><source type="video/mp4" src="https://vimeo.com/user88820602/review/286736729/19d514a48b"></video></div> -->
         <div class="_1ai9zui"></div>
         <div class="_314ao4">
             <div style="margin-bottom:24px">
                 <div>
                     <section>
                         <div class="_1hargc54">
-                            <h1 tabindex="-1" class="_tpbrp">Host an experience on Insidersuite</h1>
+                            <h1 tabindex="-1" class="_tpbrp">Pimp your trip</h1>
                         </div>
-                        <div class="_byeukid">Earn money leading people on activities you love.</div>
+                        <div class="_byeukid">Design your trip while enjoying secret offers up to 70% off the best luxury hotels around the world.</div>
                     </section>
                 </div>
             </div>
@@ -25,10 +25,10 @@
                 <div>
                     <div class="_36rlri" style="margin-bottom:8px;margin-right:8px">
                         <button type="button" data-toggle="modal" data-target="#authentication" class="_fcgkkz8" aria-busy="false">
-                            <span class="_cgr7tc7">Get started</span>
+                            <span class="_cgr7tc7">Access the offers</span>
                         </button>
                     </div>
-                    <a href="#how-are-exp-different" class="_1tesales" aria-busy="false"><span class="_cgr7tc7">Learn more</span></a>
+                    <a href="#how-are-exp-different" class="_1tesales" aria-busy="false"><span class="_cgr7tc7">Discover the experience</span></a>
                 </div>
             </div>
         </div>
@@ -39,23 +39,23 @@
             <div class="_ncmdki">
                 <div><a href="/" class="_j1qvyg" aria-busy="false"><div class="_gwggl3"><i class="icon icon-airbnb-alt"></i></div></a></div>
             </div>
-            <div class="_107ja4p">
+            <!-- <div class="_107ja4p">
                 <button type="button" class="_5rte3y6" aria-busy="false"><span class="_cgr7tc7">Get started</span></button>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="text-content">
         <div id="how-are-exp-different">
             <div>
-                <div class="_wgyxic" style="background-image:url(https://a0.muscache.com/airbnb/static/launch_platform/experience-hosting-v2/HowAreExperiencesDifferent@2x-5e3f455d4fdfa02ebb726087eb7deee6.jpg)">
+                <div class="_wgyxic" style="background-image:url(../images/Background/InsiderSuite_ex2.jpg)">
                     <div class="_hjkdye">
                         <section>
                             <div class="_n3xqk0l">
-                                <h1 tabindex="-1" class="_tpbrp">What are Insidersuite Experiences?</h1>
+                                <h1 tabindex="-1" class="_tpbrp">Don't let anyone choice your holiday!</h1>
                             </div>
                             <div style="margin-top:0">
                                 <div class="_1bvsgufu">
-                                    Airbnb Experiences are activities designed and led by inspiring locals. They go beyond typical tours or classes by immersing guests in each host’s unique world. It’s an opportunity for anyone to share their hobbies, skills, or expertise without needing an extra room.
+                                   Insider suite is a digital travel platform that creates tools and resources that upgrade your trip. Being an Insider Suite member, give you access to a selection of hotels and activities verified for quality, price & comfort. With our tool, members can plan every second of their stay to get the most out of pleasures and indulgences of holiday at the best rate.
                                 </div>
                             </div>
                         </section>
@@ -67,8 +67,8 @@
     <div class="text-content _1q61p8r">
         <div class="solid-content">
             <div class="_113qkde">
-                <div class="_n3xqk0l"><h1 tabindex="-1" class="_tpbrp">Share your passion with the world</h1></div>
-                <div class="_1bvsgufu">Introduce guests to the activities and places you’re most passionate about. We’ll help you design your experience step by step, with plenty of resources along the way.</div>
+                <div class="_n3xqk0l"><h1 tabindex="-1" class="_tpbrp">Exclusive rates and free agent fee</h1></div>
+                <div class="_1bvsgufu">Enjoy secret deals up to 70% off the best hotels and activities. By registering, you will access specially negotiated rates that you will not find anywhere else.</div>
             </div>
         </div>
         <div class="_1xyzu4b">
@@ -79,14 +79,13 @@
                             <div class="_ximq7y">
                                 <div class="_zp9vmh">
                                     <div class="_103cimmg" role="button" tabindex="0">
-                                        <div class="media-card-image _8ry8sn _1hdg0i6" style="background:#1a1005 url(https://a0.muscache.com/airbnb/static/launch_platform/experience-hosting-v2/CarouselMediaCard_1_1@2x-67ec5a6f845a88eb9de32e345640431e.jpg) center"></div>
+                                        <div class="media-card-image _8ry8sn _1hdg0i6" style="background:#1a1005 url(../images/Background/ShareYourPassion_Cover.jpg) center"></div>
                                         <div class="_1mwbqe72" style="background:linear-gradient(0deg, #1a1005 0%, rgba(0,0,0,0) 100%)"></div>
-                                        <div class="_fmiriw">                                            
+                                        <div class="_fmiriw">
                                             <div class="_1459jxf">
-                                                <div class="_1rhw8m2q">“Some guests are now writing and sending postcards to penpals around the world, including me!”</div>
+                                                <div class="_1rhw8m2q">“A real pleasure ! I am divided between talking to everyone around me and keeping the plan secret. It's bad ? ”</div>
                                             </div>
-                                            <div class="_1rhw8m2q">Jena</div>
-                                            <div class="_s1d1uad">Hosts Postcard Scavenger Hunt in Oakland</div>
+                                            <div class="_1rhw8m2q">Laura</div>
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +143,7 @@
                             <div class="_ximq7y">
                                 <div class="_zp9vmh">
                                     <div class="_103cimmg" role="button" tabindex="0">
-                                        <div class="media-card-image _8ry8sn _1hdg0i6" style="background:#150d04 url(https://a0.muscache.com/airbnb/static/launch_platform/experience-hosting-v2/CarouselMediaCard_2_2@2x-6f40db0e0ccbe9d3af3f253ef251e05d.jpg) center"></div>
+                                        <div class="media-card-image _8ry8sn _1hdg0i6" style="background:#150d04 url(../images/Background/lover_cover.jpg) center"></div>
                                         <div class="_1mwbqe72" style="background:linear-gradient(0deg, #1a1005 0%, rgba(0,0,0,0) 100%)"></div>
                                         <div class="_fmiriw">
                                             <span class="_1birhh0"><svg viewBox="0 0 1000 1000" role="presentation" aria-hidden="true" focusable="false" style="height:16px;width:16px;display:block;fill:#ffffff"><path d="M971.5 379.5c9 28 2 50-20 67L725.4 618.6l87 280.1c11 39-18 75-54 75-12 0-23-4-33-12l-226.1-172-226.1 172.1c-25 17-59 12-78-12-12-16-15-33-8-51l86-278.1L46.1 446.5c-21-17-28-39-19-67 8-24 29-40 52-40h280.1l87-278.1c7-23 28-39 52-39 25 0 47 17 54 41l87 276.1h280.1c23.2 0 44.2 16 52.2 40z"></path></svg></span>
@@ -153,10 +152,10 @@
                                             <span class="_1birhh0"><svg viewBox="0 0 1000 1000" role="presentation" aria-hidden="true" focusable="false" style="height:16px;width:16px;display:block;fill:#ffffff"><path d="M971.5 379.5c9 28 2 50-20 67L725.4 618.6l87 280.1c11 39-18 75-54 75-12 0-23-4-33-12l-226.1-172-226.1 172.1c-25 17-59 12-78-12-12-16-15-33-8-51l86-278.1L46.1 446.5c-21-17-28-39-19-67 8-24 29-40 52-40h280.1l87-278.1c7-23 28-39 52-39 25 0 47 17 54 41l87 276.1h280.1c23.2 0 44.2 16 52.2 40z"></path></svg></span>
                                             <span class="_1birhh0"><svg viewBox="0 0 1000 1000" role="presentation" aria-hidden="true" focusable="false" style="height:16px;width:16px;display:block;fill:#ffffff"><path d="M971.5 379.5c9 28 2 50-20 67L725.4 618.6l87 280.1c11 39-18 75-54 75-12 0-23-4-33-12l-226.1-172-226.1 172.1c-25 17-59 12-78-12-12-16-15-33-8-51l86-278.1L46.1 446.5c-21-17-28-39-19-67 8-24 29-40 52-40h280.1l87-278.1c7-23 28-39 52-39 25 0 47 17 54 41l87 276.1h280.1c23.2 0 44.2 16 52.2 40z"></path></svg></span>
                                             <div class="_1459jxf">
-                                                <div class="_1rhw8m2q">“This experience is made possible by Tonie’s wealth of expertise in regards to Ireland’s LGBTQ history.”</div>
+                                                <div class="_1rhw8m2q">“An unforgettable moment to celebrate our first year of love! I just want to plan my next trip! The idea was great on paper ... the reality has surpassed everything! Thanks Insider Suite :)”
+                                               </div>
                                             </div>
-                                            <div class="_1rhw8m2q">Darragh</div>
-                                            <div class="_s1d1uad">Guest on An Untold Story in Dublin</div>
+                                            <div class="_1rhw8m2q">Sophie & Martin</div>
                                         </div>
                                     </div>
                                 </div>
@@ -216,19 +215,19 @@
         </div>
         <div class="solid-content added-style">
             <div class="_113qkde">
-                <div class="_n3xqk0l"><h1 tabindex="-1" class="_tpbrp">Meet interesting people</h1></div>
-                <div class="_1bvsgufu">Connect with a community of travelers and locals who share your interests. You might make a few new friends, learn from fellow enthusiasts, or get someone excited about a new hobby.</div>
+                <div class="_n3xqk0l"><h1 tabindex="-1" class="_tpbrp">Unique experience</h1></div>
+                <div class="_1bvsgufu">Enjoy your trip with activities and places you’re most passionate about.  We’ll help you design your experience step by step, with plenty of resources along the way. Your time away will no longer be the same…</div>
             </div>
-        </div>        
+        </div>
     </div>
     <div class="text-content">
         <div class="social-logos">
             <a href="https://www.instagram.com/insidersuite/" target="_blank"><img src="../images/instagram.png" width="20"></a>
             <a href="https://www.linkedin.com/company/insider-suite" target="_blank"><img src="../imgs/share_1.png" width="20"></a>
-            <a href="https://www.facebook.com/insidersuite/" target="_blank"><img src="../images/facebook.png" width="20"></a>            
+            <a href="https://www.facebook.com/insidersuite/" target="_blank"><img src="../images/facebook.png" width="20"></a>
         </div>
         <div class="subscribe">
-            <button class="btn btn-subscribe" data-toggle="modal" data-target="#authentication">Subscribe</button>
+            <button class="btn btn-subscribe" data-toggle="modal" data-target="#authentication">Access offers</button>
         </div>
     </div>
 </div>

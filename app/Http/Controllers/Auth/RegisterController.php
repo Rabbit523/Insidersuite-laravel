@@ -90,13 +90,13 @@ class RegisterController extends Controller
     }
 
     public function registration(Request $request)
-    {  
+    {
         $referal = User::where('referal_code',$request->referal_code)->first();
         if($referal !== NULL ){
             $referal->referal_count = $referal->referal_count++;
             $referal->save();
         }
-        $check = User::where('email', $request->email)->exists();        
+        $check = User::where('email', $request->email)->exists();
         if($check == false){
             $username = $request->firstname." ".$request->lastname;
             $user_name_check = User::where('username',$username)->exists();
@@ -104,28 +104,32 @@ class RegisterController extends Controller
                 $user = new User();
                 $string = str_replace(' ', '', $username);
                 $user->username = $username;
+                $user->first_name = $request->firstname;
+                $user->last_name = $request->lastname;
                 $user->email = $request->email;
                 $user->referal_code = $string.str_random(6);
-                if ($request->password) {
+                if (strlen($request->password) <= '8') {
+                    return response()->json('Password must over 8 Characters!');
+                } else if (!preg_match("#[0-9]+#",$request->password)) {
+                    return response()->json('Password must contain 1 Number!');
+                } else if (!preg_match("#[A-Z]+#",$request->password)) {
+                    return response()->json('Password must contain 1 Capital Letter!');
+                } else if (!preg_match("#[a-z]+#",$request->password)) {
+                    return response()->json('Password must contain 1 Lowercase Letter!');
+                } else {
                     $user->password = Hash::make($request->password);
                 }
                 $user->user_role_idFk = "1";
                 $user->save();
                 Auth::login($user);
-                $this->send_mail('contact@insidersuite.com',$request,'New User Signup','signup');
-                $this->send_mail($request->email,$request,'New User Signup','signup');
-                return redirect('host_experiences');
+                // $this->send_mail('contact@insidersuite.com',$request,'New User Signup','signup');
+                // $this->send_mail($request->email,$request,'New User Signup','signup');
+                return response()->json('success');
             }else{
-                return redirect('/signup')->with('error', 'Username Already Exists')->withInput();
+                return response()->json('Username Already Exists!');
             }
-            $user->user_role_idFk = $request->user_role_idFk;
-            $user->save();
-            $this->send_mail('contact@insidersuite.com',$request,'New User Signup','signup');
-            $this->send_mail($request->email,$request,'New User Signup','signup');
-            Auth::login($user);            
-            return redirect('host_experiences');
         }else{
-            return redirect('/signup')->with('error', 'Email Already Registered')->withInput();
-        }        
+            return response()->json('Email Already Registered!');
+        }
     }
 }

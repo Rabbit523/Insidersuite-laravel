@@ -1,0 +1,4 @@
+[05-Sep-2018 18:50:35 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home4/insidgd5/public_html/app/Models/TravelCompanion.php on line 7
+[23-Sep-2018 18:14:40 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home4/insidgd5/public_html/app/Models/Blog.php on line 7
+[23-Sep-2018 19:06:23 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home4/insidgd5/public_html/app/Models/Book.php on line 7
+[25-Sep-2018 02:22:30 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home4/insidgd5/public_html/app/Models/Feedback.php on line 7

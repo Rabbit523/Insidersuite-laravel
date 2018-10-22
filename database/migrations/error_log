@@ -1,0 +1,5 @@
+[26-Aug-2018 06:14:40 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home4/insidgd5/public_html/database/migrations/2018_06_27_143641_create_bookings_table.php on line 7
+[29-Aug-2018 15:08:47 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home4/insidgd5/public_html/database/migrations/2018_05_18_203515_create_user_roles_table.php on line 7
+[30-Aug-2018 06:00:38 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home4/insidgd5/public_html/database/migrations/2018_05_18_203636_create_users_table.php on line 7
+[05-Sep-2018 15:11:41 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home4/insidgd5/public_html/database/migrations/2018_07_01_150339_create_favourites_table.php on line 7
+[06-Sep-2018 00:03:29 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home4/insidgd5/public_html/database/migrations/2018_06_27_140748_create_hotels_table.php on line 7

@@ -24,7 +24,7 @@ class Blog extends Model
      * @var array
      */
 
-    protected $fillable = ['title', 'like_count'];
+    protected $fillable = ['title', 'like_count', 'author', 'status', 'content', 'banner_img'];
 
     /**
      * The attributes that should be hidden for arrays.

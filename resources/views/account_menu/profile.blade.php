@@ -1,48 +1,51 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Profile')
 @section('head')
 	@parent
+	<link rel="stylesheet" type="text/css" href="{{ url('css/intlTelInput.css') }}">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="{{ url('css/customize/profile.css') }}">
 @endsection
 @section('content')
 
 <div id="site-content">
 	<div class="container">
-		<div class="row">			
+		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<h3 class="page-main-title">Profile</h3><br>
 				<div class="passenger-form">
 					<form id="profile_details_form" method="post" action="{{ url('update_profile') }}">
 						{{ csrf_field() }}
-						<div class="profile-section">							
+						<div class="profile-section">
 							<div class="row">
 								<h4>Information</h4><br>
 								<div class="col-md-12">
-									<div class="AvatarEditor__Container-au91t-0 jZdnvR" style="margin-bottom: 40px;">
-										<div class="AvatarEditor__Avatar-au91t-1 elakDd">								
+									<div class="jZdnvR" style="margin-bottom: 40px;">
+										<div class="elakDd">
 											@if(auth()->user()->profile_img != null)
-											<img class="AvatarEditor__AvatarImg-au91t-2 bbGlpa old_img" alt="Avatar" width="90" height="90" src="{{auth()->user()->profile_img}}">
+											<img class="bbGlpa old_img" alt="Avatar" width="90" height="90" src="{{auth()->user()->profile_img}}">
 											@else
-											<img class="AvatarEditor__AvatarImg-au91t-2 bbGlpa new_img" alt="Avatar" width="90" height="90" src="//res.cloudinary.com/staycation/image/upload/q_auto,fl_lossy,f_auto/c_scale,dpr_2/c_fill,g_face,w_90,h_90/v1497970672/common/static/default-avatar">
+											<img class="bbGlpa new_img" alt="Avatar" width="90" height="90" src="//res.cloudinary.com/staycation/image/upload/q_auto,fl_lossy,f_auto/c_scale,dpr_2/c_fill,g_face,w_90,h_90/v1497970672/common/static/default-avatar">
 											@endif
 											<label for="avatarInput">
-												<div class="AvatarEditor__CameraContainer-au91t-3 jlUgds">
+												<div class="jlUgds">
 													<svg viewBox="0 0 24 24" width="16" height="16"><g fill="currentColor" fill-rule="nonzero"><path d="M8.401 2.75L6.624 5.416A.75.75 0 0 1 6 5.75H3c-.69 0-1.25.56-1.25 1.25v13c0 .69.56 1.25 1.25 1.25h18c.69 0 1.25-.56 1.25-1.25V7c0-.69-.56-1.25-1.25-1.25h-3a.75.75 0 0 1-.624-.334L15.599 2.75H8.4zm10 1.5H21A2.75 2.75 0 0 1 23.75 7v13A2.75 2.75 0 0 1 21 22.75H3A2.75 2.75 0 0 1 .25 20V7A2.75 2.75 0 0 1 3 4.25h2.599l1.777-2.666A.75.75 0 0 1 8 1.25h8a.75.75 0 0 1 .624.334l1.777 2.666z"></path><path d="M12 18.75a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 0 1 0 10.5zm0-1.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5zM18.125 8.99a.875.875 0 1 1 1.75 0V9a.875.875 0 1 1-1.75 0v-.01z"></path></g></svg>
 												</div>
 											</label>
 										</div>
-										<div class="AvatarEditor__Action-au91t-4 gRyTDd">
+										<div class="gRyTDd">
 											<label for="avatarInput">
-												<div role="button" class="AvatarEditor__ActionButton-au91t-5 kGsBD add_phto">Add a photo</div>
-											</label>										
-											<input class="AvatarEditor__InvisibleInput-au91t-6 bJGPFf" id="avatarInput" type="file" accept="image/*">
+												<div role="button" class="kGsBD add_phto">Add a photo</div>
+											</label>
+											<input class="bJGPFf" id="avatarInput" type="file" accept="image/*">
 										</div>
 									</div>
-								</div>							
-							</div>						
+								</div>
+							</div>
 							<div class="row">
-								<div class="col-md-12">									
+								<div class="col-md-12">
 									<label>Title</label>
 									<br>
 									<radiogroup>
@@ -565,11 +568,11 @@
 							<div class="row">
 								<div class="col-md-5 col-sm-6 col-xs-6">
 									<label>Phone Number</label>
-									<input type="number" name="phone_number" placeholder="Enter" class="form-control" value="{{ Auth::User()->phone_number }}">
+									<input type="tel" id="phone_number" name="phone_number" class="form-control" value="{{ Auth::User()->phone_number }}">
 								</div>
 								<div class="col-md-5 col-sm-6 col-xs-6">
 									<label>Mobile</label>
-									<input type="number" name="mobile_number" class="form-control" placeholder="Enter" value="{{ Auth::User()->mobile_number }}">
+									<input type="tel" id="mobile_number" name="mobile_number" class="form-control" value="{{ Auth::User()->mobile_number }}">
 								</div>
 							</div>
 							<div class="row">
@@ -578,8 +581,8 @@
 								</div>
 							</div>
 						</div>
-					</form>									
-					<form id="login_details_form" method="post" action="{{ url('login_update') }}">					
+					</form>
+					<form id="login_details_form" method="post" action="{{ url('login_update') }}">
 						{{ csrf_field() }}
 						<div class="profile-section">
 							<h4>Login Details</h4>
@@ -589,7 +592,7 @@
 									<label>Email</label>
 									<input type="email" name="email" class="form-control" required placeholder="Enter" value="{{ Auth::User()->email }}" required="">
 								</div>
-								<div class="col-md-5 col-sm-6 col-xs-12">									
+								<div class="col-md-5 col-sm-6 col-xs-12">
 								</div>
 							</div>
 							<br>
@@ -611,7 +614,7 @@
 							</div>
 						</div>
 					</form>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</div>
@@ -620,5 +623,8 @@
 
 @section('foot')
 	@parent
+	<script type="text/javascript" src="{{ url('js/utils.js') }}"></script>
+	<script type="text/javascript" src="{{ url('js/data.js') }}"></script>
+	<script type="text/javascript" src="{{ url('js/intlTelInput.js') }}"></script>
 	<script type="text/javascript" src="{{ url('js/customize/profile.js') }}"></script>
 @endsection

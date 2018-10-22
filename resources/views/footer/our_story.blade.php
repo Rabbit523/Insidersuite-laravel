@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite | Our story')
 @section('content')
 
 @section('head')
@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<img class="normal-section" src="../imgs/PTxcSaq.jpg" alt="">
+				<img class="normal-section" src="../imgs/OurStory_1.jpg" alt="">
 			</div>
 			<div class="col-md-6">
 				<div class="normal-section">
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img class="normal-section" src="../imgs/beach.jpg" alt="">
+				<img class="normal-section" src="../imgs/OurStory_2.jpg" alt="">
 			</div>
 		</div>
 		<div class="section_sub">

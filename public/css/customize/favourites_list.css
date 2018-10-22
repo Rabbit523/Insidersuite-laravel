@@ -1,0 +1,33 @@
+.header-content {
+    margin-top: 64px;
+    padding-top: 50px;
+}
+._ky1ga6g {
+    cursor: pointer !important;
+    display: inline-block !important;
+    position: relative !important;
+    text-align: center !important;
+    transition-property: background, border-color, color !important;
+    transition-duration: 0.2s !important;
+    transition-timing-function: ease-out !important;
+    width: auto !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    font-weight: 800 !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    min-width: 77.6656px !important;
+    box-shadow: none !important;
+    color: rgb(255, 51, 102) !important;
+    margin: 0px !important;
+    text-decoration: none !important;
+    border-radius: 4px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    background: transparent !important;
+    border-color: rgb(255, 51, 102) !important;
+    float: right;
+}

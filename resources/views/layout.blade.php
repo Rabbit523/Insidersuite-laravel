@@ -18,14 +18,14 @@
 	@yield('content')
 	@include('includes.footer')
 	<div id="website_feedback" class="modal fade" role="dialog">
-	  <div class="modal-dialog modal-feedback">	
+	  <div class="modal-dialog modal-feedback">
 			<div class="modal-content">
 				<div class="modal-header header-feedback">
 					<a class="feedback-close" data-dismiss="modal">&times;</a>
 					<h2 class="modal-title">Share your feedback or<br> ideas with us!</h2>
 					<br>
 				</div>
-				<div class="modal-body feedback-body">							
+				<div class="modal-body feedback-body">
 					<p>Rate your overall experience.</p>
 					<div class="rating" name="rating"></div>
 				</div>
@@ -37,7 +37,7 @@
 	</div>
 	<div id="authentication" class="modal fade" role="dialog">
 	  <div class="modal-dialog modal-authentication">
-			<div class="modal-content">
+			<div class="modal-content" style="border-radius: 0px;">
 				<div class="modal-header authentication-header">
 					<div class="authentication-close">
 						<a data-dismiss="modal">&times;</a>
@@ -50,35 +50,34 @@
 					</div>
 				</div>
 				<div class="modal-body authentication-body">
-					<div class="authentication-tabs">								
+					<div class="alert alert-danger alert-block">
+						<strong class="message"></strong>
+					</div>
+					<div class="authentication-tabs">
 						<a id="signup-tab">Sign up</a>
-						<a id="login-tab" class="active">Become Member</a>								
+						<a id="login-tab" class="active">Become Member</a>
 					</div>
 					<div class="signup-form">
-						<form action="{{ url('registration') }}" method="post" id="signup_form">
-							{{ csrf_field() }}
-							<input type="text" name="referal_code" value="@if(isset($_GET['referal_code'])) @endif" hidden="">
-							<input type="email" id="register_email" name="email" placeholder="Email address" required>
-							<input type="text" id="register_firstname" name="firstname" placeholder="First name" required>
-							<input type="text" id="register_lastname" name="lastname" placeholder="Last name" required>
-							<input type="password" id="register_password" name="password" placeholder="Create your password" required>
-							<input type="submit" class="btn become_member" value="Become member">
-						</form>
+						<div id="signup_form">
+							<input type="text" class="referal_code" value="@if(isset($_GET['referal_code'])) @endif" hidden="">
+							<input type="email" id="register_email" placeholder="Email address" required>
+							<input type="text" id="register_firstname" placeholder="First name" required>
+							<input type="text" id="register_lastname" placeholder="Last name" required>
+							<input type="password" id="register_password" placeholder="Create your password" required>
+							<input type="button" class="btn become_member" value="Become member">
+						</div>
 					</div>
 					<div class="login-form">
-						<form action="{{ url('authenticateUser') }}" method="post">
-							{{ csrf_field() }}
-							<input type="text" name="referal_code" value="@if(isset($_GET['referal_code'])) @endif" hidden="">
-							<input type="email" id="login_email" name="email" placeholder="Email" required>									
-							<input type="password" id="login_password" name="password" placeholder="Password" required>
-							<input type="submit" class="btn login" value="Login">
-						</form>
+						<input type="text" class="referal_code" value="@if(isset($_GET['referal_code'])) @endif" hidden="">
+						<input type="email" id="login_email" placeholder="Email" required>
+						<input type="password" id="login_password" placeholder="Password" required>
+						<input type="button" class="btn login" value="Login">
 						<div class="help-text">
 							<p><a id="forgot" data-dismiss="modal" data-toggle="modal" data-target="#forget_password">Forget your password?</a></p>
 						</div>
 					</div>
 				</div>
-				<div class="modal-footer authentication-footer">							
+				<div class="modal-footer authentication-footer">
 					<div class="or-separator">
 						<span class="or-separator--text">OR</span>
 					</div>
@@ -87,46 +86,6 @@
 				</div>
 			</div>
 	  </div>
-	</div>	
-	<div class="modal fade" id="notify_me_popup" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-		<div class="modal-dialog" style="max-width: 500px;">
-			<div id="cspio-page">
-				<div class="dialog-inner">
-					<div id="clock" class="active">
-						<div class="clock-container">
-							<div id="time-container-wrap">
-								<div id="time-container">
-									<div class="numbers-container"></div>
-									<span id="ticker" class="clock-label">TICKER</span>
-									<span id="timelable" class="clock-label">TIME LEFT</span>
-									<span id="timeleft" class="clock-label">COUNTDOWN</span>
-									<figure id="canvas"></figure>
-								</div>
-							</div>
-						</div>
-					</div>							
-					<h4>You like taking the lead of line?</h4>							
-					<p>Being the first to know always feels great... Signing up to our newsletter gives you <strong>exclusive access to our Sales Opening!</strong></p>					
-					<div id="subscribe">
-										<form action="{{url('notify_site_details')}}" id="notifyMe" method="POST">
-							{{ csrf_field() }}
-												<div class="form-group">
-														<div class="controls">		                        	
-															<input id="mail-sub" name="email" placeholder="Click here to write your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField" type="email" required>		                        	
-																<input class="btn btn-lg submit" type="submit" value="Get notified">
-																<div class="clear"></div>
-														</div>
-												</div>
-										</form>						
-						<div class="block-message">
-							<div class="message">
-								<p class="notify-valid"></p>
-							</div>
-						</div>
-							</div>        			
-				</div>
-			</div>
-		</div>
 	</div>
 	<div id="forget_password" class="modal fade" role="dialog">
 		<div class="modal-dialog modal-authentication">
@@ -146,11 +105,11 @@
 						</div>
 					</div>
 					<div class="modal-body forgot-body">
-						<input type="email" id="forgot_email" name="email" placeholder="Email" required>						
+						<input type="email" id="forgot_email" name="email" placeholder="Email" required>
 					</div>
 					<div class="modal-footer forgot-footer">
 						<input type="submit" class="btn btn-default login forgot_send" value="Send">
-						<a data-dismiss="modal" data-toggle="modal" data-target="#authentication"><i class="fas fa-chevron-left forgot-icon"></i><span class="back_to_login">Back to Login<span></a> 
+						<a data-dismiss="modal" data-toggle="modal" data-target="#authentication"><i class="fas fa-chevron-left forgot-icon"></i><span class="back_to_login">Back to Login<span></a>
 					</div>
 				</div>
 			</form>
@@ -159,7 +118,7 @@
 	<div id="message_panel">
 		<div class="message_pane">
 			<form method="post" action="{{ url('live_message') }}">
-				{{ csrf_field() }}            
+				{{ csrf_field() }}
 				<div class="message-content">
 					<div class="message-header">
 						<div class="message-title">
@@ -186,7 +145,7 @@
 							<label for="">Attachments</label>
 							<a id="attach_file"><img src="{{ url('imgs/attach.png') }}"><span>Add file or drop here</span></a>
 							<input class="input_file" id="file_upload" type="file" accept="image/*">
-							<input class="input_file" id="attached_file" type="text" name="attached_file">
+							<input class="input_file" id="attached_file" type="hidden" name="attached_file">
 						</div>
 					</div>
 					<div class="message-footer">
@@ -203,13 +162,6 @@
 @show
 <!-- Modernizr -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<!-- <script src="{{ url('clock_animation/clock/js/svg.min.js') }}" type="text/javascript"></script>
-<script src="{{ url('clock_animation/clock/js/svg.easing.min.js') }}" type="text/javascript"></script>
-<script src="{{ url('clock_animation/clock/js/svg.clock.min.js') }}" type="text/javascript"></script>
-<script src="{{ url('clock_animation/js/vendor/ThreeWebGL.js') }}" type="text/javascript"></script>
-<script src="{{ url('clock_animation/js/vendor/ThreeExtras.js') }}" type="text/javascript"></script>
-<script src="{{ url('clock_animation/clock/js/jquery.timers.min.js') }}" type="text/javascript"></script>
-<script src="{{ url('clock_animation/clock/js/clock.js') }}" type="text/javascript"></script> -->
 <script type="text/javascript" src="{{ url('js/jquery.star-rating-svg.js') }}"></script>
 <script type="text/javascript" src="{{ url('js/modal-loading.js') }}"></script>
 <script type="text/javascript" src="{{ url('js/customize/layout.js') }}"></script>

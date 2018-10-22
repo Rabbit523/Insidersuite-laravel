@@ -2,6 +2,21 @@
   height: 400px !important;
   position: relative;
 }
+.transparent_navbar, #site-content{
+  width:80%;
+  margin-left:10%;
+}
+#site-footer{
+  position: relative;
+}
+#footer{
+  height: 0% !important;
+}
+.footer-content{
+  /* margin-left: 48px;
+  margin-right: 50px; */
+  position: relative !important;
+}
 .head {
   overflow: hidden;
   text-align: center;
@@ -308,7 +323,8 @@
 }
 .page-body {
   margin-top: 80px;
-  margin-left: 85px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .page-body .col-md-8 {
   padding:0;
@@ -1042,7 +1058,11 @@
 .box-section .head {
   margin-top: 0px;
 }
-
+@media (max-width: 992px) {
+  .page-body{
+    margin-left:0px;
+  }
+}
 @media (max-width: 800px) {
   .best_bits .section_list div:nth-child(2) {
     width: 83%;

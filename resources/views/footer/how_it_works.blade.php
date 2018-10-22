@@ -4,15 +4,15 @@
 <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);</style>
 <link rel="stylesheet" type="text/css" href="{{ url('css/customize/about.css') }}">
 @endsection
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  How it works')
 
 @section('content')
 <div id="site-content">
-	<div class="row">
-		<div class="col-md-12">
-			<img class="our-story-banner" src="{{ url('images/Background/background1.jpg') }}">
-		</div>
-	</div>
+	<!-- <div class="row"> 
+		<div class="col-md-12" style="height:650px;"> -->
+			<img class="our-story-banner1" src="{{ url('images/Background/How_it_works.jpg') }}">
+		<!-- </div>
+	</div> -->
 	<div class="container">
 		<div id="shopify-section-1532006133324" class="shopify-section">
 			<div class="hm-splash-page--benefits" id="jointhetribe">
@@ -29,7 +29,7 @@
 						<p>Get exclusive pre-access to our latest fashion drops.</p>
 					</div>		
 					<div class="hm-splash-page--benefit-item">				
-						<img src="../images/benefit-1_230x5d5f.png" alt="" style="height: 197px;margin-bottom: 31px;">				
+						<img src="../images/benefit-3.png" alt="" style="height: 197px;margin-bottom: 31px;">				
 						<h4>Have your say</h4>				
 						<p id="text-hide">Help us shape the future<br>of Nyden by voting for<br>designs and suggesting<br>сollaborations.</p>
 						<p id="text-show">Help us shape the future of Nyden by voting for designs and suggesting сollaborations.</p>

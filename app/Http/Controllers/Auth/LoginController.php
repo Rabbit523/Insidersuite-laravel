@@ -38,40 +38,36 @@ class LoginController extends Controller
      * @return void
      */
     protected $mailer;
-    public function __construct(Mailer $mailer){
+    public function __construct(Mailer $mailer) {
         $this->mailer = $mailer;
         $this->middleware('guest')->except('logout');
     }
-    private function send_mail($email, $details, $subject,$template)
-    {
-        // email
+
+    private function send_mail($email, $details, $subject,$template) {
         $view = 'mail_templates.'.$template;
         $subject = $subject;
         $data['data'] = $details;
         $this->mailer->sendTo($email, $subject, $view, $data);
     }
 
-    public function authenticateUser(Request $request)
-    {           
+    public function authenticateUser(Request $request) {           
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password], $request->remember)){
             if (Auth::User()->role == 0) {
-                return redirect('dashboard');
+                return response()->json('dashboard');
             } else if (Auth::User()->role == 1) {
-                return redirect('offers');
+                return response()->json('offers');
             }            
-        } else{            
-            return redirect()->back()->with('error', 'Invalid Email or Password')->withInput();
+        } else{
+            return response()->json('Invalid Email or Password!');
         }
     }
 
-    public function logout()
-    {
+    public function logout() {
         Auth::logout();
         return redirect('/')->with('success','You have been logged out');
     }
 
-    public function facebook_login_redirect(Request $request)
-    {
+    public function facebook_login_redirect(Request $request) {
         $referal_code = "";
         if (isset($request->referal_code)) {
             $referal_code = $referal_code;
@@ -80,8 +76,7 @@ class LoginController extends Controller
         return Socialite::driver('facebook')->redirect();
     }
 
-    public function facebook_login_callback()
-    {
+    public function facebook_login_callback() {
         $user = Socialite::driver('facebook')->user();
         $check = User::where('email', $user->email)->first();
         
@@ -119,8 +114,7 @@ class LoginController extends Controller
         }
     }
 
-    public function google_login_redirect(Request $request)
-    {
+    public function google_login_redirect(Request $request) {
         $referal_code = "";
         if (isset($request->referal_code)) {
             $referal_code = $referal_code;
@@ -129,8 +123,7 @@ class LoginController extends Controller
         return Socialite::driver('google')->redirect();
     }
 
-    public function google_login_callback()
-    {
+    public function google_login_callback() {
         $user = Socialite::driver('google')->stateless()->user();
         $check = User::where('email', $user->email)->first();
         if (count($check) > 0) {

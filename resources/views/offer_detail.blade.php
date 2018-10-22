@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Offer Detail')
 @section('head')
 @parent
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -19,22 +19,22 @@
     <div class="slider" id="slider">
 		  <div class="slItems">
 		    @if ($id == "1")
-        <div class="slItem headBg lazyloaded" data-bg="../imgs/background3.jpg" style="background-image: url('../imgs/background3.jpg');"></div>
+        <div class="slItem headBg lazyloaded" style="background-image: url('../imgs/background3.jpg');"></div>
         @elseif ($id == "2")
-        <div class="slItem headBg lazyloaded" data-bg="../images/temp/5b5ae0b5167d7o.jpg" style="background-image: url('../images/temp/5b5ae0b5167d7o.jpg');"></div>
+        <div class="slItem headBg lazyloaded" style="background-image: url('../images/temp/5b5ae0b5167d7o.jpg');"></div>
         @elseif ($id == "3")
-        <div class="slItem headBg lazyloaded" data-bg="../images/temp/5b56e2fd5914do.jpg" style="background-image: url('../images/temp/5b56e2fd5914do.jpg');"></div>       
+        <div class="slItem headBg lazyloaded" style="background-image: url('../images/temp/5b56e2fd5914do.jpg');"></div>
         @endif
-        <div class="slItem headBg lazyloaded" data-bg="https://images1.bovpg.net/vpi/fr/front/uploaded/showroom-header-pics/borabora_desktop.jpg" style="background-image: url(&quot;https://images1.bovpg.net/vpi/fr/front/uploaded/showroom-header-pics/borabora_desktop.jpg&quot;);"></div>
-		  </div>			
-    </div>    
-		<div class="head head--common">      
+        <div class="slItem headBg lazyloaded" style="background-image: url(&quot;https://images1.bovpg.net/vpi/fr/front/uploaded/showroom-header-pics/borabora_desktop.jpg&quot;);"></div>
+		  </div>
+    </div>
+		<div class="head head--common">
       <div class="header-info">
         <div class="quote">
           <span class="quote_icon">“</span>
-          <span class="pool">The pool</span>           
+          <span class="pool">The pool</span>
         </div>
-        <a class="btn btn-subscribe"><span class="button_text">Up to {{$offer->discount}}% OFF</span></a>
+        <a class="btn btn-subscribe"><span class="button_text">Up to 70% OFF</span></a>
       </div>
     </div>
     <div id="map"></div>
@@ -44,8 +44,8 @@
       <div class="col-md-10 col-xs-10 col-lg-10 info1">
         <div class="col-md-10 col-xs-10 col-lg-10 place_info">
           <img src="../imgs/black_heart.png" class="offer_heart">
-          <h3 class="country">{{$offer->location_place}} {{$offer->location_country}}</h3><br>
-          <h3 class="place">{{$offer->offer_name}} ****</h3>
+          <h3 class="country">BALI Indonesia</h3><br>
+          <h3 class="place">Grand hotel Hyatt ****</h3>
         </div>
         <div class="col-md-2 col-xs-2 col-lg-2 map_info">
           <a class="map_link"><i class="far fa-map"></i><span>Map</span></a>
@@ -53,10 +53,10 @@
       </div>
       <div class="col-md-2 col-xs-2 col-xs-2 info2">
         <img src="../imgs/black_clock.png" class="offer_heart">
-        <h4>{{$offer->time_duration}} days left</h4>
+        <h4>11 days left</h4>
       </div>
     </div>
-    <div class="col-md-12 col-xs-12 col-lg-12 page-body">
+    <div class="col-md-8 col-xs-12 col-lg-10 page-body">
       <div class="col-md-8 col-xs-8 col-lg-8">
         <div class="tabs">
           <div class="col-md-12 col-xs-12 col-lg-12">
@@ -84,7 +84,7 @@
                 <i class="fas fa-caret-down bottom-arrow gray big"></i>
               </a>
             </div>
-          </div>            
+          </div>
           <div class="col-md-12 col-xs-12 col-lg-12"></div>
         </div>
         <div class="col-md-12 col-xs-12 col-lg-12 best_bits">
@@ -101,7 +101,7 @@
           </div>
           <div class="section1_body">
             <h3>WE LIKE</h3>
-            <div class="section_list">                
+            <div class="section_list">
               <div><i class="fas fa-glass-martini"></i></div>
               <div>Starting off right: that is. with a glass of wine in hand and a fresh platter of fruit, courtesy of Insidersite.</div>
             </div>
@@ -143,7 +143,7 @@
         <div class="col-md-12 col-xs-12 col-lg-12 details">
           <div class="section1_body">
             <h3>SERVICES</h3>
-            <div class="section_list">                
+            <div class="section_list">
               <div><i class="fas fa-glass-martini"></i></div>
               <div>24-hour reception</div>
             </div>
@@ -159,7 +159,7 @@
               <div><i class="fas fa-beer"></i></div>
               <div>Makris Mediterranean Restaurant Restaurant - local Venetian and Greek cuisine.</div>
             </div>
-            <div class="section_list">                
+            <div class="section_list">
               <div><i class="fas fa-glass-martini"></i><span>3 bars:</span></div>
               <div class="sub_div">
                 <p>-Blue Bar - Custom-made cocktails - open 10am-midnight</p>
@@ -171,7 +171,7 @@
               <div><i class="fas fa-hot-tub"></i><span>Spa:</span></div>
               <div class="sub_div">
                 <p>Free access: sauna and hot tub</p>
-                <p>For a surcharge: beauty centre and massages</p>                  
+                <p>For a surcharge: beauty centre and massages</p>
               </div>
             </div>
             <div class="section_list">
@@ -210,7 +210,7 @@
                 <li>
                   <p>Menus adapted for special dietary requirements are available on request and with confirmation from the hotel</p>
                 </li>
-              </ul>                
+              </ul>
             </div>
           </div>
         </div>
@@ -352,7 +352,7 @@
               <h4>UP TO</h4>
               <h2>42%</h2>
               <p><del>£442</del></p>
-            </div>              
+            </div>
           </div>
           <div class="offer_detail_block">
             <div class="blank"></div>
@@ -363,10 +363,10 @@
                 <li class="offer-block-list-item">Complimentary Upgrade to Splash Room
                 </li><li class="offer-block-list-item">Half Board
                 </li><li class="offer-block-list-item">25% discount on F&amp;B (except in-room dining and Refuel Grab &amp; Go)
-                </li><li class="offer-block-list-item">Kids under 12 eat for free until September 30th 
+                </li><li class="offer-block-list-item">Kids under 12 eat for free until September 30th
                 </li><li class="offer-block-list-item">Kids below 5 years old eat and sleep for free on same parents’s meal plan
                 </li><li class="offer-block-list-item">Ticket for Le Louvre Abu Dhabi (1 per person per stay)
-                </li><li class="offer-block-list-item">Taxes 
+                </li><li class="offer-block-list-item">Taxes
                 </li><li class="offer-block-list-item">Economy, Premium or Business Class flights on sectors they operate</li>
               </ul>
               <div class="last-places ">Last few places</div>
@@ -375,14 +375,14 @@
               <div class="box-section">
                 <div class="head">
                   <div class="heading-bar">
-                    <div class="etape-option"> 
+                    <div class="etape-option">
                       <div class="etape"><i class="fas fa-chevron-right"></i></div>
                       <div class="etape-text">
                         <h5 class="heading-bar-head">Transport</h5>
                         <p>Without transport</p>
                       </div>
                     </div>
-                    <div class="etape-option"> 
+                    <div class="etape-option">
                       <div class="etape" id="duration"><i class="fas fa-chevron-right fa-right"></i><i class="fas fa-chevron-down fa-down"></i></div>
                       <div class="etape-text">
                         <h5 class="heading-bar-head">Duration and departure date</h5>
@@ -392,10 +392,10 @@
                     <hr>
                   </div>
                   <div class="active-heading-bar">
-                    <div class="etape-option"> 
+                    <div class="etape-option">
                         <div class="etape"><i class="fas fa-chevron-down"></i></div>
                         <div class="etape-text">
-                          <h5 class="heading-bar-head">participants</h5>                            
+                          <h5 class="heading-bar-head">participants</h5>
                         </div>
                       </div>
                     </div>
@@ -413,7 +413,7 @@
                               <span id="participants_adult">1 Adult </span>
                               <span id="participants_child"></span>
                               <span id="participants_baby"></span>
-                            </div>                           
+                            </div>
                             <span class="dBZAHA" id="down_caret" style="margin-right: 0px; margin-top: 2px;"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M5.726 8.83A.5.5 0 0 1 6.102 8h11.796a.5.5 0 0 1 .376.83l-5.898 6.74a.5.5 0 0 1-.752 0L5.726 8.83z" fill="currentColor" fill-rule="evenodd"></path></svg></span>
                             <span class="dBZAHA" id="up_caret" style="margin-right: 0px; margin-top: 2px;"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M5.726 15.17l5.898-6.74a.5.5 0 0 1 .752 0l5.898 6.74a.5.5 0 0 1-.376.83H6.102a.5.5 0 0 1-.376-.83z" fill="currentColor" fill-rule="evenodd"></path></svg></span>
                           </button>
@@ -449,7 +449,7 @@
                             <div class="dGfYUy">
                               <div class="sui-radio sui-radio-lg eYfoUq">
                                 <div class="sui-inner-switch kqsmbV">
-                                  <input type="radio" name="availability" value="2018-08-12" checked="checked">                                  
+                                  <input type="radio" name="availability" value="2018-08-12" checked="checked">
                                 </div>
                               </div>
                             </div>
@@ -469,7 +469,7 @@
                             <div class="dGfYUy">
                               <div class="sui-radio sui-radio-lg eYfoUq">
                                 <div class="sui-inner-switch kqsmbV">
-                                  <input type="radio" name="availability" value="2018-08-12">                                  
+                                  <input type="radio" name="availability" value="2018-08-12">
                                 </div>
                               </div>
                             </div>
@@ -479,7 +479,7 @@
                                 <span class="gTJpzd">230€</span>
                                 <del class="gNVZZi">230€</del>
                                 <span class="dHEojY">-43%</span>
-                              </div>                              
+                              </div>
                             </div>
                           </div>
                         </label>
@@ -488,7 +488,7 @@
                             <div class="dGfYUy">
                               <div class="sui-radio sui-radio-lg eYfoUq">
                                 <div class="sui-inner-switch kqsmbV">
-                                  <input type="radio" name="availability" value="2018-08-12">                                  
+                                  <input type="radio" name="availability" value="2018-08-12">
                                 </div>
                               </div>
                             </div>
@@ -508,7 +508,7 @@
                         <a class="btn btn-participants"><span>Continue</span></a>
                       </div>
                     </div>
-                  </form> 
+                  </form>
                 </div>
               </div>
               <div class="box-call">
@@ -536,22 +536,22 @@
 @section ('scripts')
 <script type="text/javascript" src="{{ url('js/customize/offer_detail.js') }}"></script>
 <script>
-function initMap() {
-  var uluru = {lat: -33.865143, lng: 151.209900};
-  var mapOptions = {
-      zoom: 14,
-      center: new google.maps.LatLng(uluru.lat,uluru.lng),
-      styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#378b90"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text.fill","stylers":[{"color":"#31b9c1"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#31b9c1"}]},{"featureType":"water","elementType":"geometry.stroke","stylers":[{"color":"#31b9c1"}]}]
-  };
-  var mapElement = document.getElementById('map');
-  var map = new google.maps.Map(mapElement, mapOptions);
+  function initMap() {
+    var uluru = {lat: -33.865143, lng: 151.209900};
+    var mapOptions = {
+        zoom: 14,
+        center: new google.maps.LatLng(uluru.lat,uluru.lng),
+        styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#378b90"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text.fill","stylers":[{"color":"#31b9c1"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#31b9c1"}]},{"featureType":"water","elementType":"geometry.stroke","stylers":[{"color":"#31b9c1"}]}]
+    };
+    var mapElement = document.getElementById('map');
+    var map = new google.maps.Map(mapElement, mapOptions);
 
-  var marker = new google.maps.Marker({
-      position: uluru,
-      map: map,
-      title: 'Snazzy!'
-  });
-}
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+        title: 'Snazzy!'
+    });
+  }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPzXAXjAyEIcluDJSMgRRBffUCrbNq1Bc&callback=initMap">
 </script>
@@ -563,4 +563,4 @@ function initMap() {
     'arrows': true
 	});
 </script>
-@endsection 
+@endsection

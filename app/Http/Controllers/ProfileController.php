@@ -11,7 +11,6 @@ class ProfileController extends Controller
 	public function update_profile(Request $request)
 	{
 		$user = User::findOrFail(Auth::User()->user_id);
-		// dd($request);
 		$user->title			= $request->title;
 		$user->first_name		= $request->first_name;
 		$user->last_name		= $request->last_name;
@@ -24,9 +23,9 @@ class ProfileController extends Controller
 		$user->city				= $request->city;
 		$user->country			= $request->country;
 		$user->phone_number		= $request->phone_number;
-		$user->mobile_number	= $request->mobile_number;	
+		$user->mobile_number	= $request->mobile_number;
 		$user->save();
-		return 'true';
+		return redirect('profile');
 	}
 
 	public function login_update(Request $request)
@@ -49,6 +48,6 @@ class ProfileController extends Controller
 			return response()->json($path);
 		} else {
 				return ["error" => "No image attached"];
-		}	
+		}
 	}
 }

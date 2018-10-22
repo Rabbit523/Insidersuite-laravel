@@ -29,7 +29,7 @@ class User extends Authenticatable
     ];
 
     public function role(){
-        return $this->belongsTo('App\UserRoles', 'user_role_idFk', 'role_id'); 
+        return $this->belongsTo('App\UserRoles', 'user_role_idFk', 'role_id');
     }
 
     public function change_login_status($id)

@@ -1,97 +1,30 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Favourites')
 @section('head')
 @parent
-<style type="text/css">
-#site-content{
-	background-color: #eeeeee;
-	padding-top: 100px;
-}
-.favourites-heading{
-	font-style: italic;
-	font-size: 20pt;
-	text-align: center;
-}
-.card{
-	background-color: white;
-	margin:auto;
-}
-
-.discount-section{
-	border-top: 1px solid #eee;
-	height: 40px;
-}
-.card-body{
-	/*height: 70px;*/
-	/*padding: 0px 10px;*/
-}
-.details-section{
-	text-align: center;
-	padding: 0px 10px;
-}
-a:hover{
-	color: black;
-	text-decoration: none;
-}
-.social{
-	width: 50px;
-}
-.time-left{
-	width: 70%;
-	padding: 8px 15px;
-	float: left;
-}
-.social{
-	width: 30%;
-	float: right;
-}
-.facebook-icon{
-	text-align: center;
-	border-left: 1px solid #eee;
-	width: 50%;
-	float: right;
-	height: 100%;
-	padding: 6px;
-}
-.facebook-icon > i{
-	font-size: 25px;
-}
-.facebook-icon:hover{
-	color: #3b5998;
-}
-.twitter-icon{
-	text-align: center;
-	border-left: 1px solid #eee;
-	width: 50%;
-	float: left;
-	height: 100%;
-	padding: 6px;
-}
-.twitter-icon > i{
-	font-size: 25px;
-}
-.twitter-icon:hover{
-	color: #00acee;
-}
-.remove-favorite{
-	position: absolute;
-	top: 9px;
-	right: 27px;
-	color: black;
-	font-size: 20px;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="{{ url('css/customize/favourites_list.css') }}">
 @endsection
 @section('content')
 <div id="site-content">
+	<div class="container header-content">
+		<div class="row">
+			<div class="col-md-12 col-xs-12 col-sm-12">
+				<div class="col-md-6 col-xs-6 col-sm-12">
+					<h2>Pimp your trip</h2>
+				</div>
+				<div class="col-md-6 col-xs-6 col-sm-12" style="margin-top: 20px;">
+					<button type="button" class="_ky1ga6g" aria-busy="false"><span class="_cgr7tc7">Create a trip</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
 	@if(count($favourites) > 0)
 		<div class="container favourites-grid">
 			<h2 class="favourites-heading heading-font-style">Favourites</h2>
 			<div class="separator"></div>
 			<div class="row">
 				@foreach($favourites as $key => $value)
-
 					<div class="col-xs-12 col-md-4 col-sm-6">
 						<div class="card">
 							@php
@@ -139,16 +72,16 @@ a:hover{
 				@endforeach
 			</div>
 		</div>
-	@endif
-	<div class="container container2" @if(count($favourites) > 0) style="display: none" @endif>
+	@else
+	<div class="container container2">
 		<div class="no-favourites">
 			<i class="far fa-heart"></i>
 			<h4 class="heading-font-style">You do not have any favourites yet </h4>
 			<div class="separator"></div>
-			<p class="para-font-style">Create your personalised wish list by adding offers to 'My Favourites'. Click on the heart to add a favourite. </p>
-			<a href="{{ url('hotels/list') }}"><button class="btn btn-default btn-lg">See Flash Sales</button></a>
+			<p class="para-font-style">Create your personalised wish list by adding offers to 'My Favourites'. Click on the heart to add a favourite. </p>		
 		</div>
 	</div>
+	@endif	
 </div>
 @endsection
 @section('foot')

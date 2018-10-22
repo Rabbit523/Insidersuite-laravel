@@ -1,10 +1,10 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Experience')
 @section('head')
 @parent
 <link rel="stylesheet" type="text/css" href="{{ url('css/customize/experience.css') }}">
-@endsection 
+@endsection
 
 @section('content')
 <div class="content">
@@ -114,18 +114,18 @@
         <h3>Tribe benefits</h3>
         <div class="hm-splash-page--benefit-container">
           <div class="hm-splash-page--benefit-item">
-            <img src="//cdn.shopify.com/s/files/1/2785/2466/files/benefit-3_230x.png?v=1530203215" alt="">				
-            <h4>Premium offers</h4>				
+            <img src="//cdn.shopify.com/s/files/1/2785/2466/files/benefit-3_230x.png?v=1530203215" alt="">
+            <h4>Premium offers</h4>
             <p>Early members gain access<br>to limited member offers.</p>
-          </div>		
-          <div class="hm-splash-page--benefit-item">				
-            <img src="//cdn.shopify.com/s/files/1/2785/2466/files/benefit-2_230x.png?v=1530203241" alt="">				
-            <h4>Exclusive access</h4>				
+          </div>
+          <div class="hm-splash-page--benefit-item">
+            <img src="//cdn.shopify.com/s/files/1/2785/2466/files/benefit-2_230x.png?v=1530203241" alt="">
+            <h4>Exclusive access</h4>
             <p>Get exclusive pre-access to our latest fashion drops.</p>
-          </div>		
-          <div class="hm-splash-page--benefit-item">				
-            <img src="../images/benefit-1_230x5d5f.png" alt="">				
-            <h4>Have your say</h4>				
+          </div>
+          <div class="hm-splash-page--benefit-item">
+            <img src="../images/benefit-3.png" alt="">
+            <h4>Have your say</h4>
             <p>Help us shape the future<br>of Nyden by voting for<br>designs and suggesting<br>сollaborations.</p>
           </div>
         </div>
@@ -177,44 +177,46 @@
       </div>
     </div>
     <div class="step5">
-      <div class="works">
-        <div class="header">
-          <h2>Introduce yourself to girlfriends!</h2>
-          <p><br>you are almost there!</br><br>All you have to do is introduce yourself to the other girlfriends</br>and specify the countries you have visited and the ones you are dreaming about!
-        </div>
-        <div class="profile">
-          <div class="AvatarEditor__Container-au91t-0 jZdnvR" style="margin-bottom: 40px;">
-            <div class="AvatarEditor__Avatar-au91t-1 elakDd">
-              <img class="AvatarEditor__AvatarImg-au91t-2 bbGlpa" id="new_img" alt="Avatar" width="150" height="150" src="//res.cloudinary.com/staycation/image/upload/q_auto,fl_lossy,f_auto/c_scale,dpr_2/c_fill,g_face,w_90,h_90/v1497970672/common/static/default-avatar">
-              <label for="avatarInput">
-                <div class="AvatarEditor__CameraContainer-au91t-3 jlUgds" id="avatar_button">
-                  <svg viewBox="0 0 24 24" width="16" height="16"><g fill="currentColor" fill-rule="nonzero"><path d="M8.401 2.75L6.624 5.416A.75.75 0 0 1 6 5.75H3c-.69 0-1.25.56-1.25 1.25v13c0 .69.56 1.25 1.25 1.25h18c.69 0 1.25-.56 1.25-1.25V7c0-.69-.56-1.25-1.25-1.25h-3a.75.75 0 0 1-.624-.334L15.599 2.75H8.4zm10 1.5H21A2.75 2.75 0 0 1 23.75 7v13A2.75 2.75 0 0 1 21 22.75H3A2.75 2.75 0 0 1 .25 20V7A2.75 2.75 0 0 1 3 4.25h2.599l1.777-2.666A.75.75 0 0 1 8 1.25h8a.75.75 0 0 1 .624.334l1.777 2.666z"></path><path d="M12 18.75a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 0 1 0 10.5zm0-1.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5zM18.125 8.99a.875.875 0 1 1 1.75 0V9a.875.875 0 1 1-1.75 0v-.01z"></path></g></svg>
+      <div class="step-content">
+        <div class="works">
+          <div class="header">
+            <h2>Introduce yourself to girlfriends!</h2>
+            <p><br>you are almost there!</br><br>All you have to do is introduce yourself to the other girlfriends</br>and specify the countries you have visited and the ones you are dreaming about!
+          </div>
+          <div class="profile-content">
+            <div class="profile">
+              <div class="AvatarEditor__Container-au91t-0 jZdnvR" style="margin-bottom: 40px;">
+                <div class="AvatarEditor__Avatar-au91t-1 elakDd">
+                  <img class="AvatarEditor__AvatarImg-au91t-2 bbGlpa" id="new_img" alt="Avatar" width="150" height="150" src="//res.cloudinary.com/staycation/image/upload/q_auto,fl_lossy,f_auto/c_scale,dpr_2/c_fill,g_face,w_90,h_90/v1497970672/common/static/default-avatar">
+                  <label for="avatarInput">
+                    <div class="AvatarEditor__CameraContainer-au91t-3 jlUgds" id="avatar_button">
+                      <svg viewBox="0 0 24 24" width="16" height="16"><g fill="currentColor" fill-rule="nonzero"><path d="M8.401 2.75L6.624 5.416A.75.75 0 0 1 6 5.75H3c-.69 0-1.25.56-1.25 1.25v13c0 .69.56 1.25 1.25 1.25h18c.69 0 1.25-.56 1.25-1.25V7c0-.69-.56-1.25-1.25-1.25h-3a.75.75 0 0 1-.624-.334L15.599 2.75H8.4zm10 1.5H21A2.75 2.75 0 0 1 23.75 7v13A2.75 2.75 0 0 1 21 22.75H3A2.75 2.75 0 0 1 .25 20V7A2.75 2.75 0 0 1 3 4.25h2.599l1.777-2.666A.75.75 0 0 1 8 1.25h8a.75.75 0 0 1 .624.334l1.777 2.666z"></path><path d="M12 18.75a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 0 1 0 10.5zm0-1.5a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5zM18.125 8.99a.875.875 0 1 1 1.75 0V9a.875.875 0 1 1-1.75 0v-.01z"></path></g></svg>
+                    </div>
+                  </label>
                 </div>
-              </label>
+                <div class="AvatarEditor__Action-au91t-4 gRyTDd">
+                  <label for="avatarInput">
+                    <div role="button" id="avatar_link" class="AvatarEditor__ActionButton-au91t-5 kGsBD">Upload your profile picture</div>
+                  </label>
+                  <input class="AvatarEditor__InvisibleInput-au91t-6 bJGPFf" id="avatarUpload" type="file" accept="image/*">
+                </div>
+              </div>
+              <button type="button" class="btn next" id="next_step5" aria-busy="false"><span class="_cgr7tc7"><span>Next</span></span></button>
             </div>
-            <div class="AvatarEditor__Action-au91t-4 gRyTDd">
-              <label for="avatarInput">
-                <div role="button" id="avatar_link" class="AvatarEditor__ActionButton-au91t-5 kGsBD">Upload your profile picture</div>
-              </label>
-              <input class="AvatarEditor__InvisibleInput-au91t-6 bJGPFf" id="avatarUpload" type="file" accept="image/*">
+            <div class="message">
+              <textarea id="first-ten-min" class="_ibk00h" name="first-ten-min" placeholder="Describe yourself in a few words"></textarea>
+              <h4>Countries that you have visits</h4>
+              <div class="tags"></div>
+              <input type="text" id="indicate" placeholder="Indicate a country">
             </div>
           </div>
-          <button type="button" class="btn next" id="next_step5" aria-busy="false"><span class="_cgr7tc7"><span>Next</span></span></button>
-        </div>  
-        <div class="message">
-          <textarea id="first-ten-min" class="_ibk00h" name="first-ten-min" placeholder="Describe yourself in a few words"></textarea>
-          <h4>Countries that you have visits</h4>
-          <div class="tags">
-            <a class="tag" id="country0">France</a>        
-          </div>          
-          <input type="text" id="indicate" placeholder="Indicate a country">          
-        </div>        
-      </div>
-      <div class="_ugd6bx">
-        <div class="_1f6oxkn">
-          <div class="_10105j3">
-            <div class="_e296pg" style="width: 100%; height: 100%;">
-              <div class="_6ikqekk" role="img" aria-label="first-ten-min" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/7e51b0bc-b628-4e4e-bf70-0b8341ed1045.jpg&quot;);"></div>
+        </div>
+        <div class="_ugd6bx">
+          <div class="_1f6oxkn">
+            <div class="_10105j3">
+              <div class="_e296pg" style="width: 100%; height: 100%;">
+                <div class="_6ikqekk" role="img" aria-label="first-ten-min" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/7e51b0bc-b628-4e4e-bf70-0b8341ed1045.jpg&quot;);"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -236,10 +238,10 @@
     <div class="step6">
       <div class="works">
         <div class="header">
-          <h2>What does hospitality mean to you?</h2>          
+          <h2>What does hospitality mean to you?</h2>
         </div>
         <div class="message">
-          <textarea id="second-ten-min" class="_ibk00h" name="second-ten-min" placeholder=""></textarea> 
+          <textarea id="second-ten-min" class="_ibk00h" name="second-ten-min" placeholder=""></textarea>
           <button type="button" class="btn next" id="next_step6" aria-busy="false"><span class="_cgr7tc7"><span>Next</span></span></button>
         </div>
       </div>
@@ -319,11 +321,11 @@
               </div>
             </div>
             <div style="margin-top: 32px; margin-bottom: 32px;">
-              <div><span><a href="{{ url('offers') }}" type="button" class="btn next" aria-busy="false"><span class="_cgr7tc7">Create an experience</span></a></span></div>
+              <div><span><a id="create_experience" type="button" class="btn next" aria-busy="false"><span class="_cgr7tc7">Create an experience</span></a></span></div>
             </div>
           </div>
         </div>
-      </div>         
+      </div>
       <div class="_ugd6bx">
         <div class="_1f6oxkn">
           <div class="_10105j3">
@@ -353,4 +355,4 @@
 
 @section('scripts')
 <script type="text/javascript" src="{{ url('js/customize/experience.js') }}"></script>
-@endsection 
+@endsection

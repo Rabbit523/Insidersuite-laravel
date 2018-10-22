@@ -11,6 +11,12 @@
       height: 400px;
   }
 }
+@media only screen and (max-width: 768px){
+      #footer {
+        height: 0px !important;
+      }    
+
+}
 .cb-cover .backstretch {
   background: #222;
 }
@@ -43,7 +49,48 @@
   overflow: hidden;
   border: 20px solid #fff;
   width: 50%;
-  height: 500px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 1800px) {
+  .cb-row-article {
+    border: 30px solid #fff;
+    height: 480px;    
+  }
+}
+@media (max-width: 1600px) {
+  .cb-row-article {
+    border: 30px solid #fff;
+    height: 400px;    
+  }
+}
+@media (max-width: 1400px) {
+  .cb-row-article {
+    border: 30px solid #fff;
+    height: 370px;
+  }
+}
+@media (max-width: 1200px) {
+  .cb-row-article {
+    border: 30px solid #fff;
+    height: 350px;
+  }
+}
+@media (max-width: 1000px) {
+  .cb-row-article {
+    border: 30px solid #fff;
+    height: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .cb-row-article {
+    border: 30px solid #fff;
+    height: 400px;
+  }
+  .cb-row-2 {
+    width: 100%;
+  }
 }
 @media (max-width: 800px) {
   .cb-row-article {
@@ -66,6 +113,7 @@
 @media (max-width: 480px) {
   .cb-row-article {
     border: 20px solid #fff;
+    height: 300px;
   }
   .cb-article-area img {
     object-fit: cover;
@@ -90,12 +138,13 @@
   }
   .cb-row-article {
     border: none;
-    height: 330px;
+    height: 235px;
+    width: 290px;
+    margin-left: 17px;
   }
   .cb-article-area img {
     object-fit: cover;
     height: 300px;
-    padding-right:30%;
   }
 }
 .cb-row-article .cb-article-area {
@@ -103,8 +152,7 @@
   height: 100%;
   overflow: hidden;
   transition: transform .9s;
-  padding-left: 20%;
-  padding-right: 20%;
+  
 }
 .cb-meta-data a:hover {
   text-decoration: none;
@@ -116,10 +164,13 @@
   max-height: 600px;
 }
 .cb-row-article .cb-mask {
-  width: 101%;
-  height: 101%;
+  width: 100%;
+  height: 100%;
   line-height: 0;
   overflow: hidden;
+  /* margin: 80px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat; */
 }
 a:link {
   -webkit-tap-highlight-color: rgba(0,0,0,.3);
@@ -163,7 +214,7 @@ a:link {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding: +0  10%;
+  padding: 0 10%;
   line-height: 1.3;
   width: 100%;
   margin: 0 0 10px;
@@ -249,11 +300,11 @@ a:link {
 .blog-footer {
     display: inline-block;
     text-align: center;
-    float: left;
+    float: left;  
     width: 100%;
     margin: 30px auto;
 }
-.blog-footer a, .blog-footer a:focus, .blog-footer a:hover {
+/* .blog-footer a, .blog-footer a:focus, .blog-footer a:hover {
     color: #444;
     transition: all .35s;
     letter-spacing: 3px;
@@ -263,50 +314,26 @@ a:link {
     cursor: pointer;
     display: block;
     margin-bottom: 30px;
-}
+} */
 .btn-subscribe, .btn-subscribe:focus, .btn-subscribe:hover {
-    border-radius: 50px;
+    /* border-radius: 50px;
     background: rgb(255, 51, 102);
     margin-top: 20px;
     color: #fff !important;
-    font-size: 14px !important;
+    font-size: 17px !important;
     margin-left: 45%;
     margin-right: 45%;
     text-transform: unset !important;
     letter-spacing: 0 !important;
     padding: 0 !important;
     padding: 6px 12px !important;
-    font-weight: 400 !important;
-}
-@media (max-width: 800px) {
-    .btn-subscribe, .btn-subscribe:focus, .btn-subscribe:hover {
-        margin-left: 40%;
-        margin-right: 40%;
-    }
-}
-@media (max-width: 480px) {
-    .btn-subscribe, .btn-subscribe:focus, .btn-subscribe:hover {
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-}
-@media (max-width: 412px) {
-    .btn-subscribe, .btn-subscribe:focus, .btn-subscribe:hover {
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-}
-@media (max-width: 384px) {
-    .btn-subscribe, .btn-subscribe:focus, .btn-subscribe:hover {
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-}
-@media (max-width: 375px) {
-    .btn-subscribe, .btn-subscribe:focus, .btn-subscribe:hover {
-        margin-left: 30%;
-        margin-right: 30%;
-    }
+    font-weight: 400 !important; */
+    border-radius: 50px;
+    background: rgb(255, 51, 102);
+    border: 1px solid;
+    padding: 10px 76px;
+    margin-top: 20px;
+    color: #fff;
 }
 .experience a, .experience a:focus, .experience a:hover, .rankings a, .rankings a:focus, .rankings a:hover {
     cursor: pointer;

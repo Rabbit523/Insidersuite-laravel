@@ -23,9 +23,7 @@ $("#read_more").click (function () {
     } else {
         flag = true;
         $(".text_content").text(new_text);
-    }
-   
-   
+    }   
 });
 $("#tab1").click(function () {
   $(this).attr('style', 'display: none');
@@ -204,7 +202,7 @@ $("#baby_decrease").click(function () {
 });
 
 $(".iCflgr").click(function () {
-  $(".dsssji").attr('style', 'display: none;');
+  $(".hkJiNs").attr('style', 'display: none;');
 });
 
 var clicked = false;

@@ -27,3 +27,43 @@ h1 {
   color: #1d1d1d;
   line-height: 1;
 }
+@media (max-width: 768px) {
+  #footer {
+    height: 0px !important;
+  }
+}
+@media (max-width: 600px) {
+  #footer {
+    height: 0px !important;
+  }
+}
+@media (max-width: 480px) {
+  #footer {
+    height: 0px !important;
+  }
+}
+@media (max-width: 412px) {
+  #footer {
+    height: 0px !important;
+  }
+}
+@media (max-width: 384px) {
+  #footer {
+    height: 0px !important;
+  }
+}
+@media (max-width: 375px) {
+  #footer {
+    height: 0px !important;
+  }
+}
+@media (max-width: 360px) {
+  #footer {
+    height: 0px !important;
+  }
+}
+@media (max-width: 320px) {
+  #footer {
+    height: 0px !important;
+  }
+}

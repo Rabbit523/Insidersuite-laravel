@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  GiftCard')
 @section('head')
 @parent
 <link rel="stylesheet" type="text/css" href="{{ url('css/customize/simple_gift.css') }}">

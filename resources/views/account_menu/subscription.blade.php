@@ -1,17 +1,17 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Subscription')
 @section('head')
 	@parent
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">  
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
   <link rel="stylesheet" type="text/css" href="{{ url('css/customize/subscription.css') }}">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 @endsection
 @section('content')
 
-<div id="site-content">	
+<div id="site-content">
 	<div class="container">
-		<div class="row">			
+		<div class="row">
 			<div class="col-md-12 col-sm-12">
         <h3 class="page-main-title">Subscriptions</h3><br>
         <section class="card clearfix">
@@ -30,14 +30,14 @@
                 </div>
                 <div class="range-slider">
                   <div id="my_slider"></div>
-                </div>                
+                </div>
               </div>
             </div>
           </main>
           <card-footer>
             <input type="submit" id="save" value="Save" class="button button--secondary" title="Save">
           </card-footer>
-        </section>           
+        </section>
 			</div>
 		</div>
 	</div>

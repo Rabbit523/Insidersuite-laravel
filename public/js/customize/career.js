@@ -1,29 +1,10 @@
 var redirect_path = window.location.protocol + "//" + window.location.hostname;
-$("#finance").click (function () {
+$(".career").click (function () {  
+  var id = $(this).data('id');
   if (user) {
-    window.location = redirect_path + "/career_detail?id=finance"
+    window.location = redirect_path + "/career_detail?id="+id
   } else {
-    window.location = redirect_path + "/career-detail?id=finance"
+    window.location = redirect_path + "/career-detail?id="+id
   }    
 });
-$("#community").click (function () {
-  if (user) {
-    window.location = redirect_path + "/career_detail?id=engineering"
-  } else {
-    window.location = redirect_path + "/career-detail?id=engineering"
-  }
-});
-$("#production").click (function () {
-  if (user) {
-    window.location = redirect_path + "/career_detail?id=security"
-  } else {
-    window.location = redirect_path + "/career-detail?id=security"
-  }  
-});
-$("#developer").click (function () {
-  if (user) {
-    window.location = redirect_path + "/career_detail?id=marketing"
-  } else {
-    window.location = redirect_path + "/career-detail?id=marketing"
-  }  
-});
+

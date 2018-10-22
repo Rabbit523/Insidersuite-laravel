@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Write to us')
 @section('head')
 	@parent
 	<link rel="stylesheet" type="text/css" href="{{ url('css/customize/faq.css') }}">

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Insider Suite |  The club that offers private sales on luxury hotels')
+@section('title','Insider Suite |  Contact')
 @section('head')
 	@parent
 	<link rel="stylesheet" type="text/css" href="{{ url('css/customize/contact.css') }}">
@@ -27,25 +27,24 @@
 				</ul>
 			</div>
 		</div>
-		<div class="hm-container mod-tight hm-margin">
-			<h3 class="hm-page--title">Contact</h3>
+		<div class="hm-container mod-tight hm-margin">		
 			<form method="post" action="{{url('write_mail')}}" id="contact_form">
-			    {{ csrf_field() }}
-        <div class="hm-form--group">
+					{{ csrf_field() }}
+        <div class="hm-form--group">          
+          <input type="text" name="subject" id="ContactFormSubject" value="" spellcheck="false" autocomplete="off" autocapitalize="off" required class="hm-form--control">
+          <label for="ContactFormSubject" class="hm-form--control-label subject">Subject</label> 
+        </div>
+        <div class="hm-form--group">          
+           <input type="text" name="name" id="ContactFormName" value="" required class="hm-form--control"> 
+           <label for="ContactFormName" class="hm-form--control-label name">Your name</label> 
+				</div>
+				<div class="hm-form--group">         
           <input type="email" name="email" id="ContactFormEmail" value="" spellcheck="false" autocomplete="off" autocapitalize="off" required class="hm-form--control">
-          <label for="ContactFormEmail" class="hm-form--control-label email">Your email</label>
+          <label for="ContactFormEmail" class="hm-form--control-label email">Your email</label> 
         </div>
         <div class="hm-form--group">
-          <input type="text" name="name" id="ContactFormName" value="" required class="hm-form--control">
-          <label for="ContactFormName" class="hm-form--control-label name">Your name</label>
-        </div>
-        <div class="hm-form--group">
-          <input type="text" name="subject" id="ContactFormOrderNumber" value="" pattern="[a-zA-Z0-9]+" class="hm-form--control">
-          <label for="ContactFormOrderNumber" class="hm-form--control-label order">Tracking/order number</label>
-        </div>
-        <div class="hm-form--group">
-          <textarea rows="10" name="content" id="ContactFormMessage" required class="hm-form--control"></textarea>
-          <label for="ContactFormMessage" class="hm-form--control-label message">Your message</label>
+           <textarea rows="10" name="content" id="ContactFormMessage" required class="hm-form--control"></textarea> 
+           <label for="ContactFormMessage" class="hm-form--control-label message">Your message</label> 
         </div>
         <button type="submit" class="hm-contact--submit" value="Send">Contact</button>
       </form>
