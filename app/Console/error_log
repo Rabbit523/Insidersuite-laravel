@@ -1,0 +1,2 @@
+[09-Jan-2019 14:32:02 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home4/insidgd5/public_html/app/Console/Kernel.php on line 8
+[09-Jan-2019 19:47:56 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home4/insidgd5/public_html/app/Console/Kernel.php on line 8

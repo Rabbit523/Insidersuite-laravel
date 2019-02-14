@@ -1,7 +1,9 @@
 var redirect_path = window.location.protocol + "//" + window.location.hostname;
 $("#content").summernote({height: 400});
+$('#content').summernote('fontName', 'Arial');
 if (type == "old") {
   var newsletter = $(".page-content").data("source");
+  $("#content").summernote('code', newsletter.content);
   newsletter_id = newsletter.id;
   $.ajax({
     type: 'get',
@@ -43,6 +45,30 @@ $("#file_upload").on('change', function() {
     success: function (e) {
         var html = '<img class="attached_image"' + 'src="' + e  + '"></img>';
         $(".images").append( html );
+    }
+  });
+});
+
+$("#save").click(function () {
+  var data = {
+    id: "",
+    content: $("#content").summernote('code')
+  };
+  if (type == "old") {
+    data.id = newsletter_id;
+  } else {
+    data.id = $("#new_id").data('source');
+  }
+  $.ajax({
+    type: 'post',
+    dataType: 'json',
+    url: 'save_newsletter',
+    data: data,
+    headers: {
+      'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    },
+    success: function (e) {
+      window.location = redirect_path + "/admin/newsletters"
     }
   });
 });

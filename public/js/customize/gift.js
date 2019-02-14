@@ -216,40 +216,18 @@ $("#beneficiary_email").on('focusout', function () {
     $("#beneficiary_email").attr('style', 'border: 1px solid rgb(224, 224, 224) !important');
   }
 });
-$("#place_order").click(function () {
-  var data = {
-    "design_id": design_id,
-    "amount": $("#amount").val(),
-    'sender_name': $("#sender_name").val(),
-    'beneficiary_name': $("#beneficiary_name").val(),
-    'beneficiary_email': $("#beneficiary_email").val(),
-    'little_word': $("#message").val()
-  };
 
-  if (data.sender_name == '' || data.beneficiary_name == '' || data.beneficiary_email == '') {
-    if (data.sender_name == '') {
-      $("#sender_name").attr('style', 'border: 1px solid rgb(255, 51, 102) !important;');
-    }
-    if (data.beneficiary_name == '') {
-      $("#beneficiary_name").attr('style', 'border: 1px solid rgb(255, 51, 102) !important;');
-    }
-    if (data.beneficiary_email == '') {
-      $("#beneficiary_email").attr('style', 'border: 1px solid rgb(255, 51, 102) !important;');
-    }
-  }  else {
-    $.ajax({
-        type: 'post',
-        dataType: 'json',
-        url: 'create_giftcard',
-        data: data,
-        headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        },
-        success: function (e) {
-          $("#place_order").attr('style', 'display: none');
-          $("#payment-form").attr('style', 'display: block!important');
-          $("#customer_email").val(e.email);
-        }
-    });
+var form = document.getElementById('payment_profile');
+form.addEventListener('submit', function(event) {
+  event.preventDefault(); 
+
+  if ($("#payment_profile").valid()) {
+    if ($("#serene_kiff").hasClass('dVdEvt') && $("#solid_kiff").hasClass('dVdEvt') && $("#serious_kiff").hasClass('dVdEvt') && $("#kiff_yolo").hasClass('dVdEvt')) {
+      alert("Please select a gift card level.");
+    } else {
+      $("#design_id").val(design_id);
+      $("#place_order").attr('style', 'display: none');
+      $("#payment-form").attr('style', 'display: block!important');
+    }    
   }
 });

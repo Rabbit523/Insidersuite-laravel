@@ -90,3 +90,22 @@ ul.theTarget li img {
   min-width: 100%; min-height: 100%;
   object-fit: fill;
 }
+
+ul.gallery-selected > img, ul {margin: 0; padding: 0;}
+ul.gallery-selected {
+  position: relative;
+  list-style: none;
+  background: #000000;
+  overflow: hidden;
+}
+ul.gallery-selected li img {
+  position: absolute;
+  min-width: 100%; min-height: 100%;
+  object-fit: fill;
+}
+ul.gallery-selected ul.gallery-navbar{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}

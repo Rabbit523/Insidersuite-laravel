@@ -9,13 +9,17 @@ class OutlookApiController extends Controller
 {
     public function get_access_token(Request $request)
     {
-    	// dd($request);
+    // 	dd($request);
         $access_token = Curl::to('https://login.microsoftonline.com/common/oauth2/v2.0/token')
-        					->withData(array('client_id' => 'f82e66d4-3f5f-497a-9b95-0fbc281739ed','client_secret' => 'buuN9-%*cvhkRQUXZQ1820(','code' => $request->code, 'redirect_uri' => url('outlook/get_access_token'), 'grant_type' => 'authorization_code'))
+        					->withData(array('client_id' => '3a8e082f-a84f-4caa-9efa-d2847fa25b4d','client_secret' => 'dmhvB391?=]ktkICVNVP09#','code' => $request->code, 'redirect_uri' => url('outlook/get_outlook_callback'), 'grant_type' => 'authorization_code'))
         					->asJsonResponse()
         					->post();
-        session(['outlookToken'=>$access_token->access_token]);
-        $contacts = Curl::to('https://graph.microsoft.com/v1.0/me/contacts')
+        dd($access_token);
+        session(['outlookToken'=>$access_token]);
+    }
+    
+    public function get_outlook_callback() {
+         $contacts = Curl::to('https://graph.microsoft.com/v1.0/me/contacts')
         					->withHeader('Authorization: Bearer '.session('outlookToken'))
         					->asJsonResponse()
         					->get();
@@ -26,7 +30,6 @@ class OutlookApiController extends Controller
 			$outlook_contacts[$key]['name'] = $value->displayName;
 		}
 		// dd($outlook_contacts);
-        return view('sponsor',compact('outlook_contacts'));
+        return view('footer.sponsor',compact('outlook_contacts'));
     }
-
 }

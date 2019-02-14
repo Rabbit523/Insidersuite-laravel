@@ -127,7 +127,7 @@ a[x-apple-data-detectors] { color: inherit !important; }
   <td style="mso-height-rule: exactly; line-height: 16px;"><span style="font-size:14px; font-family: Arial, Helvetica, sans-serif; color:#1d1d1d;">
     Hi {{ Auth::User()->username }},<br><br>
 
-I'm Gael from Insider Suite; Welcome to the best kept luxury travel secret...<br><br>
+Welcome to the best kept luxury travel secret...<br><br>
 
 Our promise is simple - we negotiate the best travel deals to bring you, our members, hand-picked selection of unique and most inspirational holidays. <!-- We believe in traveling differently; our selected boutique hotels deserve an equally high quality of the reservation and our trip plan packages make our guest tailored experience as unforgettable as it should be. -->
 
@@ -184,10 +184,9 @@ Gael at Insider Suite
   <!-- /pictos -->
        <!-- titre -->
   <tr><td align="center" style="padding:40px 20px 20px" class="p40-10-20">
-    <i style="font-size:20px; font-family: Georgia, serif; color:#1d1d1d;">Get ready to your next trip</i>
+    <i style="font-size:20px; font-family: Georgia, serif; color:#1d1d1d;">Get ready to design your next trip</i>
     <br>
     <br>
-    <i style="font-size:20px; font-family: Georgia, serif; color:#1d1d1d;">Open sales July 30</i>
   </td></tr>  
   <!-- /titre -->
   <!-- social -->
@@ -210,7 +209,7 @@ Gael at Insider Suite
 
   <!-- TEXTE LEGAL -->
   <tr>
-  <td align="center" style="padding:10px;font-size: 11px; font-family: Arial, Verdana; color:#666666;"> <span> This email has been sent to you because you are a member of Insider SUite.<br /> Please add "<a href="mailto:contact@insidersuite.com" target="_blank" style="color:#666666; text-decoration:none;">contact@insidersuite.com</a>" to your address book to ensure you receive future emails from us.<br />  </td>
+  <td align="center" style="padding:10px;font-size: 11px; font-family: Arial, Verdana; color:#666666;"> <span> This email has been sent to you because you are a member of Insider Suite.<br /> Please add "<a href="mailto:contact@insidersuite.com" target="_blank" style="color:#666666; text-decoration:none;">contact@insidersuite.com</a>" to your address book to ensure you receive future emails from us.<br />  </td>
   </tr>
   <!-- /TEXTE LEGAL -->
   </table>

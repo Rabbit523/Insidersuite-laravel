@@ -85,18 +85,18 @@
 										<div class="col-md-5 col-sm-5 col-xs-5">
 											<select name="month" class="form-control" required>
 												{{-- <option onautocomplete="">Month</option> --}}
-												<option value="January" @if(Auth::User()->month == "January") {{ 'selected' }} @endif>January</option>
-												<option value="February" @if(Auth::User()->month == "February") {{ 'selected' }} @endif>February</option>
-												<option value="March" @if(Auth::User()->month == "March") {{ 'selected' }} @endif>March</option>
-												<option value="April" @if(Auth::User()->month == "April") {{ 'selected' }} @endif>April</option>
-												<option value="May" @if(Auth::User()->month == "May") {{ 'selected' }} @endif>May</option>
-												<option value="June" @if(Auth::User()->month == "June") {{ 'selected' }} @endif>June</option>
-												<option value="July" @if(Auth::User()->month == "July") {{ 'selected' }} @endif>July</option>
-												<option value="August" @if(Auth::User()->month == "August") {{ 'selected' }} @endif>August</option>
-												<option value="September" @if(Auth::User()->month == "September") {{ 'selected' }} @endif>September</option>
-												<option value="October" @if(Auth::User()->month == "October") {{ 'selected' }} @endif>October</option>
-												<option value="November" @if(Auth::User()->month == "November") {{ 'selected' }} @endif>November</option>
-												<option value="December" @if(Auth::User()->month == "December") {{ 'selected' }} @endif>December</option>
+												<option value="January" @if(Auth::User()->month == "1") {{ 'selected' }} @endif>January</option>
+												<option value="February" @if(Auth::User()->month == "2") {{ 'selected' }} @endif>February</option>
+												<option value="March" @if(Auth::User()->month == "3") {{ 'selected' }} @endif>March</option>
+												<option value="April" @if(Auth::User()->month == "4") {{ 'selected' }} @endif>April</option>
+												<option value="May" @if(Auth::User()->month == "5") {{ 'selected' }} @endif>May</option>
+												<option value="June" @if(Auth::User()->month == "6") {{ 'selected' }} @endif>June</option>
+												<option value="July" @if(Auth::User()->month == "7") {{ 'selected' }} @endif>July</option>
+												<option value="August" @if(Auth::User()->month == "8") {{ 'selected' }} @endif>August</option>
+												<option value="September" @if(Auth::User()->month == "9") {{ 'selected' }} @endif>September</option>
+												<option value="October" @if(Auth::User()->month == "10") {{ 'selected' }} @endif>October</option>
+												<option value="November" @if(Auth::User()->month == "11") {{ 'selected' }} @endif>November</option>
+												<option value="December" @if(Auth::User()->month == "12") {{ 'selected' }} @endif>December</option>
 											</select>
 										</div>
 										<div class="col-md-4 col-sm-4 col-xs-4">

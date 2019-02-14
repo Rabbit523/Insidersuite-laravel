@@ -24,7 +24,7 @@ class Career extends Model
      * @var array
      */
 
-    protected $fillable = ['department', 'description', 'positions', 'banner_img'];
+    protected $fillable = ['department', 'description', 'title_description', 'positions', 'banner_img'];
 
     /**
      * The attributes that should be hidden for arrays.

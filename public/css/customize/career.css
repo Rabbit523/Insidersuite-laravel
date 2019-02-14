@@ -3,6 +3,7 @@
 }
 .carrer-style {
   text-align: center;
+  margin-bottom: 20px;
 }
 .space-top-8 {
   margin-top: 48px;
@@ -24,6 +25,8 @@
 }
 .link-reset {
   color: inherit;
+  border: 1px solid #dedede;
+  height: 196px;
 }
 .link-reset:hover, .link-reset:focus, .link-reset:active {
   color: inherit;

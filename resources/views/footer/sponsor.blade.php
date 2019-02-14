@@ -9,19 +9,26 @@
 
 <div id="site-content">
     <div class="col-md-12">
-        <img class="our-story-banner" src="{{ url('imgs/InsiderSuite_Our_Story.jpg') }}">
+        <img class="our-story-banner" src="{{ url('imgs/sponsor_banner.jpg') }}">
     </div>
-    <h1 class="banner-heading">Share Insider Suite  with your friends</h1>
-    <p class="banner-subheading">When one of your friends will book her first trip, you will receive a discount of 75 €. <br>Your friend will receive a welcome discount of 35 €. Read the terms of the Sponsorship.</p>
+    <h1 class="banner-heading">Invite your friends to join the Insider Suite community</h1>
+    <p class="banner-subheading">Receive a $75 voucher when your friends book their first trip</p>
     <div class="container" >
         <div class="sponsorship">
             <div class="invitation">
                 <div class="col-md-9 col-xs-9 col-lg-9" style="margin-top: 20px;">
-                    <input type="text" id="invite_mail" placeholder="Enter e-mail addresses">
+                    <input id="invite_mail">
                 </div>
                 <div class="col-md-3 col-xs-3 col-lg-3">
                     <button class="btn" id="invite_button">Send invitations</button>
                 </div>
+            </div>
+            <div class="social-contacts">
+                <div class="col-md-9 col-xs-9 col-lg-9" style="margin-top: 20px;">
+                    <div class="_36rlri" style="margin-bottom:16px;margin-right:8px"><a href="{{url('/sponsor/google')}}" class="_1dgwt93" role="button" tabindex="0"><img src="https://a0.muscache.com/airbnb/static/e38747053409e8dd628c76a37f2f2bac.png" height="24" width="24" alt="gmail logo">&nbsp;Gmail</a></div>
+                    <div class="_36rlri" style="margin-bottom:16px;margin-right:8px"><a href="{{url('yahoo')}}"class="_1dgwt93" role="button" tabindex="0"><img src="https://a0.muscache.com/airbnb/static/2895a02b01e5a106ab8f441309776f4a.png" height="24" width="24" alt="yahoo logo">&nbsp;Yahoo</a></div>
+                    <div class="_36rlri" style="margin-bottom:16px"><a href="{{'/outlook/get_access_token'}}" class="_1dgwt93" role="button" tabindex="0"><img src="https://a0.muscache.com/airbnb/static/cf434f9d65472a015f4199755c62bd5d.png" height="24" width="24" alt="windowslive logo">&nbsp;Outlook</a></div>
+                </div>                
             </div>
             <div class="or-separator col-sm-12 no-pad-xs">
                 <span class="h6 or-separator--text">OR</span>
@@ -40,7 +47,7 @@
                 </div>
                 <div class="col-md-6 col-xs-4 col-lg-4 share_buttons">
                     <div class="col-md-6 col-xs-6 col-lg-6">
-                        <a class="btn btn-large btn-block btn-facebook-messenger" data-network="messenger" data-referral-link="https://www.copinesdevoyage.com/parrainage/signup/c79144b4c6ce?utm_source=parrainage&amp;utm_medium=messenger+share&amp;code=Pa77a1n" rel="nofollow noopener noreferrer" id="messenger-share" href="https://www.facebook.com/dialog/send?app_id=441106345998340&amp;link=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dmessenger%2Bshare%26code%3DPa77a1n&amp;redirect_uri=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dmessenger%2Bshare%26code%3DPa77a1n" target="_blank">
+                        <a class="btn btn-large btn-block btn-facebook-messenger" id="facbook-send-message" data-network="messenger" data-referral-link="https://www.copinesdevoyage.com/parrainage/signup/c79144b4c6ce?utm_source=parrainage&amp;utm_medium=messenger+share&amp;code=Pa77a1n" rel="nofollow noopener noreferrer" id="messenger-share" href="https://www.facebook.com/dialog/send?app_id=441106345998340&amp;link=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dmessenger%2Bshare%26code%3DPa77a1n&amp;redirect_uri=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dmessenger%2Bshare%26code%3DPa77a1n" target="_blank">
                             <svg fill="currentcolor" class="st-icon st-icon-messenger " style="" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg" role="img">
                                 <title>Messenger</title>
                                 <path d="M12,2.4c-5.3,0-9.5,4-9.5,8.9c0,2.8,1.4,5.3,3.5,6.9v3.4l3.2-1.8c0.9,0.2,1.8,0.4,2.7,0.4c5.3,0,9.5-4,9.5-8.9 S17.3,2.4,12,2.4z M12.9,14.4l-2.4-2.6l-4.7,2.6L11,8.8l2.5,2.6l4.7-2.6L12.9,14.4z"></path>
@@ -50,7 +57,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 col-xs-6 col-lg-6">
-                        <a class="btn btn-large btn-block btn-facebook" data-network="facebook" data-referral-link="https://www.copinesdevoyage.com/parrainage/signup/c79144b4c6ce?utm_source=parrainage&amp;utm_medium=facebook+share&amp;code=Pa77a1n" rel="nofollow noopener noreferrer" id="facebook-share" href="https://www.facebook.com/dialog/share?app_id=441106345998340&amp;href=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dfacebook%2Bshare%26code%3DPa77a1n&amp;redirect_uri=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dfacebook%2Bshare%26code%3DPa77a1n" target="_blank">
+                        <a class="btn btn-large btn-block btn-facebook" id="facbook-share-post" data-network="facebook" data-referral-link="https://www.copinesdevoyage.com/parrainage/signup/c79144b4c6ce?utm_source=parrainage&amp;utm_medium=facebook+share&amp;code=Pa77a1n" rel="nofollow noopener noreferrer" id="facebook-share" href="https://www.facebook.com/dialog/share?app_id=441106345998340&amp;href=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dfacebook%2Bshare%26code%3DPa77a1n&amp;redirect_uri=https%3A%2F%2Fwww.copinesdevoyage.com%2Fparrainage%2Fsignup%2Fc79144b4c6ce%3Futm_source%3Dparrainage%26utm_medium%3Dfacebook%2Bshare%26code%3DPa77a1n" target="_blank">
                             <svg fill="currentcolor" class="st-icon st-icon-facebook " style="" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg" role="img">
                                 <title>Facebook</title>
                                 <path d="M9.9,22v-9.1H6.8V9.3h3.1V6.7c0-3,1.9-4.7,4.6-4.7c1.3,0,2.4,0.1,2.7,0.1v3.2l-1.9,0c-1.5,0-1.8,0.7-1.8,1.7 v2.3H17l-0.5,3.5h-3.1V22H9.9z"></path>
@@ -73,28 +80,13 @@
                         <button class="btn btn-large btn-block hidden-sm hidden-xs more_suggestions">Show more suggestions</button>
                     </div>                        
                 </div>					
-                <span>We think these friends would make great hosts.</span>                  
+                <span>We think these friends would make great traveler companion.</span>                  
                 <div class="_w9ro7h">                        
                     <div>
                         <div class="_2h22gn">
                             <div class="_1fylxegl">
                                 <div class="_1jg2nxf">
                                     <div class="_1c2qaqv">
-                                        <div class="_ncqy3bd">
-                                            <div class="_e296pg" style="height:64px;width:64px;display:inline-block">
-                                                <img class="_12r18es" src="https://a0.muscache.com/im/pictures/56779bd5-9d38-46e5-834e-bd29c93235c2.jpg?aki_policy=profile_medium" height="64" width="64" alt="Elsa Mothay" title="Elsa Mothay">
-                                            </div>
-                                        </div>
-                                        <div class="_jnrahhr">
-                                            <div class="_1iurgbx">Elsa Mothay</div>
-                                        </div>
-                                        <div class="_1n57hdr7">
-                                            <div class="_1iurgbx">
-                                                <button type="button" class="_n5wk6ic" aria-busy="false">
-                                                    <span>Refer</span>
-                                                </button>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -171,8 +163,8 @@
             </div>
         </div>
         <div class="section_sub">
-            <h1>Access the offers</h1>
-            <a href="@if(Auth::User()) {{ url('offers') }} @else {{ url('/') }} @endif" class="btn btn-subscribe">Subscribe</a>
+            <h1>Design your next trip</h1>
+            <a href="@if(Auth::User()) {{ url('offers') }} @else {{ url('/') }} @endif" class="btn btn-subscribe">See all sales</a>
         </div>
     </div>
 </div>
@@ -182,39 +174,39 @@
 	    <!-- Modal content-->
 	    <div class="modal-content">
 			<div class="modal-header">
-        <h4>Share With Friends</h4>
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-				<div class="modal-body" style="padding:50px;">
-					<div class="row">
-						<div class="col-md-12 form-wrap" style="background-color: transparent;margin: auto;position: relative;">
-							<form id="refer-form">
-								<input id="token" name="_token" type="text" value="{!! csrf_token() !!}" hidden>
-								<input type="email" class="input" id="refer-email" autocomplete="off" placeholder="Email" name="email" required="">
-								<input type="submit" id="refer-submit" class="button btn btn-default btn-lg" value="Refer" style="margin-top: 10px;">
-							</form>
-						</div>
-					</div>
-          <h4>Import Contact: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png" width="20"> <a href="{{ url('sponsor/google') }}" id="google_contacts">Gmail</a> <a id="outlook_contacts" href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=f82e66d4-3f5f-497a-9b95-0fbc281739ed&redirect_uri=http://localhost:8000/outlook/get_access_token&response_type=code&scope=openid+Contacts.Read"><img src="{{ url('imgs/outlook-logo.png') }}" width="20">Outlook</a></h4>
-          <br>
-				<div class="row">
-					<div class="col-md-2 col-sm-2 col-xs-2">
-						<img class="img-responsive" src="{{ url('imgs/fb_logo.png') }}" width="40">
-					</div>
-					<div class="col-md-10 col-sm-10 col-xs-10" style="padding: 10px">
-						<a href="#" id="facbook-share-post">Share on Facebook</a>
-					</div>
-				</div>
-				<hr>
-				<div class="row">
-					<div class="col-md-2 col-sm-2 col-xs-2">
-						<img class="img-responsive" src="{{ url('imgs/fb_messenger.png') }}" width="40">
-					</div>
-					<div class="col-md-10 col-sm-10 col-xs-10" style="padding: 10px">
-						<a href="#" id="facbook-send-message">Messager</a>
-					</div>
-				</div>
-			</div>
+                <h4>Share With Friends</h4>
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" style="padding:50px;">
+                <div class="row">
+                    <div class="col-md-12 form-wrap" style="background-color: transparent;margin: auto;position: relative;">
+                        <form id="refer-form">
+                            <input id="token" name="_token" type="text" value="{!! csrf_token() !!}" hidden>
+                            <input type="email" class="input" id="refer-email" autocomplete="off" placeholder="Email" name="email" required="">
+                            <input type="submit" id="refer-submit" class="button btn btn-default btn-lg" value="Refer" style="margin-top: 10px;">
+                        </form>
+                    </div>
+                </div>
+                <h4>Import Contact: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png" width="20"> <a href="{{ url('sponsor/google') }}" id="google_contacts">Gmail</a> <a id="outlook_contacts" href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=f82e66d4-3f5f-497a-9b95-0fbc281739ed&redirect_uri=http://localhost:8000/outlook/get_access_token&response_type=code&scope=openid+Contacts.Read"><img src="{{ url('imgs/outlook-logo.png') }}" width="20">Outlook</a></h4>
+                <br>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <img class="img-responsive" src="{{ url('imgs/fb_logo.png') }}" width="40">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10" style="padding: 10px">
+                        <a href="#" id="facbook-share-post">Share on Facebook</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <img class="img-responsive" src="{{ url('imgs/fb_messenger.png') }}" width="40">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10" style="padding: 10px">
+                        <a href="#" id="facbook-send-message">Messager</a>
+                    </div>
+                </div>
+            </div>
 	    </div>
 	</div>
 </div>
@@ -325,9 +317,11 @@
 @endsection
 
 @section('foot')
-	@parent
+    @parent
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="{{ url('js/magicsuggest-min.js') }}"></script>
 	<script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js"></script>
-    <script type="text/javascript" src="{{ url('js/customize/sponsor.js') }}"></script>
+    <script type="text/javascript" src="{{ url('js/customize/sponsor.js') }}"></script>    
     <script type="text/javascript">
 
         $(document).ready(function() {
@@ -335,22 +329,23 @@
                 $('#google_contact_popup_toggle').trigger('click');
             @endif
            FB.init({
-                appId      : '625441737790452',
+                appId      : '309008646410744',
                 status     : true,
                 xfbml      : true,
                 version    : 'v2.7' // or v2.6, v2.5, v2.4, v2.3
             });
         });
+        
         $('#facbook-share-post').click(function(){
             FB.ui({
                 method: 'share',
-                href: 'https://www.insidersuite.com/',
+                href: 'https://www.insidersuite.com/sponsor',
             }, function(response){});
         });
         $('#facbook-send-message').click(function(){
             FB.ui({
                 method: 'send',
-                link: 'https://www.insidersuite.com/',
+                link: 'https://www.insidersuite.com/sponsor',                
             });
         });
         $('#refer-form').on('submit',function(e){

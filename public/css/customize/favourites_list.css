@@ -21,13 +21,59 @@
     padding-right: 24px !important;
     min-width: 77.6656px !important;
     box-shadow: none !important;
-    color: rgb(255, 51, 102) !important;
+    color: white !important;
     margin: 0px !important;
     text-decoration: none !important;
     border-radius: 4px !important;
     border-width: 2px !important;
     border-style: solid !important;
-    background: transparent !important;
-    border-color: rgb(255, 51, 102) !important;
+    background: rgb(255, 51, 102) !important;
     float: right;
+    border-radius: 50px;
+    padding: 10px 76px;
+}
+.favourites-grid {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.card {
+    background-size: cover;
+    height: 200px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 0;
+}
+.card i {
+    color: rgb(255, 51, 102) !important;
+    font-size: 20px;
+    position: absolute;
+    right: 23px;
+    top: 8px;
+    z-index: 100;
+}
+.description {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 7px;
+}
+.description_title {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-top: 50px;
+}
+.description_title h2 {
+    text-transform: uppercase;
+}
+.description_detail p{
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+}
+.description_detail p:nth-child(1) {
+    margin-top: 20px;
 }

@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-	<div id="site-content" style="background-color:#f9f7f9;">
+	<div id="site-content">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-12 col-sm-12">
@@ -99,35 +99,37 @@
 									<hr class="s1jjl8nz-0-Divider-hdPlfo gPzZwx" spacing="0">
 									<div class="s4xyhxd-0-BaseTitle-cdEphK goBYvE">Personalize your card</div>
 								</div>
-								<div>
-									<div class="row">
-										<div class="col-md-4">
-											<div class="form_input">
-												<label>Sender Name</label>
-												<input type="text" name="sender_name" class="form-control" id="sender_name" placeholder="Enter" required>
+								<form id="payment_profile" action="api/gift-payment" method="post">
+									<div>
+										<div class="row">
+											<div class="col-md-4">
+												<div class="form_input">
+													<label>Sender Name</label>
+													<input type="text" name="sender_name" class="form-control" id="sender_name" placeholder="Enter" required>
+												</div>
+												<div class="form_input">
+													<label>Beneficiary Name</label>
+													<input type="text" name="beneficiary_name" class="form-control" id="beneficiary_name" placeholder="Enter" required>
+												</div>
+												<div class="form_input">
+													<label for="beneficiary">Beneficiary Email</label>
+													<input type="email" name="beneficiary_email" class="form-control" id="beneficiary_email" placeholder="Enter" required>
+												</div>
 											</div>
-											<div class="form_input">
-												<label>Beneficiary Name</label>
-												<input type="text" name="beneficiary_name" class="form-control" id="beneficiary_name" placeholder="Enter" required>
-											</div>
-											<div class="form_input">
-												<label for="beneficiary">Beneficiary Email</label>
-												<input type="email" name="beneficiary_email" class="form-control" id="beneficiary_email" placeholder="Enter" required>
+											<div class="col-md-8">
+												<label for="description">A Liite Word</label>
+												<textarea rows="5" id="message" class="form-control"></textarea>
 											</div>
 										</div>
-										<div class="col-md-8">
-											<label for="description">A Liite Word</label>
-											<textarea rows="5" id="message" class="form-control"></textarea>
-										</div>
+										<br>
+										<input type="hidden" name="price" id="amount" value="50">
+										<input type="hidden" name="design_id" id="design_id">
+										<hr>
+										<h4 id="total_amount">Total Amount: $0</h4>
+										<input type="submit" id="place_order" value="Order" class="sui-button sui-button-primary GiftCardLayout__SubmitGiftCard-s185zsgc-5 ihKlVZ sc-eNQAEJ hMCHmi">
 									</div>
-									<br>
-									<input type="hidden" name="price" id="amount" value="50">
-									<input type="hidden" name="email" id="customer_email" value="50">
-									<hr>
-    								<h4 id="total_amount">Total Amount: $0</h4>
-    								<input type="button" id="place_order" value="Order" class="sui-button sui-button-primary GiftCardLayout__SubmitGiftCard-s185zsgc-5 ihKlVZ sc-eNQAEJ hMCHmi">
-								</div>
-								<form action="api/gift-payment" method="post" id="payment-form" hidden>
+								</form>
+								<form action="{{ url('/gift-payment') }}" method="get" id="payment-form" hidden>
 									<div class="form-row">
 										<label for="card-element">
 										Credit or debit card
@@ -190,9 +192,10 @@
 
 @section('foot')
 	@parent
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 	<script src="https://js.stripe.com/v3/"></script>
 	<script>
-		var stripe = Stripe('pk_test_vHzm4MRyBzIThy8sQxLNI81z');
+		var stripe = Stripe('pk_test_vHzm4MRyBzIThy8sQxLNI81z');		
 		var elements = stripe.elements();
 		var style = {
 			base: {
@@ -252,14 +255,38 @@
 			var hiddenInput1 = document.createElement('input');
 			hiddenInput1.setAttribute('type', 'hidden');
 			hiddenInput1.setAttribute('name', 'amount');
-			hiddenInput1.setAttribute('value', $("#amount").val()*100);
-			form.appendChild(hiddenInput1);
+			hiddenInput1.setAttribute('value', $("#amount").val());
+			form.appendChild(hiddenInput1);			
 
 			var hiddenInput2 = document.createElement('input');
 			hiddenInput2.setAttribute('type', 'hidden');
-			hiddenInput2.setAttribute('name', 'email');
-			hiddenInput2.setAttribute('value', $("#customer_email").val());
+			hiddenInput2.setAttribute('name', 'design_id');
+			hiddenInput2.setAttribute('value', $("#design_id").val());
 			form.appendChild(hiddenInput2);
+
+			var hiddenInput3 = document.createElement('input');
+			hiddenInput3.setAttribute('type', 'hidden');
+			hiddenInput3.setAttribute('name', 'sender_name');
+			hiddenInput3.setAttribute('value', $("#sender_name").val());
+			form.appendChild(hiddenInput3);
+
+			var hiddenInput4 = document.createElement('input');
+			hiddenInput4.setAttribute('type', 'hidden');
+			hiddenInput4.setAttribute('name', 'beneficiary_name');
+			hiddenInput4.setAttribute('value', $("#beneficiary_name").val());
+			form.appendChild(hiddenInput4);
+
+			var hiddenInput5 = document.createElement('input');
+			hiddenInput5.setAttribute('type', 'hidden');
+			hiddenInput5.setAttribute('name', 'beneficiary_email');
+			hiddenInput5.setAttribute('value', $("#beneficiary_email").val());
+			form.appendChild(hiddenInput5);
+
+			var hiddenInput6 = document.createElement('input');
+			hiddenInput6.setAttribute('type', 'hidden');
+			hiddenInput6.setAttribute('name', 'little_word');
+			hiddenInput6.setAttribute('value', $("#message").val());
+			form.appendChild(hiddenInput6);
 
 			// Submit the form
 			form.submit();

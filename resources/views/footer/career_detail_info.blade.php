@@ -28,7 +28,6 @@
             <div class="row position space-6">
                 <div class="col-12">
                     {!!$detail_info->content!!}
-                    <!--<a href="/careers/apply2/1206346?gh_src=" id="applyButton" class="btn btn-large btn-primary" style="position: relative; margin-top: -21px;">Apply Now</a>-->
                 </div>
             </div>
         </section>

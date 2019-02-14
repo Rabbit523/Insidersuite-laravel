@@ -6,13 +6,13 @@
 <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);</style>
 <link rel="stylesheet" type="text/css" href="{{ url('css/customize/offer.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ url('css/customize/blog.css') }}">
-@endsection
+@endsection 
 
 @section('content')
 <div id="site-content">
   <div class="row content static-banner">
 		<div class="head head--common">
-			<div class="headBg lazyloaded" style="background-image: url(&quot;https://blog.atairbnb.com/wp-content/themes/blogs-atairbnb/images/BlogHeader.jpg&quot;);"></div>
+			<div class="headBg lazyloaded" style="background-image: url(&quot;https://www.insidersuite.com/public/imgs/blog_banner.jpg&quot;);"></div>
 		</div>
 	</div>
   <div id="main" class="cb-home clearfix" role="main">
@@ -21,7 +21,7 @@
       <div class="cb-article-area">
         <div class="cb-mask">
           <a class="rankings">
-             <img src="{{$blog->banner_img}}" class="cb-square clearfix wp-post-image" alt=""></a>
+             <img src="{{$blog->banner_img}}" class="cb-square clearfix wp-post-image" alt=""></a> 
         </div>
         <div class="cb-meta-data">
           <h2 class="cb-post-title"><a class="blog_detail" data-id="{{$blog->id}}">{{$blog->title}}</a></h2>
@@ -32,7 +32,8 @@
     </article>
     @endforeach
     <div class="blog-footer">
-        <a href="@if(Auth::User()) {{ url('offers') }} @else href="#" data-toggle="modal" data-target="#authentication" @endif" class="btn btn-subscribe">Subscribe</a>
+    <h1 style="font-style:italic;">Design your next trip</h1>
+        <a href="@if(Auth::User()) {{ url('offers') }} @else href="#" data-toggle="modal" data-target="#authentication" @endif" class="btn btn-subscribe">See all sales</a>
     </div>
   </div>
 </div>

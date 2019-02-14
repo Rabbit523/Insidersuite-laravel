@@ -110,7 +110,28 @@ return [
             'root' => public_path('assets/uploads/newsletter_imgs'),
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
-        ]
+        ],
+
+        'offer_imgs' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/offer_imgs'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        'accom_imgs' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/accom_imgs'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        'accom_exp_imgs' => [
+            'driver' => 'local',
+            'root' => public_path('assets/uploads/accom_exp_imgs'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
     ],
 
 ];

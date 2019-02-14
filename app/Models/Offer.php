@@ -24,7 +24,7 @@ class Offer extends Model
      * @var array
      */
 
-    protected $fillable = ['offer_name', 'location_country', 'location_place', 'expiration_date', 'discount', 'like', 'duration_time'];
+    protected $fillable = ['location_country', 'location_place', 'like_count', 'img_path', 'accomodation', 'activity', 'status'];
 
     /**
      * The attributes that should be hidden for arrays.

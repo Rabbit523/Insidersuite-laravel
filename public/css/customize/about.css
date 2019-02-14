@@ -211,6 +211,19 @@
     margin-bottom: 31px;
   }
 }
+@media (max-width: 414px) {
+  .hm-splash-page--benefit-item {
+    width: 150px;
+    flex: 0 0 133px;
+  }
+  ._1x0jb4k {    
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }  
+  h1 {
+    text-align: center;
+  }
+}
 @media (max-width: 412px) {
   .hm-splash-page--benefit-item {
     padding-bottom: 30px;
@@ -330,6 +343,11 @@
     max-width: 240px !important;
   }
 }
+@media (max-width: 414px) {
+  ._y93c7s {
+    margin-left: 0px !important; 
+  }
+}
 @media (max-width:412px) {
   ._y93c7s {
     vertical-align: bottom;
@@ -358,6 +376,11 @@
       margin-left: 72px !important;
   }
 }
+@media (min-width: 414px) {
+  ._1qtdxdb {
+      margin-left: 0px !important;
+  }
+}
 @media (min-width: 744px) {
   ._1qtdxdb {
       margin-left: 68px !important;
@@ -368,6 +391,7 @@
       margin-left: 0px !important;
   }
 }
+
 ._ncwphzu {
   margin: 0px !important;
   word-wrap: break-word !important;

@@ -1,0 +1,53 @@
+.promotion {
+    display: block;
+    margin: 30px 20px 30px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background: #fff;
+}
+.promotion .title {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.promotion .title h3 {
+    display: inline;
+}
+.promotion #generate {
+    color: #337ab7 !important;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.promotion .code p {
+    color: #555;
+}
+.options {
+    display: block;
+    margin: 30px 20px 30px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background: #fff;
+}
+.options .informations {
+    display: flex;
+    padding-top: 10px;
+}
+.options .form-group {
+    margin-bottom: 15px;
+    width: 50%;
+}
+.options .informations .form-group:nth-child(1) {
+    padding-right: 30px;
+}
+.percentage {
+    position: absolute;
+    right: 72px;
+    margin-top: -28px;
+}
+#save {
+    margin-left: 50px;
+}

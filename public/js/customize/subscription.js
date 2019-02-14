@@ -46,8 +46,7 @@ $('#save').click(function (){
     headers: {
       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     },
-    success: function (e) {
-      console.log(e);
+    success: function (e) {      
       if (e == "success") {
         alert("success!");
         location.reload(true);

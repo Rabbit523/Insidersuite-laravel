@@ -19,7 +19,6 @@
 						Edit Newsletter
 						@endif</h1>
 						<a type="button" class="btn btn-normal" id="save">Save</a>
-						<a type="button" class="btn btn-normal" id="send">Send</a>
 					</div>
 				</div>
 			</div>
@@ -72,6 +71,7 @@
 	var type = "{{$type}}";
 </script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="{{ url('js/bootstrap.min.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 <script type="text/javascript" src="{{ url('js/customize/admin_newsletter_detail.js') }}"></script>
 @endsection

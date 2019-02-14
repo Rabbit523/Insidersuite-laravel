@@ -158,7 +158,7 @@ a:link {
 }
 @media (max-width: 480px) {
   .article_description {
-    width: 400px;
+    width: 355px;
   }
 }
 @media (max-width: 412px) {

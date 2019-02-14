@@ -26,8 +26,8 @@ class GoogleApiController extends Controller
 		// credentials page, and copy the client ID, client secret,
 		// redirect URI, and API key. Then paste them into the
 		// following code.
-		$client->setClientId('160411329069-h8mkqhj634t2k9mcmcopnak2hehi0ggt.apps.googleusercontent.com');
-		$client->setClientSecret('liebpGJdg2VDCU-Pkv9GJqAb');
+		$client->setClientId('157886487627-edlb1tpum2gofiktbgctvrspjqtevv95.apps.googleusercontent.com');
+		$client->setClientSecret('7AWQRuJmRneVi2Fe4sXwEGl_');
 		// $client->setRedirectUri('YOUR_REDIRECT_URL');
 
 		// $client->setAuthConfig('client_secret_160411329069-h8mkqhj634t2k9mcmcopnak2hehi0ggt.apps.googleusercontent.com.json');
@@ -116,12 +116,12 @@ class GoogleApiController extends Controller
 		// credentials page, and copy the client ID, client secret,
 		// redirect URI, and API key. Then paste them into the
 		// following code.
-		$client->setClientId('160411329069-h8mkqhj634t2k9mcmcopnak2hehi0ggt.apps.googleusercontent.com');
-		$client->setClientSecret('liebpGJdg2VDCU-Pkv9GJqAb');
+		$client->setClientId('157886487627-edlb1tpum2gofiktbgctvrspjqtevv95.apps.googleusercontent.com');
+		$client->setClientSecret('z0H1O1T2fl0vbihutYKjgGc5');
 		// $client->setRedirectUri('YOUR_REDIRECT_URL');
 
 		// $client->setAuthConfig('client_secret_160411329069-h8mkqhj634t2k9mcmcopnak2hehi0ggt.apps.googleusercontent.com.json');
-		$client->setRedirectUri(url('sponsor/google'));
+		$client->setRedirectUri(url('sponsor'));
 		// $client->addScope('email');
 		$client->addScope('https://www.googleapis.com/auth/contacts.readonly');
 		// dd(session('access_token'));	
@@ -142,7 +142,7 @@ class GoogleApiController extends Controller
 
 			session(['access_token' => $client->getAccessToken()]);
 			// session('access_token',$client->getAccessToken());
-			$redirect_uri = url('sponsor/google');
+			$redirect_uri = url('sponsor');
 			// dd(session('access_token'));
 			return redirect(filter_var($redirect_uri, FILTER_SANITIZE_URL));
 		} else if (session('access_token')) {
@@ -172,7 +172,7 @@ class GoogleApiController extends Controller
 			sort($google_contacts);
 			// dd($google_contacts);
 			session()->forget('access_token');
-			return view('sponsor',compact('google_contacts'));
+			return view('footer.sponsor',compact('google_contacts'));
 
 
 		  // TODO: Use service object to request People data

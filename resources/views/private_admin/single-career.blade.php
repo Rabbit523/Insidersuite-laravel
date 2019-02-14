@@ -50,6 +50,18 @@
 							<div class="col-xs-12">
 								<div class="module type-wysiwyg">
 									<div class="title">
+										<h6>TITLE DESCRIPTION</h6>
+									</div>
+									<div class="content">
+										<textarea id="title_description"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="module type-wysiwyg">
+									<div class="title">
 										<h6>DESCRIPTION</h6>
 									</div>
 									<div class="content">
@@ -87,6 +99,7 @@
 	var type = "{{$type}}";			
 </script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="{{ url('js/bootstrap.min.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 <script type="text/javascript" src="{{ url('js/customize/admin_career_detail.js') }}"></script>
 @endsection 

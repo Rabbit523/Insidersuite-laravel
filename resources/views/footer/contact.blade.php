@@ -7,6 +7,7 @@
 @endsection
 @section('content')
 <div id="site-content">
+    <!--<img class="our-story-banner1" src="{{ url('imgs/InsiderSuite_Write_to_us.jpg') }}">-->
 	<main role="main" id="MainContent" class="main anim-fade-in-up">
 		<div class="hm-subheader">
 			<div class="hm-container mod-tight">
@@ -28,7 +29,7 @@
 			</div>
 		</div>
 		<div class="hm-container mod-tight hm-margin">		
-			<form method="post" action="{{url('write_mail')}}" id="contact_form">
+			<form method="post" action="@if(Auth::User()){{url('write_mail')}} @else {{url('write_mail_un')}} @endif" id="contact_form">
 					{{ csrf_field() }}
         <div class="hm-form--group">          
           <input type="text" name="subject" id="ContactFormSubject" value="" spellcheck="false" autocomplete="off" autocapitalize="off" required class="hm-form--control">

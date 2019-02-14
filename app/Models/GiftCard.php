@@ -24,7 +24,7 @@ class GiftCard extends Model
      * @var array
      */
 
-    protected $fillable = ['user_id', 'customer_id', 'email', 'name', 'design_id', 'amount', 'sender_name', 'beneficiary_name', 'beneficiary_email', 'little_word','time_stamp','message', 'voucher_no'];
+    protected $fillable = ['user_id', 'customer_id', 'email', 'name', 'design_id', 'amount', 'sender_name', 'beneficiary_name', 'beneficiary_email', 'little_word','status', 'voucher_no'];
 
     /**
      * The attributes that should be hidden for arrays.

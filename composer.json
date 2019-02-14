@@ -8,12 +8,15 @@
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
         "google/apiclient": "^2.2",
+        "hayageek/oauth2-yahoo": "^2.0",
         "ixudra/curl": "^6.16",
         "laravel/framework": "5.5.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
         "rapidwebltd/php-google-people-api": "^1.0",
-        "stripe/stripe-php": "^6.8"
+        "stripe/stripe-php": "^6.8",
+        "phpoffice/phpspreadsheet": "^1.2",
+        "phpoffice/phpexcel": "^1.8"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

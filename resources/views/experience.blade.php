@@ -3,7 +3,9 @@
 @section('title','Insider Suite |  Experience')
 @section('head')
 @parent
-<link rel="stylesheet" type="text/css" href="{{ url('css/customize/experience.css') }}">
+<link rel="stylesheet" href="{{ url('css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url('css/magicsuggest-min.css') }}">
+<link rel="stylesheet" href="{{ url('css/customize/experience.css') }}">
 @endsection
 
 @section('content')
@@ -17,10 +19,11 @@
           </div>
           <div style="margin-top: 16px; margin-bottom: 16px;">
             <div style="margin-top: 16px; margin-bottom: 16px;">
-              <div class="_ncwphzu">We’re excited to learn about the experience you’d like to host on Airbnb.</div>
+<div class="_ncwphzu">We’re excited to be part of  <b>the unique experience you'll live. </b></div>
             </div>
             <div style="margin-top: 16px; margin-bottom: 16px;">
-              <div class="_ncwphzu">In just a few minutes, you’ll start to create your experience page, then you’ll submit it to be reviewed by Airbnb.</div>
+            <div class="_ncwphzu">From the latest <b>trendy boutique villa</b> to the most <b>extreme activity</b> or <b>cultural event</b>, we take care of every details for your next trip, even the ones a lambda tourist wouldn’t have access to...
+            </div>
             </div>
           </div>
           <div>
@@ -34,7 +37,7 @@
         <div class="_1f6oxkn">
           <div class="_10105j3">
             <div class="_e296pg" style="width: 100%; height: 100%;">
-              <div class="_6ikqekk" role="img" aria-label="intro" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/e5326d29-a36c-4829-8300-3ed48e287b43.jpg&quot;);"></div>
+              <div class="_6ikqekk" role="img" aria-label="intro" style="width: 100%; height: 100%; background-image: url('imgs/discover-1.jpg');"></div>
             </div>
           </div>
         </div>
@@ -44,7 +47,7 @@
       <div class="_1dnc5pl">
         <div class="_1b08ubc">
           <div class="_1l4vj07">
-            <div class="_12ei9u44"> Let’s go over what an Airbnb experience is, and what it isn’t. </div>
+            <div class="_12ei9u44"> Fasten your seatbelt, It's time to upgrade the way you travel 🔥 </div>
           </div>
         </div>
       </div>
@@ -66,22 +69,19 @@
       <div class="_typbqzd">
         <div class="_c0gjcf">
           <div>
-            <div class="_12ei9u44"> What is Airbnb looking for in an experience? </div>
+        <div class="_12ei9u44"> It is the best-kept travel secret, a plan that is exchanged between insiders ... </div>
           </div>
           <div style="margin-top: 16px; margin-bottom: 16px;">
             <ul>
-              <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">It’s led by a knowledgeable and passionate host</div></li></div>
-              <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">Guests participate hands-on, or are immersed in an activity</div></li></div>
-              <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">It gives guests access to a special place or community</div></li></div>
-              <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">It tells the story of a host’s unique perspective</div></li></div>
+              <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">Far from stagnant trips filled with standardized places and played out experiences Insider Suite gives you the tool to create a new way of travelling - unique and authentic. </div></li></div>
+            <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">Explore each destination and experience different villas and activities along the way, and infuse our experiences with their perspectives.</div></li></div>
+            <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">Unbeatable rates and exclusive benefits</div></li></div>
+              <div style="margin-top: 16px; margin-bottom: 16px;"><li><div class="_ncwphzu">Customer service is at your disposal every day of the week to answer your questions</div></li></div>
             </ul>
           </div>
           <div>
             <div style="margin-top: 32px; margin-bottom: 32px;">
               <button type="button" class="btn next" id="next_step2" aria-busy="false"><span class="_cgr7tc7"><span>Next</span></span></button>
-              <div class="_36rlri" style="margin-left: 16px; margin-right: 16px;">
-                <div class="_1n57hdr7"><a href="/help/article/1451/what-are-the-quality-standards-for-experiences" target="_blank" rel="noopener noreferrer" class="_1uqp3jab" aria-busy="false">Learn more about our standards</a></div>
-              </div>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
         <div class="_1f6oxkn">
           <div class="_10105j3">
             <div class="_e296pg" style="width: 100%; height: 100%;">
-              <div class="_6ikqekk" role="img" aria-label="looking-for" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/3f31d2eb-886a-4383-a9ae-1a4c3de7444f.jpg&quot;);"></div>
+              <div class="_6ikqekk" role="img" aria-label="looking-for" style="width: 100%; height: 100%; background-image: url('imgs/discover-2.jpg');"></div>
             </div>
           </div>
         </div>
@@ -111,22 +111,23 @@
     </div>
     <div class="step3">
       <div class="works">
-        <h3>Tribe benefits</h3>
+        <div class="_12ei9u44"> Insider Suite benefits</div>
+        <div></div>
         <div class="hm-splash-page--benefit-container">
           <div class="hm-splash-page--benefit-item">
-            <img src="//cdn.shopify.com/s/files/1/2785/2466/files/benefit-3_230x.png?v=1530203215" alt="">
-            <h4>Premium offers</h4>
-            <p>Early members gain access<br>to limited member offers.</p>
+            <img src="../imgs/benefit-3_pink.png" alt="">
+            <h4>First-come, first-served</h4>
+            <p>If our members enjoy <b>exclusive rates</b> it is because our offers are in <b>limited quantities</b>, so <b>be quick</b></p>
           </div>
           <div class="hm-splash-page--benefit-item">
-            <img src="//cdn.shopify.com/s/files/1/2785/2466/files/benefit-2_230x.png?v=1530203241" alt="">
-            <h4>Exclusive access</h4>
-            <p>Get exclusive pre-access to our latest fashion drops.</p>
+            <img src="../imgs/benefit-2_pink.png" alt="">
+            <h4>Personalize your Holiday</h4>
+            <p><b>A complete day-by-day itinerary</b> based on your <b>personal interests</b> and <b>preferences</b>. <b>New experiences, new surprises</b>. your Holiday will no longer be the same.</p>
           </div>
           <div class="hm-splash-page--benefit-item">
-            <img src="../images/benefit-3.png" alt="">
-            <h4>Have your say</h4>
-            <p>Help us shape the future<br>of Nyden by voting for<br>designs and suggesting<br>сollaborations.</p>
+            <img src="../imgs/benefit-1_pink.png" alt="">
+            <h4>Share with us your experience</h4>
+            <p>Help us shape the future of Insider Suite by <b>voting for new destinations</b> and <b>new activities</b>.</p>
           </div>
         </div>
         <button type="button" class="btn next" id="next_step3" aria-busy="false"><span class="_cgr7tc7"><span>Next</span></span></button>
@@ -135,7 +136,7 @@
         <div class="_1f6oxkn">
           <div class="_10105j3">
             <div class="_e296pg" style="width: 100%; height: 100%;">
-              <div class="_6ikqekk" role="img" aria-label="not-looking-for" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/fa546cb5-beea-4427-8af3-5b0c0efa00ee.jpg&quot;);"></div>
+              <div class="_6ikqekk" role="img" aria-label="not-looking-for" style="width: 100%; height: 100%; background-image: url('imgs/discover-3.jpg');"></div>
             </div>
           </div>
         </div>
@@ -158,7 +159,7 @@
       <div class="_1dnc5pl">
         <div class="_1b08ubc">
           <div class="_1l4vj07">
-            <div class="_12ei9u44"> Great! Now that you know what an experience is, we’d like to learn a bit about your hospitality style. </div>
+            <div class="_12ei9u44"> Great! Now that you know what an experience is, we’d like to learn a bit about your style ✌️</div>
           </div>
         </div>
       </div>
@@ -180,8 +181,7 @@
       <div class="step-content">
         <div class="works">
           <div class="header">
-            <h2>Introduce yourself to girlfriends!</h2>
-            <p><br>you are almost there!</br><br>All you have to do is introduce yourself to the other girlfriends</br>and specify the countries you have visited and the ones you are dreaming about!
+            <div class="_12ei9u44"> Tell us about yourself</div>
           </div>
           <div class="profile-content">
             <div class="profile">
@@ -201,21 +201,26 @@
                   <input class="AvatarEditor__InvisibleInput-au91t-6 bJGPFf" id="avatarUpload" type="file" accept="image/*">
                 </div>
               </div>
-              <button type="button" class="btn next" id="next_step5" aria-busy="false"><span class="_cgr7tc7"><span>Next</span></span></button>
+
             </div>
             <div class="message">
-              <textarea id="first-ten-min" class="_ibk00h" name="first-ten-min" placeholder="Describe yourself in a few words"></textarea>
-              <h4>Countries that you have visits</h4>
-              <div class="tags"></div>
-              <input type="text" id="indicate" placeholder="Indicate a country">
+                <h4>Countries that you are dreaming about?</h4>
+                <input id="indicate">
+                <h4>How often do you travel?</h4>
+                <input id="indicate_travel">
+                <h4>Email address of your favorite travel buddy?</h4>
+                <input id="travel_buddy">
+                <h4>What activity are you most excited about?</h4><br>
+                <input id="activity_name">
             </div>
           </div>
+              <div><button type="button" class="btn next" id="next_step5" aria-busy="false"><span class="_cgr7tc7"><span>Next</span></span></button></div>
         </div>
         <div class="_ugd6bx">
           <div class="_1f6oxkn">
             <div class="_10105j3">
               <div class="_e296pg" style="width: 100%; height: 100%;">
-                <div class="_6ikqekk" role="img" aria-label="first-ten-min" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/7e51b0bc-b628-4e4e-bf70-0b8341ed1045.jpg&quot;);"></div>
+                <div class="_6ikqekk" role="img" aria-label="first-ten-min" style="width: 100%; height: 100%; background-image: url('imgs/discover-4.jpg');"></div>
               </div>
             </div>
           </div>
@@ -249,7 +254,7 @@
         <div class="_1f6oxkn">
           <div class="_10105j3">
             <div class="_e296pg" style="width: 100%; height: 100%;">
-              <div class="_6ikqekk" role="img" aria-label="first-ten-min" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/7e51b0bc-b628-4e4e-bf70-0b8341ed1045.jpg&quot;);"></div>
+              <div class="_6ikqekk" role="img" aria-label="first-ten-min" style="width: 100%; height: 100%; background-image: url('imgs/discover-2.jpg');"></div>
             </div>
           </div>
         </div>
@@ -272,7 +277,7 @@
       <div class="_typbqzd">
         <div class="_c0gjcf">
           <div>
-            <div class="_12ei9u44"> Thanks! Now it’s time to start creating. </div>
+            <div class="_12ei9u44"> Thanks! Now it’s time to start creating your experience. </div>
           </div>
           <div style="margin-top: 16px; margin-bottom: 16px;">
             <div style="margin-top: 16px; margin-bottom: 16px;">
@@ -284,8 +289,8 @@
                     </div>
                   </div>
                   <div class="_1thk0tsb">
-                    <div class="_gttisv7">Learn about our expectations</div>
-                    <div class="_ncwphzu">Find out what makes experiences different and what Airbnb is looking for.</div>
+            <div class="_gttisv7">Discover our destinations</div>
+            <div class="_ncwphzu">Find out every two weeks a new destinations with its surprises along the way.</div>
                   </div>
                 </div>
               </div>
@@ -300,7 +305,7 @@
                   </div>
                   <div class="_1thk0tsb">
                     <div class="_gttisv7">Create your experience</div>
-                    <div class="_ncwphzu">Add photos, videos, descriptions, and other details to be reviewed by Airbnb.</div>
+                    <div class="_ncwphzu">Book multiple accomodations and activities into your trip.</div>
                   </div>
                 </div>
               </div>
@@ -314,8 +319,8 @@
                     </div>
                   </div>
                   <div class="_1thk0tsb">
-                    <div class="_gttisv7">Submit for review</div>
-                    <div class="_ncwphzu">Someone from Airbnb will review your experience page. If it meets our quality standards, you’ll get to add availability and start hosting!</div>
+                    <div class="_gttisv7">Submit and travel</div>
+                    <div class="_ncwphzu">Share the trip with your loved ones and travel with a spirit of lightness !</div>
                   </div>
                 </div>
               </div>
@@ -330,7 +335,7 @@
         <div class="_1f6oxkn">
           <div class="_10105j3">
             <div class="_e296pg" style="width: 100%; height: 100%;">
-              <div class="_6ikqekk" role="img" aria-label="finish" style="width: 100%; height: 100%; background-image: url(&quot;https://a0.muscache.com/pictures/3cb57617-2b34-40e5-9a84-2ace12912ade.jpg&quot;);"></div>
+              <div class="_6ikqekk" role="img" aria-label="finish" style="width: 100%; height: 100%; background-image: url('imgs/discover-2.jpg');""></div>
             </div>
           </div>
         </div>
@@ -354,5 +359,8 @@
 @endsection
 
 @section('scripts')
+<script src="{{ url('js/bootstrap.min.js') }}"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="{{ url('js/magicsuggest-min.js') }}"></script>
 <script type="text/javascript" src="{{ url('js/customize/experience.js') }}"></script>
 @endsection

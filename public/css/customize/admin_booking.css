@@ -1,0 +1,40 @@
+.header-list {
+  background: rgb(255, 51, 102);
+  padding: 10px 30px;
+  color: #fff;
+}
+.general-wrapper .page-container .page-content .content-box .label-table {
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 25px;
+  height: 25px;
+}
+.location_country {
+  width: 20%;
+}
+.user_name {
+  width: 20%;
+  text-align: center;
+}
+.exp_name {
+  width: 35%;
+  text-align: center;
+}
+.arrival_date {
+  width: 10%;
+  text-align: center;
+}
+.guest_nb {
+  width: 15%;
+  text-align: center;
+}
+.general-wrapper .page-container .page-content .content-box .item-list {
+  display: block;
+}
+.general-wrapper .page-container .page-content .content-box .item-list .item{
+  background: #fff;
+  color: #333;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}

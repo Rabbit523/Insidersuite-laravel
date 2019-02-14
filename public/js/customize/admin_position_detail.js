@@ -1,7 +1,9 @@
 var redirect_path = window.location.protocol + "//" + window.location.hostname;
 populateCountries("country", "state");
 $("#position").summernote({height: 100});
+$('#position').summernote('fontName', 'Arial');
 $("#description").summernote({height: 300});
+$('#description').summernote('fontName', 'Arial');
 
 var position = $(".page-content").data("source");
 var position_img = "";
@@ -45,10 +47,10 @@ $("#save").click(function () {
         'banner_img': position_img,
         'parent_id': $(".page-content").data('parent'),
         'id': 0
-    };
+    };    
     if (type != "new") {
         newPosition.id = position.id;
-    }
+    }    
     if (newPosition.title != "" && newPosition.content != "" && newPosition.office) {
         $.ajax({
             type: 'post',

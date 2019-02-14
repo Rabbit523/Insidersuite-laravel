@@ -54,12 +54,11 @@
 						<strong class="message"></strong>
 					</div>
 					<div class="authentication-tabs">
-						<a id="signup-tab">Sign up</a>
-						<a id="login-tab" class="active">Become Member</a>
+						<a id="signup-tab">Become member</a>
+						<a id="login-tab" class="active">Log in</a>
 					</div>
 					<div class="signup-form">
 						<div id="signup_form">
-							<input type="text" class="referal_code" value="@if(isset($_GET['referal_code'])) @endif" hidden="">
 							<input type="email" id="register_email" placeholder="Email address" required>
 							<input type="text" id="register_firstname" placeholder="First name" required>
 							<input type="text" id="register_lastname" placeholder="Last name" required>
@@ -68,7 +67,6 @@
 						</div>
 					</div>
 					<div class="login-form">
-						<input type="text" class="referal_code" value="@if(isset($_GET['referal_code'])) @endif" hidden="">
 						<input type="email" id="login_email" placeholder="Email" required>
 						<input type="password" id="login_password" placeholder="Password" required>
 						<input type="button" class="btn login" value="Login">
@@ -117,7 +115,7 @@
 	</div>
 	<div id="message_panel">
 		<div class="message_pane">
-			<form method="post" action="{{ url('live_message') }}">
+			<form method="post" @if(Auth::User()) action="{{ url('live_message') }} @else action="{{ url('live-message') }} @endif">
 				{{ csrf_field() }}
 				<div class="message-content">
 					<div class="message-header">
@@ -143,7 +141,7 @@
 						</div>
 						<div class="form-group attach">
 							<label for="">Attachments</label>
-							<a id="attach_file"><img src="{{ url('imgs/attach.png') }}"><span>Add file or drop here</span></a>
+							<a id="attach_file"><img src="../imgs/attach.png"><span>Add file or drop here</span></a>
 							<input class="input_file" id="file_upload" type="file" accept="image/*">
 							<input class="input_file" id="attached_file" type="hidden" name="attached_file">
 						</div>
@@ -164,6 +162,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script type="text/javascript" src="{{ url('js/jquery.star-rating-svg.js') }}"></script>
 <script type="text/javascript" src="{{ url('js/modal-loading.js') }}"></script>
+<script> var user = @json(auth()->user());</script>
 <script type="text/javascript" src="{{ url('js/customize/layout.js') }}"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

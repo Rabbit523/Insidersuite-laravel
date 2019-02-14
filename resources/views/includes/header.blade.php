@@ -1,5 +1,5 @@
 @if(Auth::User())
-@if(Request::segment(1) == null || Request::segment(1) == 'offers' || Request::segment(1) == 'gift-card' || Request::segment(1) == 'credit' || Request::segment(1) == 'how-it-works' || Request::segment(1) == 'offer_detail' || Request::segment(1) == 'blog' || Request::segment(1) == 'sponsor' || Request::segment(1) == 'career' || Request::segment(1) == 'career_detail_info' || Request::segment(1) == 'blog_detail' || Request::segment(1) == 'career_detail')
+@if(Request::segment(1) == null || Request::segment(1) == 'offers' || Request::segment(1) == 'gift-card' || Request::segment(1) == 'credit' || Request::segment(1) == 'how-it-works' || Request::segment(1) == 'offer_detail' || Request::segment(1) == 'blog' || Request::segment(1) == 'sponsor' || Request::segment(1) == 'career' || Request::segment(1) == 'career_detail_info' || Request::segment(1) == 'blog_detail' || Request::segment(1) == 'career_detail' || Request::segment(1) == 'home')
 <nav class="navbar navbar-fixed-top transparent_navbar">
     <div class="container-fluid">
         <div class="row">
@@ -21,8 +21,9 @@
                 </div>
                 <div id="navbar-full" class="collapse full_white_icons" >
                     <ul class="nav-lists">
+                        <li><a href="/offers"><img src="../imgs/location_black.png" class="header_icon nav_trip"><p class="header_text">Design your trip</p></a></li>
                         <li><a href="{{ url('gift-card') }}"><img src="../imgs/black_gift.png" class="header_icon nav_gift"><p class="header_text">Gift card</p></a></li>
-                        <li><a href="{{ url('favourites/list') }}"><img src="../imgs/black_heart.png" class="header_icon nav_heart" ><p class="header_text">Favourites</p></a></li>
+                        <li><a href="{{ url('favourites_list') }}"><img src="../imgs/black_heart.png" class="header_icon nav_heart" ><p class="header_text">Favourites<span class="notification_short" style="display:none;"></span></p></a></li>
                         <li><a href="{{ url('write-to-us') }}"><img src="../imgs/black_help.png" class="nav_help header_icon" ><p class="header_text header_text_help">Help</p></a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="../imgs/black_user.png" class="nav_user header_icon" ><p class="header_text header_text_account">Account</p></a>
@@ -58,8 +59,9 @@
                 <div class="col-md-9 col-xs-9 col-lg-9">
                     <div id="navbar" class="collapse navbar-collapse white_icons">
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/offers"><img src="../imgs/location_white.png" class="design_header_icon nav_trip"><p class="header_text">Design your trip</p></a></li>
                             <li><a href="{{ url('gift-card') }}"><img src="../imgs/white_gift.png" class="header_icon"><p class="header_text">Gift card</p></a></li>
-                            <li><a href="{{ url('favourites/list') }}"><img src="../imgs/white_heart.png" class="header_icon" ><p class="header_text">Favourites</p></a></li>
+                            <li><a href="{{ url('favourites_list') }}"><img src="../imgs/white_heart.png" class="header_icon" ><p class="header_text">Favourites<span class="notification" style="display:none;"></span></p></a></li>
                             <li><a href="{{ url('write-to-us') }}"><img src="../imgs/white_help.png" class="header_icon" ><p class="header_text header_text_help">Help</p></a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="../imgs/white_user.png" class="header_icon" ><p class="header_text header_text_account">Account</p></a>
@@ -83,8 +85,9 @@
                     </div>
                     <div id="navbar" class="collapse navbar-collapse black_icons" style="display:none !important;">
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/offers"><img src="../imgs/location_black.png" class="design_header_icon nav_trip"><p class="header_text">Design your trip</p></a></li>
                             <li><a href="{{ url('gift-card') }}"><img src="../imgs/black_gift.png" class="header_icon"><p class="header_text">Gift card</p></a></li>
-                            <li><a href="{{ url('favourites/list') }}"><img src="../imgs/black_heart.png" class="header_icon" ><p class="header_text">Favourites</p></a></li>
+                            <li><a href="{{ url('favourites_list') }}"><img src="../imgs/black_heart.png" class="header_icon" ><p class="header_text">Favourites<span class="notification" style="display:none;"></span></p></a></li>
                             <li><a href="{{ url('write-to-us') }}"><img src="../imgs/black_help.png" class="header_icon" ><p class="header_text header_text_help">Help</p></a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="../imgs/black_user.png" class="header_icon" ><p class="header_text header_text_account">Account</p></a>
@@ -111,7 +114,7 @@
         </div>
     </div>
 </nav>
- @elseif(Request::segment(1) == 'our-story' || Request::segment(1) == 'profile' || Request::segment(1) == 'write-to-us' || Request::segment(1) == 'legal-terms' || Request::segment(1) == 'travel' || Request::segment(1) == 'alerts' || Request::segment(1) == 'subscription' || Request::segment(1) == 'mail_gift_card' || Request::segment(1) == 'contact' || Request::segment(1) == 'create_experiences' || Request::segment(1) == 'favourites' )
+ @elseif(Request::segment(1) == 'our-story' || Request::segment(1) == 'profile' || Request::segment(1) == 'legal-terms' || Request::segment(1) == 'travel' || Request::segment(1) == 'alerts' || Request::segment(1) == 'subscription' || Request::segment(1) == 'mail_gift_card' || Request::segment(1) == 'create_experience' || Request::segment(1) == 'favourites_list' || Request::segment(1) == 'contact' || Request::segment(1) == 'write-to-us')
  <nav class="navbar navbar-fixed-top  solid_navbar">
     <div class="container-fluid">
         <div class="row">
@@ -127,8 +130,9 @@
                 </div>
                 <div id="navbar-full" class="collapse full_white_icons" >
                     <ul class="nav-lists">
+                        <li><a href="/offers"><img src="../imgs/location_black.png" class="header_icon nav_trip"><p class="header_text">Design your trip</p></a></li>
                         <li><a href="{{ url('gift-card') }}"><img src="../imgs/black_gift.png" class="header_icon"><p class="header_text">Gift card</p></a></li>
-                        <li><a href="{{ url('favourites/list') }}"><img src="../imgs/black_heart.png" class="header_icon" ><p class="header_text">Favourites</p></a></li>
+                        <li><a href="{{ url('favourites_list') }}"><img src="../imgs/black_heart.png" class="header_icon" ><p class="header_text">Favourites<span class="notification_short" style="display:none;"></span></p></a></li>
                         <li><a href="{{ url('write-to-us') }}"><img src="../imgs/black_help.png" class="header_icon" ><p class="header_text header_text_help">Help</p></a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="../imgs/black_user.png" class="header_icon" ><p class="header_text header_text_account">Account</p></a>
@@ -158,8 +162,9 @@
                 <div class="col-md-9 col-xs-9 col-lg-9">
                     <div id="navbar" class="collapse navbar-collapse black_icons">
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/offers"><img src="../imgs/location_black.png" class="design_header_icon nav_trip"><p class="header_text">Design your trip</p></a></li>
                             <li><a href="{{ url('gift-card') }}"><img src="../imgs/black_gift.png" class="header_icon"><p class="header_text">Gift card</p></a></li>
-                            <li><a href="{{ url('favourites/list') }}"><img src="../imgs/black_heart.png" class="header_icon" ><p class="header_text">Favourites</p></a></li>
+                            <li><a href="{{ url('favourites_list') }}"><img src="../imgs/black_heart.png" class="header_icon" ><p class="header_text">Favourites<span class="notification" style="display:none;"></span></p></a></li>
                             <li><a href="{{ url('write-to-us') }}"><img src="../imgs/black_help.png" class="header_icon" ><p class="header_text header_text_help">Help</p></a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="../imgs/black_user.png" class="header_icon" ><p class="header_text header_text_account">Account</p></a>
@@ -187,7 +192,7 @@
     </div>
 </nav>
 @endif
-@elseif(Request::segment(1) == null || Request::segment(1) == 'careers' || Request::segment(1) == 'how_it_works' || Request::segment(1) == 'blogs' || Request::segment(1) == 'blog-detail' || Request::segment(1) == 'career-detail' || Request::segment(1) == 'career-detail-info' || Request::segment(1) == 'signup')
+@elseif(Request::segment(1) == null || Request::segment(1) == 'blogs' || Request::segment(1) == 'blog-detail' || Request::segment(1) == 'career-detail' || Request::segment(1) == 'career-detail-info' || Request::segment(1) == 'signup')
 <nav class="navbar navbar-fixed-top  homepage_navbar">
     <div class="container-fluid">
         <div class="row">

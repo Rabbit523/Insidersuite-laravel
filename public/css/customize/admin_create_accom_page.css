@@ -1,0 +1,130 @@
+.title {
+    display: block;
+    width: 100%;
+    background: rgb(255, 51, 102);
+    padding: 6px 20px;
+}
+.title h6 {
+    color: #FFF;
+    font-size: 0.875em;
+    line-height: 25px;
+    margin: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.upload-btn-wrapper .btn {
+  color: gray;
+  background-color: white;
+  padding: 50px 68px 50px 80px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  height: 127px;
+  width: 100%;
+}
+
+.type-default {
+  background: #fff;
+  padding: 20px;
+}
+
+.percentage {
+  position: absolute;
+  right: 22px;
+  margin-top: -28px;
+}
+
+.type-wysiwyg {
+  margin-top: 10px;
+}
+
+#csv {
+  padding: 50px 79px 50px 90px;
+}
+#experience_image {
+  padding: 50px 82px 50px 84px;
+}
+#experience_images {
+  padding: 52px 90px 50px 89px;
+}
+.modal-dialog {
+  width: 500px;
+}
+
+.modal-experience {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.banner_img {
+  padding: 50px 55px 50px 80px !important;
+}
+
+
+.switch {
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 34px;
+  margin: 0px;
+}
+
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background-color: #bebebe;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch .slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 36px;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.switch input:checked + .slider::before {
+  -webkit-transform: translateX(46px);
+  -ms-transform: translateX(46px);
+  transform: translateX(46px);
+}
+
+.switch input:checked + .slider {
+  background-color: rgb(255, 51, 102);
+}
+
+.section_post {
+  display: none;
+}
+
+.input-box {
+  margin-top: 10px;
+  display: none;
+}

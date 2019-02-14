@@ -1,0 +1,128 @@
+.header-list {
+  background: rgb(255, 51, 102);
+  padding: 10px 30px;
+  color: #fff;
+}
+.general-wrapper .page-container .page-content .content-box .label-table {
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 25px;
+  height: 25px;
+}
+.location_country {
+  width: 20%;
+}
+.accom {
+  width: 20%;
+  text-align: center;
+}
+.act {
+  width: 20%;
+  text-align: center;
+}
+.status {
+  width: 10%;
+  text-align: center;
+}
+.location_place {
+  width: 20%;
+  text-align: center;
+}
+.last-audit {
+  width: 10%;
+  text-align: center;
+}
+.general-wrapper .page-container .page-content .content-box .item-list {
+  display: block;
+}
+.general-wrapper .page-container .page-content .content-box .item-list .item{
+  background: #fff;
+  color: #333;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+.location_country .edit {
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0;
+}
+.location_country .delete {  
+    opacity: 0;
+}
+.location_country .edit:hover, .location_country .edit:focus {
+    color: rgb(255, 51, 102);
+    text-decoration: none;
+    cursor: pointer;
+}
+.location_country .delete:hover, .location_country .delete:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.location_country:hover .edit, .location_country:focus .edit{
+  opacity: 1;
+}
+
+.location_country:hover .delete, .location_country:focus .delete{
+  opacity: 1;
+}
+.offer {
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+}
+.offer_detail {
+  display: none;
+}
+.btn-detail {
+  border: none;
+  box-shadow: none;
+  background: #eee;
+}
+
+
+.switch {
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 34px;
+  margin: 0px;
+}
+
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background-color: #bebebe;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch .slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 36px;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.switch input:checked + .slider::before {
+  -webkit-transform: translateX(46px);
+  -ms-transform: translateX(46px);
+  transform: translateX(46px);
+}
+
+.switch input:checked + .slider {
+  background-color: rgb(255, 51, 102);
+}

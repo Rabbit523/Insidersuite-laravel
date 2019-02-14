@@ -12,7 +12,8 @@ class HotelController extends Controller
     	// dd();
     	$hotels = Hotels::all();
     	// dd($hotels);
-    	return view('hotels.list_hotels',compact('hotels'));
+    // 	return view('hotels.list_hotels',compact('hotels'));
+        return view('mail_templates.review');
     }
 
     public function hotel_details($id)

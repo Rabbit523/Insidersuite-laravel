@@ -10,7 +10,7 @@ $(".edit").click(function () {
 
 $(".delete").click(function () {
     var id = $(this).data('id');
-    alert("Do you really want to remove this career?");
+    alert("Do you really want to remove this newsletter?");
     $.ajax({
         type: 'get',
         dataType: 'json',
@@ -24,3 +24,4 @@ $(".delete").click(function () {
         }
     });
 });
+

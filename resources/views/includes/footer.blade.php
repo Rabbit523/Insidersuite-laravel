@@ -7,27 +7,28 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-10">
 					<div class="col-md-2 col-sm-12 footer-margin-top">
-						<a href="@if(Auth::User()) {{ url('our-story') }} @else {{ url('our_story') }} @endif"><h5 style="font-size: 12px;">OUR STORY</h5></a><br>
-						<a href="@if(Auth::User()) {{ url('how-it-works') }} @else {{ url('how_it_works') }} @endif"><h5 style="font-size: 12px;">HOW IT WORKS</h5></a>
+						<a href="@if(Auth::User()) {{ url('our-story') }} @else {{ url('our_story') }} @endif"><h4 >Our story </h4></a><br>
+						<a href="@if(Auth::User()) {{ url('how-it-works') }} @else {{ url('how_it_works') }} @endif"><h4>How it works</h4></a>
 					</div>
 					<div class="col-md-2 col-sm-12 footer-margin-top">
-						<a @if(Auth::User()) href="{{ url('sponsor') }}" @else href="#" data-toggle="modal" data-target="#authentication" @endif><h5 style="font-size: 12px;">SPONSOR</h5></a><br>
-						<a @if(Auth::User()) href="{{ url('gift-card') }}" @else href="#" data-toggle="modal" data-target="#authentication" @endif><h5 style="font-size: 12px;">GIFT CARD</h5></a><br>
+						<a @if(Auth::User()) href="{{ url('sponsor') }}" @else href="#" data-toggle="modal" data-target="#authentication" @endif><h4>Sponsor</h4></a><br>
+						<a @if(Auth::User()) href="{{ url('gift-card') }}" @else href="#" data-toggle="modal" data-target="#authentication" @endif><h4>Gift card</h4></a><br>
 					</div>
 					<div class="col-md-2 col-sm-12 footer-margin-top">
-						<a href="@if(Auth::User()) {{ url('write-to-us') }} @else {{ url('write_to_us') }} @endif"><h5 style="font-size: 12px;">WRITE TO US</h5></a><br>
+						<a href="@if(Auth::User()) {{ url('write-to-us') }} @else {{ url('write_to_us') }} @endif"><h4>Write to us</h4></a><br>
 						@if(Auth::User())
-						<a href="#" data-toggle="modal" data-target="#website_feedback"><h5 style="font-size: 12px;">WEBSITE FEEDBACK</h5></a>
+						<a href="#" data-toggle="modal" data-target="#website_feedback"><h4 >Website feedback</h4></a>
 						@else
-						<a href="#" data-toggle="modal" data-target="#authentication"><h5 style="font-size: 12px;">WEBSITE FEEDBACK</h5></a>
+						<a href="#" data-toggle="modal" data-target="#authentication"><h4>Website feedback</h4></a>
 						@endif
 					</div>
 					<div class="col-md-2 col-sm-12 footer-margin-top">
-						<a href="@if(Auth::User()) {{ url('career') }} @else {{ url('careers') }} @endif"><h5 style="font-size: 12px;" >CAREER</h5></a><br>
-						<a href="@if(Auth::User()) {{ url('legal-terms') }} @else {{ url('legal_terms') }} @endif"><h5 style="font-size: 12px;">LEGAL TERM</h5></a>
+						<a href="@if(Auth::User()) {{ url('career') }} @else {{ url('careers') }} @endif"><h4 >Career</h4></a><br>
+						<a href="@if(Auth::User()) {{ url('legal-terms') }} @else {{ url('legal_terms') }} @endif"><h4  >Terms & conditions</h4></a>
 					</div>
 					<div class="col-md-2 col-sm-12 footer-margin-top">
-						<a href="@if(Auth::User()) {{ url('blog') }} @else {{ url('blogs') }} @endif"><h5 style="font-size: 12px;" >BLOG</h5></a><br>
+						<a href="@if(Auth::User()) {{ url('blog') }} @else {{ url('blogs') }} @endif"><h4 >Insider <i>'Secrets</i></h4></a><br>
+						<a href="mailto:contact@insidersuite.com"><h4  >Become partner</h4></a>
 					</div>
 				</div>
 			</div>

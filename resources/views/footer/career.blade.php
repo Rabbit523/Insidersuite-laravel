@@ -14,7 +14,7 @@
 		</div>
 		<div class="col-md-12">
 			<div class="text-contrast">
-				<h1 class="jobs-header-text"> Small teams creating a platform used around the world</h1>
+				<h1 class="jobs-header-text">The difference between who we are and who we want to be is what we do.</h1>
 			</div>
 		</div>
 	</div>
@@ -25,7 +25,7 @@
 				<a class="jobs-card link-reset">					
 					<div class="panel-body">
 						<h3>{{$career->department}}</h3>							
-						<p><?php echo substr($career->description, 0, 90);?>...</p>
+						<p><?php echo substr($career->title_description, 0, 90);?>...</p>
 						<p class="career" data-id="{{$career->id}}" style="color:rgb(255, 51, 102);">{{$career->positions}} positions to be filled</p>
 					</div>					
 				</a>			
@@ -33,8 +33,8 @@
 			@endforeach
 		</div>		
 		<div class="col-md-12 subscribe-section">
-		    <h1 style="font-style:italic;">Access the offers for this Sunday</h1>
-		    <a href="@if(Auth::User()) {{ url('offers') }} @else href="#" data-toggle="modal" data-target="#authentication" @endif" class="btn btn-subscribe">Subscribe</a>
+		    <h1 style="font-style:italic;">Design your next trip</h1>
+		    <a href="@if(Auth::User()) {{ url('offers') }} @else href="#" data-toggle="modal" data-target="#authentication" @endif" class="btn btn-subscribe">See all sales</a>
 		</div>
 	</div>
 </div>

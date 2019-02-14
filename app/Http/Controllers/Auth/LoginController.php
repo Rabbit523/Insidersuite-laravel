@@ -55,7 +55,11 @@ class LoginController extends Controller
             if (Auth::User()->role == 0) {
                 return response()->json('dashboard');
             } else if (Auth::User()->role == 1) {
-                return response()->json('offers');
+                if (Auth::User()->host_checked == "true") {
+                    return response()->json('offers');
+                } else if (Auth::User()->host_checked == null) {
+                    return response()->json('host_experiences');
+                }                
             }            
         } else{
             return response()->json('Invalid Email or Password!');

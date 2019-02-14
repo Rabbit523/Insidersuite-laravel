@@ -817,3 +817,25 @@ input::placeholder {
 .input_file {
   display: none !important;
 }
+.notification {
+  background: #ff3366;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 10px;
+  font-style: normal;
+  font-size: 20px;
+  width: 21px;
+  margin-left: 30px;
+  margin-top: -60px;
+}
+.notification_short {
+  background: #ff3366;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 10px;
+  font-style: normal;
+  font-size: 20px;
+  width: 21px;
+  margin-left: 75px;
+  margin-top: -27px;
+}

@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Australia/Sydney',
 
     /*
     |--------------------------------------------------------------------------
@@ -231,7 +231,6 @@ return [
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Curl' => Ixudra\Curl\Facades\Curl::class,
         // 'YahooOAuthApplication' => YahooSocial\lib\Yahoo\YahooOAuthApplication::class,
-
     ],
 
 ];

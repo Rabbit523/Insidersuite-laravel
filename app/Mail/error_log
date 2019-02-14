@@ -1,0 +1,2 @@
+[09-Jan-2019 17:28:56 UTC] PHP Fatal error:  Class 'Illuminate\Mail\Mailable' not found in /home4/insidgd5/public_html/app/Mail/UserRegister.php on line 10
+[10-Jan-2019 03:43:49 UTC] PHP Fatal error:  Class 'Illuminate\Mail\Mailable' not found in /home4/insidgd5/public_html/app/Mail/UserRegister.php on line 10

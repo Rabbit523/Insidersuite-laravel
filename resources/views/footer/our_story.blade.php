@@ -12,13 +12,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<img class="normal-section" src="../imgs/OurStory_1.jpg" alt="">
+				<img class="normal-section" src="../imgs/Our_story_1.jpg" alt="">
 			</div>
 			<div class="col-md-6">
 				<div class="normal-section">
 					<b><h2>How we got started</h2></b><br>
-					<p>It started with a challenging question: What if the indulgence of luxury holiday travel could be opened to you and me? What if travel could be with less plans and more freedom ?</p>
-					<p>At Insider Suite we know how frustrating it is to spend tons of time organising holiday and subsequently we’re working toward a common goal; make travel pleasant and more accessible helping people live for purpose by exploring their world.</p>
+					<p>Insider Suite started with a challenging question: What if the indulgence of luxury holiday travel could be opened to us? What if travel could be with less plans and more freedom ?</p>
+					<p>At Insider Suite we know how frustrating it is to spend tons of time organising holiday and subsequently we’re working toward a common goal; finding new way to travel - free and authentic, in exceptional homes.</p>
+					<p>Travel for us means giving yourself enough time to refresh your mind and body while building beautiful memories. It means fully living each moment, surrounded by your loves ones, without constraint.</p>
 					<p>All journeys have secret destinations of which Insider Suite is aware of…</p>
 				</div>
 			</div>
@@ -33,12 +34,13 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img class="normal-section" src="../imgs/OurStory_2.jpg" alt="">
+				<img class="normal-section" src="../imgs/Our_story_2.jpg" alt="">
 			</div>
 		</div>
+		
 		<div class="section_sub">
-			<h1>Access the offers for this Sunday</h1>
-			<a href="@if(Auth::User()) {{ url('offers') }} @else href="#" data-toggle="modal" data-target="#authentication" @endif" class="btn btn-subscribe">Subscribe</a>
+			<h1>Design your next trip</h1>
+			<a href="@if(Auth::User()) {{ url('offers') }} @else href="#" data-toggle="modal" data-target="#authentication" @endif" class="btn btn-subscribe">See all sales</a>
 		</div>
 	</div>
 </div>

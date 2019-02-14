@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Http\Request;
-use App\Models\GiftCard;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +13,8 @@ use App\Models\GiftCard;
 |
 */
 
-// Route::middleware('auth:api')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
 
-Route::post('gift-payment', 'ApiController@paidGiftCard');
+

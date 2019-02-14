@@ -61,7 +61,7 @@
 			}
 			@media (max-width: 480px){
 				#site-content{
-					width:480px;
+					width:414px;
 				}
 				#footer{
 					height: 0% !important;
@@ -107,7 +107,7 @@
 <div id="site-content">
 	<div class="row">
 		<div class="col-md-12 our-story-content-heading" style="margin-top: 100px;text-align: center;">
-			<h2 style="font-size: calc(2.6rem + 3.9 * ((100vw - 32rem) / 112));font-weight: 300;">LEGAL TERMS</h2>
+			<h2 style="font-size: calc(2.6rem + 3.9 * ((100vw - 32rem) / 112));font-weight: 300;">Legal terms</h2>
 		</div>
 		<div class="container" style="padding-bottom: 100px;">
 			<div class="styledList">

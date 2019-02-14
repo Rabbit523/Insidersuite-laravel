@@ -1,6 +1,8 @@
 var redirect_path = window.location.protocol + "//" + window.location.hostname;
 $("#department").summernote({height: 100});
+$('#department').summernote('fontName', 'Arial');
 $("#description").summernote({height: 300});
+$('#description').summernote('fontName', 'Arial');
 
 var career = $(".page-content").data("source");
 var career_img = "";
@@ -33,7 +35,7 @@ $("#file_upload").on('change', function() {
   });
 });
 
-$("#save").click(function () {  
+$("#save").click(function () {    
     var newCareer = {
         'department': $("#department").summernote('code'),
         'description': $("#description").summernote('code'),

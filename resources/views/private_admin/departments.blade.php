@@ -11,7 +11,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
 					<div class="title-box">
-						<h1 class="department_name" id="{{$department_name}}"><i class="fas fa-user-circle"></i>{{$department_name}}</h1>
+						<h1 class="department_name" id="{{$department_id}}"><i class="fas fa-user-circle"></i>{{$department_name}}</h1>
 						<a type="button" class="btn btn-normal" id="addNew">New Positions</a>
 					</div>
 				</div>

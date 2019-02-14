@@ -1,0 +1,2 @@
+[24-Dec-2018 13:08:56 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home4/insidgd5/public_html/app/UserRoles.php on line 7
+[11-Jan-2019 16:43:33 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home4/insidgd5/public_html/app/UserRoles.php on line 7

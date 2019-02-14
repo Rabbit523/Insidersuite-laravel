@@ -90,8 +90,7 @@ $(".add_note").click(function () {
 			'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 		},
 		success: function (e) {
-			if (e == "success") {
-				alert("success!");
+			if (e == "success") {				
         		setTimeout(function(){window.location = redirect_path + "/offers";}, 1000);
 			}
 		}
@@ -174,8 +173,10 @@ $(".login").click(function () {
 		success: function (e) {
 			if (e == "dashboard") {
 				setTimeout(function(){window.location = redirect_path + "/dashboard";}, 1000);
-			} else if (e == "offers") {
+			} else if (e == "offers") {				
 				setTimeout(function(){window.location = redirect_path + "/offers";}, 1000);
+			} else if (e == "host_experiences") {				
+				setTimeout(function(){window.location = redirect_path + "/host_experiences";}, 1000);
 			} else {
 				$(".alert").attr('style', 'display:block;');
 				$(".message").html(e);

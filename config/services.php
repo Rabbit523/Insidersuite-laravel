@@ -42,9 +42,14 @@ return [
     ],
 
     'google' => [
-        'client_id' => '160411329069-h8mkqhj634t2k9mcmcopnak2hehi0ggt.apps.googleusercontent.com',
-        'client_secret' => 'liebpGJdg2VDCU-Pkv9GJqAb',
+        'client_id' => '157886487627-edlb1tpum2gofiktbgctvrspjqtevv95.apps.googleusercontent.com',
+        'client_secret' => 'z0H1O1T2fl0vbihutYKjgGc5',
         'redirect' => 'https://www.insidersuite.com/google/callback',
     ],
 
+    'yahoo' => [
+        'client_id' => 'dj0yJmk9ZHg5RFpZNGIxWVBZJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PWRm',
+        'client_secret' => '12d2b5b33f70ac36f20be34581ecff1e9bcd2941',
+        'redirect' => 'https://www.insidersuite.com/yhoo/callback',
+    ]
 ];

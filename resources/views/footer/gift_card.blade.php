@@ -9,21 +9,24 @@
 	<div id="site-content">
 		<div class="gift_page">
 			<div class="col-md-12 col-xs-12">
-				<img class="our-story-banner" src="{{ url('imgs/background2.jpg') }}">
+				<img class="our-story-banner" src="{{ url('imgs/gift_card_banner1.jpg') }}">
 			</div>
-			<h4 class="banner-heading heading-font-style">GIFT CARD</h4>
-			<h4 class="banner-sub-heading heading-font-style">THAT ALWAYS WORK</h4>
-			<h4 class="occasion-text para-font-style" style="color: white !important;">Occasion Text Occasion Text Occasion Text Occasion Text Occasion Text Occasion Text</h4>
+			<h4 class="banner-heading heading-font-style">Give your loved ones an unforgettable ticket to discover their worlds</h4>
+			
+			<h4 class="occasion-text para-font-style" style="color: white !important;">The gift card that always works</h4>
 		</div>
 		<div class="gift_page">
 			<div class="container" style="text-align: center;">
 				<div class="gift_page">
 					<div class="col-md-6 col-xs-12">
-						<h1 class="gift_title">Insider Suite GiftCard</h1>
-						<p class="gift_text">We believe in empowering creativity to redifine traveling.
-							Our travel experts seek out the best spots around the world, sharing our insider tips and secrets to guarantee a unique experience. Insider Suite has built itself on its exigence for luxury and its ability to provide exclusive offers to get the best possible deal with discounts of up to 70% in some the finest hotels around the world. The entire Insider Suite team is engaged to make your trip a bespoke and unforgettable experience!
-							By the way, we really hope to see you soon. We can't wait to show you the best of each destination we offer.</p>
-						<a href="{{ url('mail_gift_card') }}" class="btn btn-mail-gift">Gift Mail</a>
+						<h1 class="gift_title">Easy to give, Fun to receive </h1>
+						<p ><ul>
+					            <li style="text-align: left;">Create the gift card by choosing the amount and adding a message</li>
+					            <li style="text-align: left;">Your friend then uses the gift card as a payment method when booking a trip </li>
+					            <li style="text-align: left;">Valid on all our offers</li>
+								<li style="text-align: left;">Can be redeemed within 12 months of the date of purchase</li>
+					        </ul>.</p>
+						<a href="{{ url('mail_gift_card') }}" class="btn btn-mail-gift">Create the gift card</a>
 					</div>
 					<div class="col-md-6 col-xs-12">
 						<div class="giftCardPicture GiftCardCard__GiftCardPicture-s1roh816-3 bylcQc"></div>
@@ -112,8 +115,8 @@
 				</div>
 				<div class="gift_page">
 					<div class="subsection">
-						<h1>Access the offers for this Sunday</h1>
-						<a href="@if(Auth::User()) {{ url('offers') }} @else {{ url('/') }} @endif" class="btn btn-subscribe">Subscribe</a>
+						<h1>Design your next trip</h1>
+						<a href="@if(Auth::User()) {{ url('offers') }} @else {{ url('/') }} @endif" class="btn btn-subscribe">See all sales</a>
 					</div>
 				</div>
 			</div>			

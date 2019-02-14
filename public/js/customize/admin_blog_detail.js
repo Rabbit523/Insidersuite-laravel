@@ -1,6 +1,8 @@
 var redirect_path = window.location.protocol + "//" + window.location.hostname;
 $("#title").summernote({height: 100});
+$('#title').summernote('fontName', 'Arial');
 $("#description").summernote({height: 300});
+$('#description').summernote('fontName', 'Arial');
 
 var blog = $(".page-content").data("source");
 var blog_img = "";
@@ -65,7 +67,8 @@ $("#save").click(function () {
           'banner_img': blog_img,
           'status': "saved",
           'blog_id': blog.id
-      };      
+      };
+      
       $.ajax({
           type: 'post',
           dataType: 'json',
@@ -75,8 +78,7 @@ $("#save").click(function () {
           'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
           },
           success: function (e) {
-            console.log(e);
-            alert("success!");
+            alert("success!");            
             setTimeout(function(){window.location = redirect_path + "/admin/blogs";}, 1000);
           }
       });
@@ -89,13 +91,14 @@ $("#publish").click(function () {
         'title': $("#title").summernote('code'),
         'content': $("#description").summernote('code'),
         'banner_img': blog_img,
-        'status': "published"
+        'status': "published",
+        'blog_id': blog.id
     };
     if (newBlog.title != "" && newBlog.content != "" && blog_img) {
         $.ajax({
             type: 'post',
             dataType: 'json',
-            url: 'save_blog',
+            url: 'update_blog',
             data: {'data': newBlog},
             headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')

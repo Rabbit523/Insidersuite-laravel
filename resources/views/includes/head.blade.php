@@ -1,10 +1,10 @@
 <!-- Latest compiled and minified CSS -->
 <meta property="fb:app_id" content="625441737790452" />
-<meta property="og:url" content="https://www.insidersuite.com" />
+<meta property="og:url" content="https://www.insidersuite.com/sponsor" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Get $50 Get off your first trip!" />
+<meta property="og:title" content="Earn $75 AUD off your Insider suite trip!" />
 <meta property="og:description" content="Join insider suite to access private sales on a selection of charming 4 and 5-star boutique hotels around the world." />
-<meta property="og:image" content="{{ url('http://insidersuite.com/images/Luxury-Travel.png') }}" />
+<meta property="og:image" content="http://www.insidersuite.com/imgs/refer_background.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,12 +17,14 @@
 <link rel="stylesheet" type="text/css" href="{{ url('css/style.css') }}">
 <link rel="stylesheet" href="{{ url('css/modal-loading-animate.css') }}">
 <link rel="stylesheet" href="{{ url('css/modal-loading.css') }}">
+<link rel="stylesheet" href="{{ url('css/magicsuggest-min.css') }}">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css" integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 {{-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> --}}
 <script type="text/javascript" src="{{ url('js/jquery-3.3.1.min.js') }}"></script>
+<script src="/js/modal-loading.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-<script src="https://js.stripe.com/v3/"></script>
+<!--<script src="https://js.stripe.com/v3/"></script>-->
 <script>var user = @json(auth()->user());</script>
 <style type="text/css">
 	.loader {

@@ -99,6 +99,7 @@
 	var type = "{{$type}}";
 </script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="{{ url('js/bootstrap.min.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 <script type="text/javascript" src="{{url('js/countries.js')}}"></script>
 <script type="text/javascript" src="{{ url('js/customize/admin_position_detail.js') }}"></script>

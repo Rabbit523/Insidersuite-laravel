@@ -111,10 +111,26 @@
   animation-timing-function: ease-out !important;
   background-size: cover !important;
 }
+.skip, .skip:focus, .skip:hover {
+  background: rgb(255, 51, 102);
+  padding: 10px 45px;
+  color: #fff;
+}
+.skip_, .skip_:focus, .skip_:hover {
+    background: #fff;
+    border: 1px solid rgb(255, 51, 102);
+    padding: 10px 45px;
+    color: rgb(255, 51, 102);
+}
 .next, .next:focus, .next:hover {
   background: rgb(255, 51, 102);
   padding: 10px 76px;
   color: #fff;
+}
+@media (max-width: 375px) {
+    .next, .next:focus, .next:hover {
+        padding: 8px 38px;;
+    }
 }
 ._1dnc5pl {
   width: 100% !important;
@@ -270,6 +286,7 @@
 }
 .profile-content {
   width: 100%;
+  margin-bottom: 10px;
 }
 .step5 .works .profile {
   margin-top: 30px;
@@ -277,9 +294,7 @@
   display: inline-block;
   width: 30%;
 }
-.step5 ._1afoiga {
-  bottom: -155px !important;
-}
+
 .step7 ._1afoiga {
   bottom: 0px !important;
 }
@@ -375,7 +390,7 @@
   color: rgb(255, 51, 102);
   cursor: pointer;
 }
-.message #indicate {
+.message #indicate, .message #indicate_travel, .message #travel_buddy, .message #activity_name {
   width: 100%;
   border: 1px solid rgb(255, 51, 102);
   border-radius: 20px;
@@ -385,7 +400,7 @@
   background-position: 5% center;
   background-size: 20px auto;
 }
-.message #indicate:focus, .message #indicate:hover {
+.message #indicate:focus, .message #indicate:hover, .message #indicate_travel:focus, .message #indicate_travel:hover, .message #travel_buddy:focus, .message #travel_buddy:hover, .message #activity_name:focus, .message #activity_name:hover{
   outline: none;
 }
 .tags .tag, .tags .tag:hover, .tags .tag:focus {
@@ -451,12 +466,14 @@
   width: 100% !important;
   bottom: 0px !important;
   background-color: rgb(255, 255, 255) !important;
-  min-height: 75px !important;
+  min-height: 32px !important;
 }
 ._1nw0tbq {
   font-size: 18px !important;
   float: left !important;
   padding: 24px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 ._dgjope {
   height: 5px !important;
@@ -551,7 +568,7 @@
 @media (max-width: 600px) {
   .step0 ._ugd6bx, .step2 ._ugd6bx {
     width: 100% !important;
-    height: 100% !important;
+    height: 104% !important;
     left: 0;
     top: 0 !important;
     display: block !important;
@@ -581,6 +598,7 @@
   }
   .step2 ._1afoiga, .step3 ._1afoiga, .step6 ._1afoiga{
     background: transparent !important;
+    bottom: -23px !important;
   }
   .step2 ._ni9axhe span, .step3 ._ni9axhe span, .step6 ._ni9axhe span {
     color: rgb(255, 51, 102);
@@ -612,7 +630,7 @@
   .step3 ._ugd6bx {
     width: 100% !important;
     top: 0 !important;
-    height: 100%;
+    height: 120%;
     right: 0 !important;
     display: block !important;
     z-index: -1;
@@ -781,7 +799,7 @@
     margin-top: 50% !important;
   }
   .step2 ._typbqzd {
-    margin-top: 12% !important;
+    margin-top: 0% !important;
   }
   .step3 .works {
     top: 12px;
@@ -789,14 +807,14 @@
     width: 100% !important;
   }
   .step3 .hm-splash-page--benefit-item {
-    flex: 0 0 137px;
+    flex: 0 0 118px;
     width: 150px;
   }
   .step3 .hm-splash-page--benefit-item img {
     width: 115px;
   }
   .step3 ._1afoiga {
-    min-height: 60px !important;
+    bottom: -115px !important;
   }
   .step3 ._1nw0tbq {
     padding-bottom: 0 !important;
@@ -814,12 +832,13 @@
     margin: 0;
     padding: 10px;
     left: 0;
+    margin-bottom: 20px;
   }
   .step5 .message textarea {
     width: 100%;
   }
   .step5 ._1afoiga {
-    bottom: -590px !important;
+    bottom: -270px !important;
   }
   .step6 .works {
     top: 80px;
@@ -832,7 +851,7 @@
     margin-top: 8% !important;
   }
   .step7 ._1afoiga {
-    bottom: 0px !important;
+    bottom: -20px !important;
   }
 }
 @media (max-width: 360px) {
@@ -984,4 +1003,14 @@
   .step7 ._typbqzd {
     padding-bottom: 0 !important;
   }
+}
+
+.ms-sel-ctn {
+    padding-right: 0px !important; 
+}
+.ms-ctn .ms-trigger {
+    display: none !important;
+}
+.ms-res-ctn.dropdown-menu {
+    display: none;
 }

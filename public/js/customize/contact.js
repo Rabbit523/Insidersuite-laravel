@@ -24,11 +24,11 @@ $("#ContactFormSubject").focusout(function () {
   if ($(this).val() != '') {
     $(this).removeClass('mod-error');
     $(this).addClass('mod-normal');
-    $(".name").addClass('label-error');
+    $(".subject").addClass('label-error');
   } else {    
     $(this).removeClass('mod-normal');
     $(this).addClass('mod-error');
-    $(".name").removeClass('label-error');
+    $(".subject").removeClass('label-error');
   }
 });
 $("#ContactFormMessage").focusout(function () {  
@@ -49,5 +49,7 @@ $('.hm-contact--submit').click(function () {
     $("#ContactFormName").addClass('mod-error');
   } else if ($("#ContactFormMessage").val() == ' ') {
     $("#ContactFormMessage").addClass('mod-error');
-  } 
+  } else if ($("#ContactFormSubject").val() == ' ') {
+    $("#ContactFormSubject").addClass('mod-error');
+  }
 });

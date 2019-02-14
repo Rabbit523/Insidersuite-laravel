@@ -17,7 +17,7 @@
                         <div class="_1hargc54">
                             <h1 tabindex="-1" class="_tpbrp">Pimp your trip</h1>
                         </div>
-                        <div class="_byeukid">Design your trip while enjoying secret offers up to 70% off the best luxury hotels around the world.</div>
+                        <div class="_byeukid">Design your entire trip while enjoying secret offers up to 70% off the best luxury hotels around the world.</div>
                     </section>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                             </div>
                             <div style="margin-top:0">
                                 <div class="_1bvsgufu">
-                                   Insider suite is a digital travel platform that creates tools and resources that upgrade your trip. Being an Insider Suite member, give you access to a selection of hotels and activities verified for quality, price & comfort. With our tool, members can plan every second of their stay to get the most out of pleasures and indulgences of holiday at the best rate.
+                                   Insider suite is a digital platform that provides tools and resources for the unconventional traveler to upgrade their trip. Being an Insider Suite member, gives access to a selection of hotels and activities verified for quality, price & comfort. Members can plan every second of their stay for free to get the most out of pleasures and indulgences of holiday at the best rate.
                                 </div>
                             </div>
                         </section>
@@ -67,7 +67,7 @@
     <div class="text-content _1q61p8r">
         <div class="solid-content">
             <div class="_113qkde">
-                <div class="_n3xqk0l"><h1 tabindex="-1" class="_tpbrp">Exclusive rates and free agent fee</h1></div>
+                <div class="_n3xqk0l"><h1 tabindex="-1" class="_tpbrp" >Hidden deals at your fingertips</h1></div>
                 <div class="_1bvsgufu">Enjoy secret deals up to 70% off the best hotels and activities. By registering, you will access specially negotiated rates that you will not find anywhere else.</div>
             </div>
         </div>
@@ -227,7 +227,7 @@
             <a href="https://www.facebook.com/insidersuite/" target="_blank"><img src="../images/facebook.png" width="20"></a>
         </div>
         <div class="subscribe">
-            <button class="btn btn-subscribe" data-toggle="modal" data-target="#authentication">Access offers</button>
+            <a href="@if(Auth::User()) {{ url('offers') }} @else href="#" data-toggle="modal" data-target="#authentication" @endif" class="btn btn-subscribe">See all sales</a>
         </div>
     </div>
 </div>

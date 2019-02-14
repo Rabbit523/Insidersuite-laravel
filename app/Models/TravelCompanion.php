@@ -8,14 +8,14 @@ class TravelCompanion extends Model
 {
           /**
      * The table associated with the model.
-     * 
+     *
      * @var string
      */
     protected $table = 'travel_companion';
 
     /**
      * The primary key for the model.
-     * 
+     *
      * @var string
      */
     protected $primaryKey = 'id';
@@ -24,7 +24,7 @@ class TravelCompanion extends Model
      * @var array
      */
 
-    protected $fillable = ['user_id', 'title', 'surname', 'firstname', 'dob'];
+    protected $fillable = ['user_id', 'title', 'surname', 'firstname', 'day', 'month', 'year'];
 
     /**
      * The attributes that should be hidden for arrays.

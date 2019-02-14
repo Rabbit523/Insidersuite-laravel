@@ -25,7 +25,7 @@
 		<div class="row">
 			<div class="col-md-12 space-top-8 space-4">
         <div class="description">
-        {{$career->description}}
+        {!!$career->description!!}
         </div>
         <div class="job_list space-6 space-top-8">
           <header>

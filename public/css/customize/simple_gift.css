@@ -131,7 +131,7 @@
 }
 .hGboIR {
   position: relative;
-  background-color: rgb(254, 131, 163);
+  background-color: #fc2d61;
   color: rgb(255, 255, 255);
   padding: 29px 24px;
   border-radius: 4px;
@@ -176,8 +176,8 @@
   }
 }
 .eUnazV {
-  background-image: url(//res.cloudinary.com/staycation/image/upload/q_auto,fl_lossy,f_auto/c_scale,dpr_2/v1497970672/common/static/gift-card/testimonials);
-  background-size: cover;
+  background-image: url(https://www.insidersuite.com/imgs/gift_card_testimonial.jpg);
+  background-size: contain;
   height: 640px;
   max-width: 58%;
   border-radius: 4px;
@@ -218,7 +218,7 @@
   .eUnazV {
     height: 360px;
     max-width: 100%;
-    margin-top: 1475px;
+    margin-top: 1290px;
     margin-left: 20px;
   }
   #footer{
@@ -228,7 +228,7 @@
 @media (max-width: 412px) {
   .eUnazV {
     height: 360px;
-    margin-top: 1430px;
+    margin-top: 1290px;
   }
   #footer{
     height: 0% !important;
@@ -244,7 +244,7 @@
 }
 @media (max-width: 375px) {
   .eUnazV {
-    margin-top: 1480px;
+    margin-top: 1325px;
   }
   #footer{
     height: 0% !important;
@@ -255,7 +255,7 @@
     height: 320px;
     margin-left: 0px;
     max-width: 100%;
-    margin-top: 1535px;
+    margin-top: 1320px;
   }
   #footer{
     height: 0% !important;
@@ -264,8 +264,8 @@
 .bylcQc {
   height: 330px;
   width: 100%;
-  background-image: url(//res.cloudinary.com/staycation/image/upload/q_auto,fl_lossy,f_auto/c_scale,dpr_2/h_240/v1497970672/common/static/gift-card/print-gift-card);
-  background-size: cover;
+  background-image: url(https://www.insidersuite.com/imgs/gift_card.png);
+  background-size: contain;
   margin-bottom: 11px;
   margin-top: 67px;
   background-repeat: no-repeat;
@@ -280,14 +280,14 @@
 }
 .btn-mail-gift, .btn-mail-gift:hover, .btn-mail-gift:focus {
   border-radius: 50px;
-  background: #48c9b0;
+  background: #083c37;
   padding: 10px 76px;
   margin-top: 20px;
   color: #fff;
 }
 @media (max-width: 800px) {
   .btn-mail-gift, .btn-mail-gift:hover, .btn-mail-gift:focus {
-    padding: 15px 125px;
+    padding: 15px 89px;
   }
 }
 @media (max-width: 320px) {

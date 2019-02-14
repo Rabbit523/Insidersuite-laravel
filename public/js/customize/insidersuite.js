@@ -216,3 +216,23 @@ $('#return-to-top').click(function() {
         scrollTop : 0
     }, 500);
 });
+$.ajax({
+	type: 'get',
+	dataType: 'json',
+	url: 'get_notification',
+	data: {},
+	headers: {
+		'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+	},
+	success: function (e) {		
+		if (e != 0) {
+			$(".notification").attr('style', 'display:block;');
+			$(".notification").html(e);
+			$(".notification_short").attr('style', 'display:block;');
+			$(".notification_short").html(e);
+		} else {
+			$(".notification").attr('style', 'display:none;');
+			$(".notification_short").attr('style', 'display:none;');
+		}
+	}
+});

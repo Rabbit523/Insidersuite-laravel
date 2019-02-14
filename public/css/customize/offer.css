@@ -483,6 +483,32 @@ u {
   background-position: 50%;
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: transform .9s;
+}
+.body-item:hover .unactive-type1, .body-item:hover .unactive-type2 {
+	display: block;
+}
+.unactive-type1 {
+	width: 54.5%;
+    background: rgba(0, 0, 0, 0.75);
+    height: 230px;
+    position: absolute;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+.unactive-type1 svg, .unactive-type2 svg {
+	width: 50px;
+    margin-top: 75px;
+}
+.unactive-type2 {
+	width: 24%;
+    background: rgba(0, 0, 0, 0.75);
+    height: 230px;
+    position: absolute;
+	color: #fff;
+	text-align: center;
+	display: none;
 }
 .body-type1 {
 	width: 68%;
@@ -505,6 +531,12 @@ u {
 	background: #fff;
 	box-shadow: 0px 0px 2px #ccc;
 }
+.body-type5 {
+	width: 68%;
+    display: inline-block;
+	background: #fff;
+	box-shadow: 0px 0px 2px #ccc;
+}
 @media (max-width: 768px) {
 	.body-type1 {
 		width: 100%;
@@ -524,6 +556,9 @@ u {
 		width: 100%;
 		margin-bottom: 30px;
 		margin-left: 0px;	
+	}
+	.body-type5 {
+		width: 100%;		
 	}
 }
 .image-item {
